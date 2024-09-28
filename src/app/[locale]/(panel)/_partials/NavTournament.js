@@ -1,12 +1,12 @@
 "use client";
 
 import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import useJackpotCommunityFundQuery from "@/hooks/queries/useJackpotCommunityFundQuery";
 import Formatter from "@/utils/Formatter";
 
 const NavStreak = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { data: communityFund } = useJackpotCommunityFundQuery();
 

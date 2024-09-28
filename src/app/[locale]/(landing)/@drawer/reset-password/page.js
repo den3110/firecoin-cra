@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import LandingDrawer from "@/components/LandingDrawer";
 import { Link, useRouter } from "@/navigation";
@@ -8,7 +8,7 @@ import ResetPasswordForm from "@/components/forms/ResetPasswordForm";
 import { getCurrentSiteName } from "@/utils/clientInfo";
 
 const ResetPasswordPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [successData, setSuccessData] = useState();
     const router = useRouter();

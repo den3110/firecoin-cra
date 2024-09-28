@@ -1,12 +1,12 @@
 import { Transition } from "@headlessui/react";
 import { useContext, useEffect, useState } from "react";
 import { useDesktop } from "@/hooks/responsives";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
 import BalanceContext from "@/contexts/BalanceContext";
 
 const AmountInputKeyboard = ({ inputOpened, onInputOpened, amount, onChange }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const isDesktop = useDesktop();
     const [stringAmount, setStringAmount] = useState(amount || "0");
 
@@ -207,13 +207,13 @@ const AmountInputKeyboard = ({ inputOpened, onInputOpened, amount, onChange }) =
                                 <div className="flex justify-center items-center">
                                     <div className="lg:m-2 text-text text-[1.05rem]">{t("profit")}</div>
                                     <div className="ml-2 lg:ml-0 lg:my-2 text-up text-xl">
-                                        {process.env.NEXT_PUBLIC_PROFIT_PERCENT}%
+                                        {process.env.REACT_APP_PROFIT_PERCENT}%
                                     </div>
                                 </div>
                             </div>
                             <div className="text-success-50 text-[24px] lg:text-[1.625rem] leading-normal text-center font-[600]">
                                 +$
-                                {Math.floor(numberAmount * (1 + process.env.NEXT_PUBLIC_PROFIT_PERCENT / 100) * 100) /
+                                {Math.floor(numberAmount * (1 + process.env.REACT_APP_PROFIT_PERCENT / 100) * 100) /
                                     100}
                             </div>
                         </div>

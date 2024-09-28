@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import HighchartsReact from "highcharts-react-official";
 import { useEffect, useMemo, useRef } from "react";
 
@@ -9,7 +9,7 @@ import HideBalance from "@/components/HideBalance";
 import HideInfo from "../HideInfo";
 
 const TradeStats = ({ data }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const chartRef = useRef(null);
 
     const options = useMemo(() => {

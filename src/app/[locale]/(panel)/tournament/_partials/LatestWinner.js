@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/Loading";
 import { useEffect, useState } from "react";
 import HttpClient from "@/services/HttpClient";
@@ -7,7 +7,7 @@ import Formatter from "@/utils/Formatter";
 import LatestWinnerTable from "@/app/[locale]/(panel)/tournament/_partials/LatestWinnerTable";
 
 const LatestWinner = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [data, setData] = useState();
     const [loading, setLoading] = useState(false);

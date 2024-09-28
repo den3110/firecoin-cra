@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import ToggleButton from "@/components/inputs/ToggleButton";
 import { useContext, useMemo } from "react";
 import UIContext from "@/contexts/UIContext";
@@ -6,7 +6,6 @@ import useLocalStorageState from "@/hooks/useLocalStorageState";
 import { useDispatch, useSelector } from "react-redux";
 import { setLanguageModalOpen, setSettingModalOpen } from "@/store/generalReducer";
 import { Transition } from "@headlessui/react";
-import { useParams } from "next/navigation";
 import { localeList } from "@/components/LocaleSelect";
 import { usePathname, useRouter } from "@/navigation";
 import clsx from "clsx";
@@ -14,7 +13,7 @@ import useAuth from "@/hooks/useAuth";
 import useLocale from "@/hooks/useLocales";
 
 const MobileSettingModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const router = useRouter();
     const pathname = usePathname();
 

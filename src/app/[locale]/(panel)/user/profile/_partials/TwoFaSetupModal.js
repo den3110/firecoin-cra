@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import HttpClient from "@/services/HttpClient";
 import { Transition } from "@headlessui/react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import QRCode from "react-qr-code";
 import { enqueueSnackbar } from "notistack";
 import clsx from "clsx";
@@ -11,7 +11,7 @@ import { getCurrentSiteName } from "@/utils/clientInfo";
 const TwoFaSetupModal = ({ open = true, isEnable, onClose }) => {
     const requireEmailVerification = process.env.NEXT_PUBLIC_ENABLE_EMAIL_VERIFY_FOR_2FA;
 
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [loading, setLoading] = useState(false);
     const [data, setData] = useState();

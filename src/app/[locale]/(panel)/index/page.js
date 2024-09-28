@@ -1,9 +1,8 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import BetPanel from "@/components/BetPanel";
 import TradeContext from "@/contexts/TradeContext";
-import { useContext, useEffect, useState } from "react";
+import { lazy, Suspense, useContext, useEffect, useState } from "react";
 import SocketClient from "@/services/SocketClient";
 import AnalysisInfo from "@/components/AnalysisInfo";
 import SocketContext from "@/contexts/SocketContext";
@@ -19,7 +18,8 @@ import clsx from "clsx";
 import TradeHistoryMobileModal from "@/components/modals/TradeHistoryMobileModal";
 import TradeStreak from "@/components/TradeStreak";
 
-const TradeChart = dynamic(() => import("@/components/TradeChart"), { ssr: false });
+// const TradeChart = dynamic(() => import("@/components/TradeChart"), { ssr: false });
+const TradeChart = lazy(() => import("@/components/TradeChart"));
 
 const IndexPage = () => {
     const [isBetSession, setIsBetSession] = useState(false);
@@ -85,7 +85,9 @@ const IndexPage = () => {
                             )}
                         >
                             <div className="flex flex-col h-full">
-                                <TradeChart />
+                                <Suspense fallback={<div>Loading...</div>}>
+                                    <TradeChart />
+                                </Suspense>
                                 <AnalysisInfo />
                             </div>
                         </div>

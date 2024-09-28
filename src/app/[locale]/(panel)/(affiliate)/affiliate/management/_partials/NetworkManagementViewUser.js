@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import HttpClient from "@/services/HttpClient";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/Loading";
 import BoxRank from "@/components/BoxRank";
 import Formatter from "@/utils/Formatter";
@@ -15,7 +15,7 @@ const NetworkManagementUserStat = dynamic(
 );
 
 const NetworkManagementViewUser = ({ username, onViewUser }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [loading, setLoading] = useState(false);
 

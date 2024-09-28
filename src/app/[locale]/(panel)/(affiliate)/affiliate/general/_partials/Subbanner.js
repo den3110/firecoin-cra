@@ -1,13 +1,13 @@
 "use client";
 
 import { getCurrentSiteName } from "@/utils/clientInfo";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { register } from "swiper/element/bundle";
 
 register();
 
 const Subbanner = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     // const isNotDesktop = useIsNotDesktop();
 

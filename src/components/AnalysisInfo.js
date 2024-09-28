@@ -1,13 +1,13 @@
 import "@/components/gauges/Gauge.scss";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useCallback, useEffect, useState } from "react";
 import clsx from "clsx";
 import Indicators from "@/components/Indicators";
 import LastResult from "@/components/LastResult";
 
 const AnalysisInfo = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [selectedTab, setSelectedTab] = useState("indicator");
 
     const handleSelectTab = (tab) => {

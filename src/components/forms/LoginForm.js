@@ -2,7 +2,7 @@
 
 import { Form, Formik } from "formik";
 import InputField from "@/components/inputs/InputField";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Link, useRouter } from "@/navigation";
 import Button from "@/components/inputs/Button";
 import { useMemo, useState } from "react";
@@ -14,7 +14,7 @@ import { useSnackbar } from "notistack";
 import { getCurrentSiteName } from "@/utils/clientInfo";
 
 const LoginForm = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [loading, setLoading] = useState(false);
     const { mutateAsync } = useLoginMutation();
     const [auth, setAuth] = useAuth();

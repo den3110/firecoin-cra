@@ -1,8 +1,8 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import FaqNavigator from "@/app/[locale]/(landing)/faqs/_partials/FaqNavigator";
 
 const FaqLayout = ({ children }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     return (
         <div className="w-full">

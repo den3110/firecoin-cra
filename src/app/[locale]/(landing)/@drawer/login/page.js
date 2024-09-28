@@ -1,15 +1,13 @@
-"use client";
-
 import LandingDrawer from "@/components/LandingDrawer";
-import { useTranslations } from "next-intl";
 import LoginForm from "@/components/forms/LoginForm";
 import { Link } from "@/navigation";
 import useAuth from "@/hooks/useAuth";
 import TwoFactorAuthForm from "@/components/forms/TwoFactorAuthForm";
 import { getCurrentSiteName } from "@/utils/clientInfo";
+import { useTranslation } from "react-i18next";
 
 const LoginPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [auth] = useAuth();
 

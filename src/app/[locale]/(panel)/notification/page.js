@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import HttpClient from "@/services/HttpClient";
 import Sticky from "react-sticky-el";
 import { useParams } from "next/navigation";
@@ -14,7 +14,7 @@ import useLocale from "@/hooks/useLocales";
 import useAuth from "@/hooks/useAuth";
 
 const NotificationPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { data: unread, refetch } = useCountUnreadNotificationQuery();
 

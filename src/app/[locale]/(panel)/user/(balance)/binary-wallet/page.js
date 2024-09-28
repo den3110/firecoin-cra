@@ -1,13 +1,13 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import ExchangeHistory from "@/components/modals/balance/_partials/ExchangeHistory";
 import ExchangeBalances from "@/components/modals/balance/_partials/ExchangeBalances";
 import BalanceHistoryDrawer from "@/components/BalanceHistoryDrawer";
 import HideInfo from "@/components/HideInfo";
 
 const BinaryWalletPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     return (
         <>

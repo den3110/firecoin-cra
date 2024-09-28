@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Transition } from "@headlessui/react";
 import clsx from "clsx";
 import Loading from "@/components/Loading";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Link } from "@/navigation";
 import HttpClient from "@/services/HttpClient";
 import useAffiliateOverviewQuery from "@/hooks/queries/useAffiliateOverviewQuery";
@@ -12,7 +12,7 @@ import { useSnackbar } from "notistack";
 import useLocale from "@/hooks/useLocales";
 
 const BuyNowModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { enqueueSnackbar } = useSnackbar();
 
     const open = useSelector((state) => state.general.buyNowModalOpen);

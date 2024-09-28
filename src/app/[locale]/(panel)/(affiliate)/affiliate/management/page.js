@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 import { useState } from "react";
 import { Menu } from "@headlessui/react";
@@ -10,7 +10,7 @@ import NetworkManagementViewUser from "@/app/[locale]/(panel)/(affiliate)/affili
 import HideInfo from "@/components/HideInfo";
 
 const AffiliateManagementPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [preparedSearchBy, setPreparedSearchBy] = useState("level");
     const [preparedLevel, setPreparedLevel] = useState(1);

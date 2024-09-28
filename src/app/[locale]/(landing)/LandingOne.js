@@ -8,7 +8,7 @@ import imgHome01 from "@/assets/images/home-01/01.png";
 import imgHome02 from "@/assets/images/home-01/02.png";
 import imgHome03 from "@/assets/images/home-01/03.png";
 import imgHome4 from "@/assets/images/home-01/4.png";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Link } from "@/navigation";
 import { useEffect } from "react";
 import * as AOS from "aos";
@@ -21,7 +21,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { getCurrentSiteName } from "@/utils/clientInfo";
 
 const LandingOne = ()=>{
-    const t = useTranslations();
+    const {t } = useTranslation();
     const isDesktop = useDesktop();
 
     

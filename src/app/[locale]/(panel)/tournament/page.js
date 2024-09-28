@@ -1,7 +1,7 @@
 "use client";
 
 import "./TournamentPage.scss";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import useJackpotCommunityFundQuery from "@/hooks/queries/useJackpotCommunityFundQuery";
 import Formatter from "@/utils/Formatter";
 import LatestWinner from "@/app/[locale]/(panel)/tournament/_partials/LatestWinner";
@@ -14,7 +14,7 @@ import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
 import smoothScrollTo from "@/utils/smoothScrollTo";
 
 const TournamentPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { enqueueSnackbar } = useSnackbar();
 
     const { data: communityFund } = useJackpotCommunityFundQuery();

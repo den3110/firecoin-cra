@@ -1,13 +1,13 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Fragment, useMemo } from "react";
 import { Link, usePathname, useRouter } from "@/navigation";
 import clsx from "clsx";
 import { Menu } from "@headlessui/react";
 
 const FaqNavigator = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const router = useRouter();
     const pathname = usePathname();
 

@@ -1,6 +1,6 @@
 import { Transition } from "@headlessui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { setQuickDepositMobileOpen, setQuickDepositModal } from "@/store/generalReducer";
 import Formatter from "@/utils/Formatter";
 import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
@@ -8,7 +8,7 @@ import { useState } from "react";
 import HttpClient from "@/services/HttpClient";
 
 const QuickDepositMobileModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [amount, setAmount] = useState();
     const [loading, setLoading] = useState(false);

@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/Loading";
 import { useCallback, useEffect, useState } from "react";
 import Formatter from "@/utils/Formatter";
@@ -16,7 +16,7 @@ import dayjs from "dayjs";
 import copy from "copy-to-clipboard";
 
 const TradeHistory = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [loading, setLoading] = useState(false);
 

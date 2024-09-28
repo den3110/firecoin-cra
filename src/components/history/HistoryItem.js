@@ -1,11 +1,11 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import dayjs from "dayjs";
 import clsx from "clsx";
 import { useContext } from "react";
 import BalanceContext from "@/contexts/BalanceContext";
 
 const HistoryItem = ({ betAmount, winAmount, betType, createdDatetime, isOpen }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [balance] = useContext(BalanceContext);
 
     return (

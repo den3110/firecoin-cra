@@ -1,5 +1,5 @@
 import { Transition } from "@headlessui/react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Form, FormikProvider, useFormik } from "formik";
 import InputFieldInChangePassword from "@/components/inputs/InputFieldInChangePassword";
 import * as Yup from "yup";
@@ -8,7 +8,7 @@ import { useSnackbar } from "notistack";
 import { useEffect } from "react";
 
 const ChangePasswordModal = ({ open = true, onClose }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { enqueueSnackbar } = useSnackbar();
 

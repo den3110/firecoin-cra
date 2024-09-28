@@ -6,7 +6,7 @@ import dayjs from "dayjs";
 import Pagination from "@/components/Pagination";
 import { useCallback, useEffect, useState } from "react";
 import { useDesktop } from "@/hooks/responsives";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import HttpClient from "@/services/HttpClient";
 import { showHistory } from "@/store/balanceReducer";
 import { useDispatch } from "react-redux";
@@ -14,7 +14,7 @@ import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
 import BoxNoResult from "@/components/BoxNoResult";
 
 const ExchangeHistory = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [loading, setLoading] = useState(false);
     const [page, setPage] = useState(1);

@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import imgEyes from "@/assets/images/eyes.svg";
 import { useContext, useEffect, useState } from "react";
 import HttpClient from "@/services/HttpClient";
@@ -13,7 +13,7 @@ import useAuth from "@/hooks/useAuth";
 const TradeStats = dynamic(() => import("@/components/stats/TradeStats"), { ssr: false });
 
 const TradeHistoryPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { hideBalances, setHideBalances } = useContext(UIContext);
 
     const [data, setData] = useState(null);

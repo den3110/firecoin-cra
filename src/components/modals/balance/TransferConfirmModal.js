@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Formatter from "@/utils/Formatter";
 import dayjs from "dayjs";
 import { Form, FormikProvider, useFormik } from "formik";
@@ -10,7 +10,7 @@ import { useSnackbar } from "notistack";
 import { resetWithdraw } from "@/store/balanceReducer";
 
 const TransferConfirmModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { transferConfirm, amount, nickName, memo } = useSelector((state) => state.balance);
 
     const dispatch = useDispatch();

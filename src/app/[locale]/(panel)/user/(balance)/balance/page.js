@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import iconUsdt from "@/assets/images/icon-usdt.svg";
 import iconDeposit from "@/assets/images/icon-deposit.svg";
 import iconWithdraw from "@/assets/images/icon-withdraw.svg";
@@ -19,7 +19,7 @@ import SocketContext from "@/contexts/SocketContext";
 import SocketClient from "@/services/SocketClient";
 
 const BalancePage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const isDesktop = useDesktop();
 
     const { data, refetch } = useSpotBalancesQuery();

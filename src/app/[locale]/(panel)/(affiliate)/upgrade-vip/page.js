@@ -2,7 +2,7 @@
 
 import upgradeAgencyImg from "@/assets/images/upgrade-agency.svg";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import useAffiliateOverviewQuery from "@/hooks/queries/useAffiliateOverviewQuery";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
@@ -20,7 +20,7 @@ for (let i = 1; i <= 7; i++) {
 }
 
 const UpgradeVipPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { data: overviewData, refetch } = useAffiliateOverviewQuery();
 

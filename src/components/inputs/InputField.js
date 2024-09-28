@@ -4,10 +4,10 @@ import clsx from "clsx";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 
 const InputField = ({ hideErrors, ...props }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [passwordVisible, setPasswordVisible] = useState(false);
     const [field, meta, helpers] = useField(props);
 

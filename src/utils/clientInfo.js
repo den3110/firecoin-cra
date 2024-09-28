@@ -2,14 +2,15 @@
 
 import clientStylesConfig from "@/clientStylesConfig";
 
+// console.log("process.env.REACT_APP_API_URL", process.env.REACT_APP_API_URL)
 export const getCurrentHost = () =>
     window?.location?.hostname == "localhost" || window?.location?.hostname.indexOf("192.168") > -1
-        ? process.env.NEXT_PUBLIC_API_URL
+        ? process.env.REACT_APP_API_URL
         : `${window?.location?.protocol || "http"}//${window.location.hostname}`;
 
 export const getCurrentWebsocket = () =>
     window?.location?.hostname == "localhost" || window?.location?.hostname.indexOf("192.168") > -1
-        ? process.env.NEXT_PUBLIC_SOCKET_URL
+        ? process.env.REACT_APP_SOCKET_URL
         : `${window?.location?.protocol || "http"}//ws.${window.location.hostname}`;
 
 export const getCurrentSiteName = () => {

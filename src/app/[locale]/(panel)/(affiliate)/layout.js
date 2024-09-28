@@ -4,10 +4,10 @@ import useAffiliateOverviewQuery from "@/hooks/queries/useAffiliateOverviewQuery
 import { useEffect } from "react";
 import { Link, usePathname, useRouter } from "@/navigation";
 import clsx from "clsx";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 
 const AffiliateLayout = ({ children }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { data } = useAffiliateOverviewQuery();
 
     const router = useRouter();

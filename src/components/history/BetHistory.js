@@ -1,12 +1,12 @@
 import clsx from "clsx";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useContext, useState } from "react";
 import CloseHistory from "@/components/history/CloseHistory";
 import OpenHistory from "@/components/history/OpenHistory";
 import UIContext from "@/contexts/UIContext";
 
 const BetHistory = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [selectedTab, setSelectedTab] = useState("open");
     const { totalOpenHistory } = useContext(UIContext);

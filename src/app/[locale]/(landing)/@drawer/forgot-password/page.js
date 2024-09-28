@@ -1,7 +1,7 @@
 "use client";
 
 import LandingDrawer from "@/components/LandingDrawer";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useSnackbar } from "notistack";
 import { useMemo, useState } from "react";
 import * as Yup from "yup";
@@ -14,7 +14,7 @@ import { Link } from "@/navigation";
 import { getCurrentSiteName } from "@/utils/clientInfo";
 
 const ForgotPasswordPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { enqueueSnackbar } = useSnackbar();
 

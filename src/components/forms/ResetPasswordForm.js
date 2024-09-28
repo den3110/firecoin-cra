@@ -1,5 +1,5 @@
 import Loading from "@/components/Loading";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useMemo, useState } from "react";
 import { Form, Formik } from "formik";
 import InputField from "@/components/inputs/InputField";
@@ -10,7 +10,7 @@ import { useSearchParams } from "next/navigation";
 import HttpClient from "@/services/HttpClient";
 
 const RegisterForm = ({ onSuccess }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [loading, setLoading] = useState(false);
     const { enqueueSnackbar } = useSnackbar();
 

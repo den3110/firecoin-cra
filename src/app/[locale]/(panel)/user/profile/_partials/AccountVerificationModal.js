@@ -1,6 +1,6 @@
 import { Transition } from "@headlessui/react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 
 import "./AccountVerificationModal.scss";
 
@@ -12,7 +12,7 @@ import { useSnackbar } from "notistack";
 import Loading from "@/components/Loading";
 
 const AccountVerificationModal = ({ open, onClose }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { enqueueSnackbar } = useSnackbar();
 

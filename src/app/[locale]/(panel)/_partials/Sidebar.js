@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { faSignOut } from "@fortawesome/free-solid-svg-icons";
 import { Link, usePathname, useRouter } from "@/navigation";
 import useAuth from "@/hooks/useAuth";
@@ -8,7 +8,7 @@ import imgTournament from "@/assets/images/tournament.png";
 // import Image from "next/image";
 
 const Sidebar = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const router = useRouter();
     const pathname = usePathname();
     const [auth, setAuth] = useAuth();

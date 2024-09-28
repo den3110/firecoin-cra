@@ -2,13 +2,13 @@ import clsx from "clsx";
 import QRCode from "react-qr-code";
 import { useCallback, useEffect, useState } from "react";
 import { useSnackbar } from "notistack";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import HttpClient from "@/services/HttpClient";
 import Formatter from "@/utils/Formatter";
 import copy from "copy-to-clipboard";
 
 const BalanceDeposit = ({ config }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [selectedNetwork, setSelectedNetwork] = useState("BEP20");
 

@@ -5,14 +5,14 @@ import Loading from "@/components/Loading";
 import { useMemo, useState } from "react";
 import useAuth from "@/hooks/useAuth";
 import useTwoFactorLogin from "@/hooks/mutations/useTwoFactorLogin";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import * as Yup from "yup";
 import { useRouter } from "@/navigation";
 import { useSnackbar } from "notistack";
 import { getCurrentSiteName } from "@/utils/clientInfo";
 
 const TwoFactorAuthForm = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [loading, setLoading] = useState(false);
     const [auth, setAuth] = useAuth();
     const { mutateAsync } = useTwoFactorLogin();

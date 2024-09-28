@@ -2,7 +2,7 @@
 
 import { Form, FormikProvider, useFormik } from "formik";
 import InputField from "@/components/inputs/InputField";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useMemo } from "react";
 import * as Yup from "yup";
 import HttpClient from "@/services/HttpClient";
@@ -10,7 +10,7 @@ import { useSnackbar } from "notistack";
 import useAuth from "@/hooks/useAuth";
 
 const PersonalDataForm = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [auth, _] = useAuth();
 

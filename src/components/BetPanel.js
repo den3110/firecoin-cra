@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useCallback, useContext, useEffect, useState } from "react";
 import SocketClient from "@/services/SocketClient";
 import SocketContext from "@/contexts/SocketContext";
@@ -12,7 +12,7 @@ import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
 import UIContext from "@/contexts/UIContext";
 
 const BetPanel = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [counter, setCounter] = useState(0);
     const [isBetSession, setIsBetSession] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -262,12 +262,12 @@ const BetPanel = () => {
                     <div className="flex justify-center items-center">
                         <div className="sm:m-2 text-light sm:text-[0.5rem] lg:text-sm">{t("profit")}</div>
                         <div className="ml-2 sm:ml-0 sm:my-2 text-danger text-xl sm:text-[13px] lg:text-xl">
-                            {process.env.NEXT_PUBLIC_PROFIT_PERCENT}%
+                            {process.env.REACT_APP_PROFIT_PERCENT}%
                         </div>
                     </div>
                 </div>
                 <div className="text-success-50 text-[24px] sm:text-[15px] lg:text-[30px] leading-[20px] text-center font-bold">
-                    +${Math.floor(amount * (1 + process.env.NEXT_PUBLIC_PROFIT_PERCENT / 100) * 100) / 100}
+                    +${Math.floor(amount * (1 + process.env.REACT_APP_PROFIT_PERCENT / 100) * 100) / 100}
                 </div>
             </div>
             <div className="hidden sm:block lg:mb-4 sm:h-auto">

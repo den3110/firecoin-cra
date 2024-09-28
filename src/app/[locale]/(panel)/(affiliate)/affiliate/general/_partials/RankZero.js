@@ -1,6 +1,6 @@
 import Subbanner from "@/app/[locale]/(panel)/(affiliate)/affiliate/general/_partials/Subbanner";
 import BuyNowModal from "@/components/modals/affiliate/BuyNowModal";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { setBuyNowModalOpen } from "@/store/generalReducer";
 import { useDispatch } from "react-redux";
 import { useSnackbar } from "notistack";
@@ -9,7 +9,7 @@ import copy from "copy-to-clipboard";
 import { getCurrentHost } from "@/utils/clientInfo";
 
 const RankZero = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { enqueueSnackbar } = useSnackbar();
 

@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/Loading";
 import dayjs from "dayjs";
 import Formatter from "@/utils/Formatter";
@@ -7,7 +7,7 @@ import { useDesktop } from "@/hooks/responsives";
 import clsx from "clsx";
 
 const TradingPayoutDetails = ({ data, loading, type, page, onPaginationChange }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const currentData = data?.[type === "trading" ? "tradingdetails" : "licensedetails"];
 

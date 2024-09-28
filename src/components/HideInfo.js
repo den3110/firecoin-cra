@@ -3,14 +3,14 @@ import UIContext from "@/contexts/UIContext";
 import useAuth from "@/hooks/useAuth";
 import Button from "./inputs/Button";
 import { useRouter } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 
 const HideInfo = ({ children, placehodler = "******", isPage = false }) => {
     const [auth, _] = useAuth();
 
     const router = useRouter();
 
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const goToSettings = () => {
         router.push("/user/profile");

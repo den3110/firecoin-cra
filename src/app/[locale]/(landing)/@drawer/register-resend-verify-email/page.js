@@ -2,7 +2,7 @@
 
 import LandingDrawer from "@/components/LandingDrawer";
 import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Form, Formik } from "formik";
 import InputField from "@/components/inputs/InputField";
 import Button from "@/components/inputs/Button";
@@ -14,7 +14,7 @@ import { useSnackbar } from "notistack";
 import { getCurrentSiteName } from "@/utils/clientInfo";
 
 const RegisterResendVerifyEmailPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { enqueueSnackbar } = useSnackbar();
 

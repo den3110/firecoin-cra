@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useCallback, useEffect, useState } from "react";
 import { Menu } from "@headlessui/react";
 import clsx from "clsx";
@@ -19,7 +19,7 @@ const TradingPayoutChart = dynamic(
 );
 
 const AffiliateCommissionPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [loading, setLoading] = useState(false);
     const [preparedType, setPreparedType] = useState("trading");

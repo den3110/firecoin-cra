@@ -1,8 +1,8 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 
 const BalanceHistoryType = ({ ts, tsTxid, withoutPadding = false }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     let tsTxidDescription = null;
     switch (ts.type) {

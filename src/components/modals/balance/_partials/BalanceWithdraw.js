@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useCallback, useMemo } from "react";
 import { useSnackbar } from "notistack";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Formatter from "@/utils/Formatter";
 import BalanceModalTextInputField from "@/components/inputs/BalanceModalTextInputField";
 import { Form, FormikProvider, useFormik } from "formik";
@@ -12,7 +12,7 @@ import { resetWithdraw, setSelectedNetwork, showTransferConfirm } from "@/store/
 import HttpClient from "@/services/HttpClient";
 
 const BalanceWithdraw = ({ config }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { enqueueSnackbar } = useSnackbar();
 
     const selectedNetwork = useSelector((state) => state.balance.selectedNetwork);

@@ -2,7 +2,7 @@
 
 import LandingDrawer from "@/components/LandingDrawer";
 import RegisterForm from "@/components/forms/RegisterForm";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Link } from "@/navigation";
 import { useEffect, useState } from "react";
 import HttpClient from "@/services/HttpClient";
@@ -10,7 +10,7 @@ import { useSnackbar } from "notistack";
 import { getCurrentSiteName } from "@/utils/clientInfo";
 
 const RegisterPage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [successData, setSuccessData] = useState();
 

@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useCallback, useContext, useEffect, useState } from "react";
 import SocketClient from "@/services/SocketClient";
 import SocketContext from "@/contexts/SocketContext";
@@ -15,7 +15,7 @@ import CandleTypes from "./CandleTypes";
 
 
 function TradeFormDesktop({symbol}) {
-    const t = useTranslations()
+    const {t } = useTranslation()
 
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [inputOpened, setInputOpened] = useState(false);

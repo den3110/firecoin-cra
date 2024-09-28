@@ -4,7 +4,7 @@ import clsx from "clsx";
 import Formatter from "@/utils/Formatter";
 import Loading from "@/components/Loading";
 import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useCallback, useEffect, useRef, useState } from "react";
 import useRefillDemoBalanceMutation from "@/hooks/mutations/useRefillDemoBalanceMutation";
 import { useIsNotDesktop } from "@/hooks/responsives";
@@ -17,7 +17,7 @@ import { useSnackbar } from "notistack";
 register();
 
 const ExchangeBalances = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const dispatch = useDispatch();
     const { enqueueSnackbar } = useSnackbar();

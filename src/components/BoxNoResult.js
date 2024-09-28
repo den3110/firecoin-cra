@@ -1,8 +1,8 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import React from "react";
 
 function BoxNoResult(props) {
-    const t = useTranslations();
+    const {t } = useTranslation();
     return (
         <div className="boxResult">
             <div className="loading">

@@ -13,7 +13,7 @@ import {
     setQuickDepositMobileOpen,
     setSettingModalOpen,
 } from "@/store/generalReducer";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Link, usePathname, useRouter } from "@/navigation";
 import useAuth from "@/hooks/useAuth";
 import { useCallback, useContext, useEffect } from "react";
@@ -23,7 +23,7 @@ import useUserAvatarUrl from "@/hooks/useUserAvatarUrl";
 import { getCurrentLogoSvg } from "@/utils/clientInfo";
 
 const LeftSidebar = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const open = useSelector((state) => state.general.mobileMenuOpen);
     const settingModalOpen = useSelector((state) => state.general.settingModalOpen);

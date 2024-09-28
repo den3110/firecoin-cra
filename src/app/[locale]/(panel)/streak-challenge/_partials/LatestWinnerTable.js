@@ -1,5 +1,5 @@
 import Loading from "@/components/Loading";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
 import { useQuery } from "@tanstack/react-query";
@@ -12,7 +12,7 @@ import { setClaimPopupModalOpen } from "@/store/generalReducer";
 import { useDispatch } from "react-redux";
 
 const LatestWinnerTable = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [selectedTab, setSelectedTab] = useState("winning");
 

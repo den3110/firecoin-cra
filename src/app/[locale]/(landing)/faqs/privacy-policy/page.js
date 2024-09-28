@@ -122,23 +122,23 @@ export default function PrivacyPolicy() {
                 <li>
                     to obtain from us the rectification of inaccurate personal data, and therefore you may, at any time,
                     request to change and update your personal data by emailing us at{" "}
-                    <a href={"mailto:" + process.env.NEXT_PUBLIC_SUPPORT_EMAIL}>
-                        {process.env.NEXT_PUBLIC_SUPPORT_EMAIL}
+                    <a href={"mailto:" + process.env.REACT_APP_SUPPORT_EMAIL}>
+                        {process.env.REACT_APP_SUPPORT_EMAIL}
                     </a>
                 </li>
                 <li>
                     to request that we will correct inaccuracies and errors or that we will delete your personal data
                     (except for your transaction history and other data that we are required to keep under applicable
                     laws) by emailing us at{" "}
-                    <a href={"mailto:" + process.env.NEXT_PUBLIC_SUPPORT_EMAIL}>
-                        {process.env.NEXT_PUBLIC_SUPPORT_EMAIL}
+                    <a href={"mailto:" + process.env.REACT_APP_SUPPORT_EMAIL}>
+                        {process.env.REACT_APP_SUPPORT_EMAIL}
                     </a>
                 </li>
                 <li>
                     the deletion or rectification requests can be sent to us in a free form (in the body of a letter,
                     scan, etc.) to{" "}
-                    <a href={"mailto:" + process.env.NEXT_PUBLIC_SUPPORT_EMAIL}>
-                        {process.env.NEXT_PUBLIC_SUPPORT_EMAIL}
+                    <a href={"mailto:" + process.env.REACT_APP_SUPPORT_EMAIL}>
+                        {process.env.REACT_APP_SUPPORT_EMAIL}
                     </a>{" "}
                     with your full name and contact information for a quicker processing of your request. If we are not
                     satisfied you are who you claim to be, we reserve the right to refuse to grant your requests.
@@ -190,7 +190,7 @@ export default function PrivacyPolicy() {
             <h5>X. Contact us</h5>
             <p>
                 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us via
-                email: {process.env.NEXT_PUBLIC_SUPPORT_EMAIL}
+                email: {process.env.REACT_APP_SUPPORT_EMAIL}
             </p>
         </div>
     );

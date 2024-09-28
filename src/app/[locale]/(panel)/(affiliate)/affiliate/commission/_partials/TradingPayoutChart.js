@@ -4,10 +4,10 @@ import { useMemo } from "react";
 import dayjs from "dayjs";
 import Formatter from "@/utils/Formatter";
 import { useDesktop } from "@/hooks/responsives";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 
 const TradingPayoutChart = ({ data, type }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const isDesktop = useDesktop();
 
     const options = useMemo(() => {

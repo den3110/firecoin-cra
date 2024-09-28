@@ -1,5 +1,3 @@
-"use client";
-
 import PanelHeader from "@/app/[locale]/(panel)/_partials/PanelHeader";
 import BalanceProvider from "@/providers/BalanceProvider";
 import { useEffect, useState } from "react";
@@ -61,7 +59,7 @@ const PanelLayout = ({ children }) => {
 
                 router.push("/");
             });
-    }, [router, setAuth]);
+    }, [setAuth]);
 
     if (!auth.initialized) {
         return null;

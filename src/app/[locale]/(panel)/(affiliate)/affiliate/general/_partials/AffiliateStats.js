@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import useAffiliateOverviewQuery from "@/hooks/queries/useAffiliateOverviewQuery";
@@ -13,7 +13,7 @@ import HighchartsReact from "highcharts-react-official";
 import HideInfo from "@/components/HideInfo";
 
 const AffiliateStats = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { data: overviewData } = useAffiliateOverviewQuery();
 

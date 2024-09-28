@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useEffect, useMemo, useState } from "react";
 import { useSnackbar } from "notistack";
 import ToggleProfileButton from "@/components/inputs/ToggleProfileButton";
@@ -9,9 +9,11 @@ import useAuth from "@/hooks/useAuth";
 import useUpdateUserInfo from "@/hooks/useUpdateUserInfo";
 import HttpClient from "@/services/HttpClient";
 import ChangePasswordModal from "@/app/[locale]/(panel)/user/profile/_partials/ChangePasswordModal";
+import { useNavigate } from "react-router-dom";
 
 const SecurityForm = () => {
-    const t = useTranslations();
+    const navigate= useNavigate()
+    const {t } = useTranslation();
 
     const [auth, setAuth] = useAuth();
 
@@ -77,7 +79,7 @@ const SecurityForm = () => {
                     .catch((err) => {
                         localStorage.removeItem("USER_TOKEN");
 
-                        router.push("/");
+                        navigate("/");
                     });
             });
 

@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { Menu } from "@headlessui/react";
 import clsx from "clsx";
 import { useCallback, useEffect, useState } from "react";
@@ -7,7 +7,7 @@ import Formatter from "@/utils/Formatter";
 import HideInfo from "@/components/HideInfo";
 
 const AffiliateNetworkVolStat = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [data, setData] = useState();
 

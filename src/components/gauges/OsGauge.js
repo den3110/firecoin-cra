@@ -4,7 +4,7 @@ import HighchartsExporting from "highcharts/modules/exporting";
 import HC_more from "highcharts/highcharts-more";
 import { convertTextValueMeter } from "@/utils/gaugeUtils";
 import GeneralTooltip from "@/components/GeneralTooltip";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useDesktop } from "@/hooks/responsives";
 
 if (typeof Highcharts === "object") {
@@ -46,7 +46,7 @@ const Oe = [
 ];
 
 const OsGauge = ({ result }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const isDesktop = useDesktop();
 
     return (

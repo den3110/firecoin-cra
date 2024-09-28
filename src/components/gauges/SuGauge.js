@@ -4,7 +4,7 @@ import HighchartsExporting from "highcharts/modules/exporting";
 import HC_more from "highcharts/highcharts-more";
 import { convertTextValueMeter } from "@/utils/gaugeUtils";
 import GeneralTooltip from "@/components/GeneralTooltip";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 
 if (typeof Highcharts === "object") {
     HighchartsExporting(Highcharts);
@@ -12,7 +12,7 @@ if (typeof Highcharts === "object") {
 }
 
 const SuGauge = ({ result }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     return (
         <div className="gauge-meter-sub gauge-meter--su">

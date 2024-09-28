@@ -1,7 +1,7 @@
 "use client";
 
 import "./StreakChallengePage.scss";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import useJackpotCommunityFundQuery from "@/hooks/queries/useJackpotCommunityFundQuery";
 import Formatter from "@/utils/Formatter";
 import LatestWinner from "@/app/[locale]/(panel)/streak-challenge/_partials/LatestWinner";
@@ -11,7 +11,7 @@ import ClaimPopupModal from "@/app/[locale]/(panel)/streak-challenge/_partials/C
 import smoothScrollTo from "@/utils/smoothScrollTo";
 
 const StreakChallengePage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { data: communityFund } = useJackpotCommunityFundQuery();
 

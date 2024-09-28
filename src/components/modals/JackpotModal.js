@@ -2,7 +2,7 @@
 
 import { Transition } from "@headlessui/react";
 import clsx from "clsx";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Button from "@/components/inputs/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { setJackpot } from "@/store/jackpotReducer";
@@ -10,7 +10,7 @@ import { useRouter } from "@/navigation";
 import { useEffect } from "react";
 
 const JackpotModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const router = useRouter();
 

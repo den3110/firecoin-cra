@@ -1,7 +1,7 @@
 import { useCallback, useContext, useEffect, useState } from "react";
 import HttpClient from "@/services/HttpClient";
 import Loading from "@/components/Loading";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Formatter from "@/utils/Formatter";
 import clsx from "clsx";
 import BalanceHistoryStatus from "@/components/_partials/BalanceHistoryStatus";
@@ -16,7 +16,7 @@ import SocketContext from "@/contexts/SocketContext";
 import SocketClient from "@/services/SocketClient";
 
 const BalanceHistory = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [data, setData] = useState();
     const [page, setPage] = useState(1);

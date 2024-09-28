@@ -1,7 +1,7 @@
 "use client";
 
 import { Transition } from "@headlessui/react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 
 import imgIconDelete from "@/assets/images/icon-delete.svg";
 import Loading from "@/components/Loading";
@@ -17,7 +17,7 @@ import useUpdateUserInfo from "@/hooks/useUpdateUserInfo";
 import { getCurrentHost } from "@/utils/clientInfo";
 
 const ChangeAvatarModal = ({ open = true, onClose }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const cropperRef = useRef(null);
     const inputRef = useRef(null);

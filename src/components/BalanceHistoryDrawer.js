@@ -1,14 +1,14 @@
 import { Transition } from "@headlessui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { hideHistory } from "@/store/balanceReducer";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Formatter from "@/utils/Formatter";
 import clsx from "clsx";
 import BalanceHistoryType from "@/components/_partials/BalanceHistoryType";
 import { useMemo } from "react";
 
 const BalanceHistoryDrawer = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { showHistory, history } = useSelector((state) => ({
         showHistory: state.balance.showHistory,

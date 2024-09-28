@@ -1,6 +1,6 @@
 
 import { Transition } from "@headlessui/react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import HttpClient from "@/services/HttpClient";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setClaimPopupModalOpen } from "@/store/generalReducer";
 
 const ClaimPopupModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [requestCode, setRequestCode] = useState();
     const [code, setCode] = useState();

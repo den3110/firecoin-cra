@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useCallback, useEffect, useState } from "react";
 import clsx from "clsx";
 import Loading from "@/components/Loading";
@@ -8,7 +8,7 @@ import Pagination from "@/components/Pagination";
 import { useDesktop } from "@/hooks/responsives";
 
 const NetworkManagementSearchResult = ({ username, level, searchBy, onViewUser }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [loading, setLoading] = useState(false);
 

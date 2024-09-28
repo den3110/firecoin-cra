@@ -3,7 +3,7 @@ import HttpClient from "@/services/HttpClient";
 import HistoryItem from "@/components/history/HistoryItem";
 import BalanceContext from "@/contexts/BalanceContext";
 import { useRouter } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import dayjs from "dayjs";
 import Loading from "@/components/Loading";
 import SocketContext from "@/contexts/SocketContext";
@@ -13,7 +13,7 @@ import { setOrderModalOpen } from "@/store/generalReducer";
 import clsx from "clsx";
 
 const CloseHistory = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [data, setData] = useState();
     const [selectedAccount] = useContext(BalanceContext);
 

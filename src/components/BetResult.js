@@ -1,5 +1,5 @@
 import iconWinDemo from "@/assets/images/icon-win-demo.svg";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useCallback, useContext, useEffect, useRef, useState } from "react";
 import Formatter from "@/utils/Formatter";
 import SocketClient from "@/services/SocketClient";
@@ -15,7 +15,7 @@ import { useRouter } from "@/navigation";
 
 
 const BetResult = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const isDesktop = useDesktop();
     const router = useRouter();
 

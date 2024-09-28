@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 import PersonalDataForm from "@/app/[locale]/(panel)/user/profile/_partials/PersonalDataForm";
 import SecurityForm from "@/app/[locale]/(panel)/user/profile/_partials/SecurityForm";
@@ -15,7 +15,7 @@ const ChangeAvatarModal = dynamic(() => import("@/app/[locale]/(panel)/user/prof
 });
 
 const ProfilePage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const [auth, _] = useAuth();
 

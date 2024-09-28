@@ -1,14 +1,14 @@
 import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, NavLink as LinkRoot } from 'react-router-dom';
 
 export const locales = ["cm", "cn", "en", "id", "jp", "kr", "la", "th", "vi"];
 
 // Tạo Link component
-export const Link = ({ to, children, ...props }) => {
+export const Link = ({ href, children, ...props }) => {
     return (
-        <a href={to} {...props}>
+        <LinkRoot to={href} {...props}>
             {children}
-        </a>
+        </LinkRoot>
     );
 };
 
@@ -33,7 +33,6 @@ export const useRouter = () => {
     return {
         push,
         replace,
-        // Bạn có thể thêm nhiều phương thức vào đây nếu cần
     };
 };
 

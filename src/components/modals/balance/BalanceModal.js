@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { useCallback, useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/Loading";
 import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
 import Formatter from "@/utils/Formatter";
@@ -13,7 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { hideBalanceModal, setSelectTab } from "@/store/balanceReducer";
 
 const BalanceModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { visible, transferConfirm, selectedTab } = useSelector((state) => state.balance);
     const dispatch = useDispatch();
 

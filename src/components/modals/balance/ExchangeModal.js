@@ -2,7 +2,7 @@ import { Transition } from "@headlessui/react";
 import { useDispatch, useSelector } from "react-redux";
 import clsx from "clsx";
 import Loading from "@/components/Loading";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import useSpotBalancesQuery from "@/hooks/queries/useSpotBalancesQuery";
 import Formatter from "@/utils/Formatter";
 import { setShowExchange } from "@/store/balanceReducer";
@@ -14,7 +14,7 @@ import { useIsNotDesktop } from "@/hooks/responsives";
 import laImg from "@/assets/images/la.svg";
 
 const ExchangeModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { enqueueSnackbar } = useSnackbar();
 
     const dispatch = useDispatch();

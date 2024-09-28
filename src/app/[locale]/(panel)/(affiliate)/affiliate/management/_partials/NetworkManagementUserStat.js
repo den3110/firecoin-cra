@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import useAffiliateOverviewQuery from "@/hooks/queries/useAffiliateOverviewQuery";
@@ -16,7 +16,7 @@ import isSameOrBefore from "dayjs/plugin/isSameOrBefore";
 dayjs.extend(isSameOrBefore);
 
 const NetworkManagementUserStat = ({ username }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const { data: overviewData } = useAffiliateOverviewQuery();
 

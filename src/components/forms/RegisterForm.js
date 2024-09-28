@@ -1,5 +1,5 @@
 import Loading from "@/components/Loading";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import { useEffect, useMemo, useState } from "react";
 import { Form, Formik } from "formik";
 import InputField from "@/components/inputs/InputField";
@@ -9,7 +9,7 @@ import { useSnackbar } from "notistack";
 import * as Yup from "yup";
 
 const RegisterForm = ({ onSuccess }) => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const [loading, setLoading] = useState(false);
     const { mutateAsync } = useRegisterMutation();
     const { enqueueSnackbar } = useSnackbar();

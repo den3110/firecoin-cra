@@ -2,7 +2,7 @@ import { useCallback, useContext, useEffect, useState } from "react";
 import HttpClient from "@/services/HttpClient";
 import HistoryItem from "@/components/history/HistoryItem";
 import BalanceContext from "@/contexts/BalanceContext";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import Loading from "@/components/Loading";
 import OpenHistoryContext from "@/contexts/OpenHistoryContext";
 import UIContext from "@/contexts/UIContext";
@@ -10,7 +10,7 @@ import SocketContext from "@/contexts/SocketContext";
 import SocketClient from "@/services/SocketClient";
 
 const OpenHistory = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { openHistory, setOpenHistory } = useContext(OpenHistoryContext);
     const [selectedAccount] = useContext(BalanceContext);
     const [loading, setLoading] = useState(false);

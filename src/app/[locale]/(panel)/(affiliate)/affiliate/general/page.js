@@ -1,13 +1,12 @@
 "use client";
 
 import useAffiliateOverviewQuery from "@/hooks/queries/useAffiliateOverviewQuery";
-import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import React, { Suspense, useEffect, useState } from "react";
 import { useSnackbar } from "notistack";
 import Loading from "@/components/Loading";
 import Formatter from "@/utils/Formatter";
 import RankZero from "@/app/[locale]/(panel)/(affiliate)/affiliate/general/_partials/RankZero";
-import dynamic from "next/dynamic";
 import AffiliateNetworkVolStat from "@/app/[locale]/(panel)/(affiliate)/affiliate/general/_partials/AffiliateNetworkVolStat";
 import botImg from "@/assets/images/bot.svg";
 import AffiliateRankModal from "@/app/[locale]/(panel)/(affiliate)/affiliate/general/_partials/AffiliateRankModal";
@@ -18,15 +17,12 @@ import { getCurrentHost } from "@/utils/clientInfo";
 import HideInfo from "@/components/HideInfo";
 import clientStylesConfig from "@/clientStylesConfig";
 
-const AffiliateStats = dynamic(
-    () => import("@/app/[locale]/(panel)/(affiliate)/affiliate/general/_partials/AffiliateStats"),
-    {
-        ssr: false,
-    },
-);
+const AffiliateStats = React.lazy(() =>
+    import('@/app/[locale]/(panel)/(affiliate)/affiliate/general/_partials/AffiliateStats')
+  );
 
 const GeneralAffiliatePage = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
     const { enqueueSnackbar } = useSnackbar();
     const [siteInfo, setSiteInfo] = useState({});
 
@@ -306,7 +302,9 @@ const GeneralAffiliatePage = () => {
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-4 gap-x-[15px] mt-6">
                         <div className="lg:col-span-2">
-                            <AffiliateStats />
+                            <Suspense fallback={<div>Loading...</div>}>
+                                <AffiliateStats />
+                            </Suspense>
                         </div>
                         <div className="col-span-1">
                             <AffiliateNetworkVolStat />
@@ -382,7 +380,7 @@ const GeneralAffiliatePage = () => {
                                     <div className="col-span-1 flex flex-col items-center">
                                         <img src={botImg} alt="bot img" className="mb-4" />
                                         <p className="text-ellipsis whitespace-nowrap overflow-hidden text-light text-sm mb-2">
-                                            {process.env.NEXT_PUBLIC_SUPPORT_NAME}
+                                            {process.env.REACT_APP_SUPPORT_NAME}
                                         </p>
                                     </div>
                                     <div className="col-span-2">

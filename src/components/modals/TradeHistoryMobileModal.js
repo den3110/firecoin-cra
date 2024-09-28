@@ -1,11 +1,11 @@
-import { useTranslations } from "next-intl";
+import { useTranslation } from "react-i18next";
 import BetHistory from "@/components/history/BetHistory";
 import { useDispatch, useSelector } from "react-redux";
 import { Transition } from "@headlessui/react";
 import { setOrderModalOpen } from "@/store/generalReducer";
 
 const TradeHistoryMobileModal = () => {
-    const t = useTranslations();
+    const {t } = useTranslation();
 
     const dispatch = useDispatch();
 
