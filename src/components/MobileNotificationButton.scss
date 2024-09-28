@@ -1,0 +1,41 @@
+.notification-dropdown--active:after {
+  border-bottom-color: #1d233b !important
+}
+
+.notification-dropdown-header {
+  background: #1d233b !important
+}
+
+.notification-item--readed .notification-item-title {
+  color: rgba(139, 141, 150, .8) !important
+}
+
+.notification-item-icon,
+.notification-item-time {
+  background: #1d233b !important
+}
+
+.notification-dropdown-body {
+  border-color: hsla(0, 0%, 100%, .1) !important
+}
+
+.notification-dropdown-list {
+  border-left-color: hsla(0, 0%, 100%, .1) !important;
+  border-right-color: hsla(0, 0%, 100%, .1) !important
+}
+
+.notification-dropdown-button-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.notification-item:hover {
+  background-color: #02142b !important
+}

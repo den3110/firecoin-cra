@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import RootLayout from "./providers/RootLayout";
+import LandingLayout from "./app/[locale]/(landing)/layout";
+import './i18n'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RootLayout>
+      <LandingLayout>
+        {/* Nội dung của các trang sẽ được render tại đây */}
+        <div>Hello world</div>
+      </LandingLayout>
+    </RootLayout>
   );
 }
 

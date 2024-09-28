@@ -1,0 +1,159 @@
+    .relative {
+        position: relative;
+    }
+
+
+    .game {
+        width: 400px;
+        height: 400px;
+
+        margin: auto;
+        z-index: 1;
+    }
+
+    .game_win_light {
+        position: absolute;
+
+        background: url(../image/game_win_light.png) no-repeat;
+        background-size: contain;
+
+        z-index: 2;
+        opacity: 1;
+
+        top: 3px;
+        left: 148px;
+        width: 100px;
+        height: 201px;
+    }
+
+    .game_center {
+        position: absolute;
+        top: 141px;
+        left: 140px;
+        background: url(../image/game_center.png);
+        width: 112px;
+        height: 112px;
+        z-index: 12;
+    }
+
+
+    .item_text {
+        position: absolute;
+        top: 193px;
+        width: 100%;
+        z-index: 3;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        display: none;
+        line-height: 20px;
+
+
+    }
+
+    .item_text span {
+        position: relative;
+        display: block;
+        width: 203px;
+        text-align: left;
+
+
+    }
+
+    .item_text span:last-child {
+        margin-left:34px;
+        width: 120px;
+
+    }
+
+    .item_text img {
+        left: 31px;
+        top: -13px;
+        position: absolute;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .game_bg_1 {
+        background: url(../image/game_bg_1.png) center no-repeat;
+
+        width: 400px;
+        height: 400px;
+        z-index: 1;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        border-radius: 99999px;
+    }
+
+    .game_bg_1_holder_1 {
+        position: relative;
+    }
+
+
+    .game_bg_1_holder {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        margin: auto;
+        top: 0px;
+
+    }
+
+    .game_bg {
+        background: url(../image/game_bg.png);
+        width: 453px;
+        height: 491px;
+        position: absolute;
+        top: -30px;
+        left: -26px;
+        z-index: 10;
+    }
+
+    #btn_go {
+        position: absolute;
+        top: 187px;
+        left: 178px;
+        width: 43px;
+        height: 21px;
+        cursor: pointer;
+        z-index: 121;
+        display: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        line-height: 21px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .total_turn {
+        margin-bottom: 40px;
+    }
+
+    .total_turn #total_turn {
+        font-size: 25px;
+        color: green;
+        font-weight: bold;
+    }
+
+    #game_holder {
+        margin: 0 20px 50px 20px;
+    }
+
+    .your_username {
+        color: yellow;
+        font-weight: bold;
+        font-size: 20px;
+    }

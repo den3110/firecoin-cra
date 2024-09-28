@@ -1,0 +1,64 @@
+.modal.customKYC .modal-body .steps {
+  position: relative;
+  width: 90%;
+  margin: 0 auto
+}
+
+.modal.customKYC .modal-body .steps .line {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  top: 32px;
+  left: 40px;
+  width: 85%;
+  height: 1px;
+
+  @apply border-b border-dashed border-b-secondary-400;
+}
+
+.modal.customKYC .modal-body .steps .step {
+  position: relative;
+  z-index: 2;
+  display: inline-block
+}
+
+.modal.customKYC .modal-body .steps .step.step1 {
+  float: left;
+  width: 82px
+}
+
+.modal.customKYC .modal-body .steps .step.step2 {
+  width: 80px
+}
+
+.modal.customKYC .modal-body .steps .step.step3 {
+  float: right;
+  width: 66px
+}
+
+.modal.customKYC .modal-body .steps .step .idx {
+  display: block;
+  overflow: hidden;
+  width: 62px;
+  height: 62px;
+  line-height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+
+  @apply bg-secondary-400 border-[10px] border-custom-chart-title;
+}
+
+.modal.customKYC .modal-body .steps .step .idx.active {
+  @apply bg-primary;
+}
+
+.acc-verify-desc {
+  p {
+    @apply mb-4;
+  }
+}

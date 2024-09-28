@@ -1,0 +1,60 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+import imgEyes from "@/assets/images/eyes.svg";
+import { useContext, useEffect, useState } from "react";
+import HttpClient from "@/services/HttpClient";
+import ProfitStats from "@/components/stats/ProfitStats";
+import dynamic from "next/dynamic";
+import TradeHistory from "@/components/TradeHistory";
+import UIContext from "@/contexts/UIContext";
+import useAuth from "@/hooks/useAuth";
+
+const TradeStats = dynamic(() => import("@/components/stats/TradeStats"), { ssr: false });
+
+const TradeHistoryPage = () => {
+    const t = useTranslations();
+    const { hideBalances, setHideBalances } = useContext(UIContext);
+
+    const [data, setData] = useState(null);
+
+    useEffect(() => {
+        HttpClient.instanceClient()
+            .get("/api/wallet/binaryoption/user/bo-statistics")
+            .then((res) => res.data)
+            .then((data) => {
+                setData(data.d);
+            });
+    }, []);
+
+    const handleToggleBalanceHide = () => {
+        setHideBalances(!hideBalances);
+    };
+
+    const [auth, _] = useAuth();
+
+
+
+    return (
+        <div className="px-1 py-4 lg:p-4 text-light">
+            <div className="w-full px-[15px]">
+                <div className="mb-2">
+                    <div className="mb-2 flex justify-start items-center gap-x-2">
+                        <div className="text-[1.875rem] font-bold capitalize leading-[1.2]">{t("bo_stat")}</div>
+                        <div className="cursor-pointer" onClick={handleToggleBalanceHide}>
+                            <img src={imgEyes} alt="img eyes" className={hideBalances ? "invisible" : "visible"} />
+                        </div>
+                    </div>
+                </div>
+                <div className="grid lg:grid-cols-2 mb-6">
+                    <TradeStats data={!auth?.user?.enable_hiding_info ?data : null} />
+                    <ProfitStats data={!auth?.user?.enable_hiding_info ? data : null} />
+                </div>
+                {!auth?.user?.enable_hiding_info && <TradeHistory />}
+                
+            </div>
+        </div>
+    );
+};
+
+export default TradeHistoryPage;

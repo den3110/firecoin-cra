@@ -1,0 +1,9 @@
+<svg id="circle-button_64_Dark_Default" data-name="circle-button/64/Dark/Default" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Size_64_Theme_Light_State_default_Background_Mask_" data-name="Size=64, Theme=Light, State=default (Background/Mask)" fill="none" stroke="#353945" stroke-width="2" stroke-dasharray="0 0">
+    <rect width="64" height="64" rx="32" stroke="none"/>
+    <rect x="1" y="1" width="62" height="62" rx="31" fill="none"/>
+  </g>
+  <g id="icons_Arrow_Down_2_Line" data-name="icons/Arrow Down 2/Line" transform="translate(27 25)">
+    <path id="vector_Stroke_" data-name="vector (Stroke)" d="M10.5.322l3.231,3.5a1,1,0,0,1,0,1.357L10.5,8.678a1,1,0,0,1-1.47-1.357L10.716,5.5H1a1,1,0,1,1,0-2h9.716L9.034,1.678A1,1,0,0,1,10.5.322Z" transform="translate(9 0) rotate(90)" fill="#777e90"/>
+  </g>
+</svg>

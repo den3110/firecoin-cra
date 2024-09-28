@@ -1,0 +1,573 @@
+.main-banner {
+    color: #fcfcfd;
+    position: relative;
+    overflow: hidden;
+    padding: 200px 86px 130px;
+}
+
+.main-banner-inner {
+    position: relative;
+}
+
+.main-banner-content {
+    position: relative !important;
+    z-index: 2;
+}
+.main-banner-description {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 50px;
+    color: #777e90;
+    max-width: 500px;
+}
+.main-banner-title {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #fcfcfd;
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 500px;
+}
+.main-banner-sub-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+    color: #777e90;
+    text-transform: uppercase;
+}
+
+.main-banner-icon {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    cursor: pointer;
+}
+
+.homepage {
+    overflow: hidden;
+    background-color: #141416 !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-banner-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .main-banner-sub-title {
+        font-size: 12px;
+    }
+    .main-banner-description {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .main-banner {
+        padding: 80px 0 50px;
+    }
+    .main-banner-inner {
+        padding: 15px;
+    }
+    .main-banner-icon {
+        width: 40px;
+        height: 40px;
+        left: 20px;
+    }
+}
+
+.homepage .btn-start {
+    padding: 20px 35px;
+    color: #fff;
+    font-weight: 700 !important;
+    font-size: 16px;
+    transition: all 0.35s ease-in-out;
+    border-radius: 30px;
+    margin-left: 0 !important;
+    white-space: nowrap;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: center; /* Căn giữa văn bản theo chiều ngang */
+    display: inline-block; /* Hoặc sử dụng display: flex; */
+    /* Nếu sử dụng flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.homepage .btn-start:hover {
+    color: #fcfcfd;
+}
+
+.homepage .trading-platform {
+    color: #fcfcfd;
+    padding: 125px 0 225px;
+    position: relative;
+}
+
+.homepage .trading-platform {
+    color: #fcfcfd;
+    padding: 125px 0 225px;
+    position: relative;
+}
+.trading-platform-media img {
+    -webkit-transform: scale(1.4) translateX(-14%);
+    transform: scale(1.4) translateX(-14%);
+}
+
+.trading-platform-title {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #fcfcfd;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+.trading-platform-desc {
+    font-size: 18px;
+    line-height: 32px;
+    color: #777e90;
+    font-weight: 400;
+    margin-bottom: 85px;
+    max-width: 600px;
+}
+
+@media (max-width: 1024px) {
+    .trading-platform-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .trading-platform-desc {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .trading-platform-media img {
+        -webkit-transform: none;
+        transform: none;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .homepage .btn-start {
+        padding: 15px 40px;
+        font-size: 14px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-banner .btn-start {
+        margin-bottom: 50px;
+    }
+}
+
+.homepage .how-we-work {
+    padding: 180px 86px 130px;
+    position: relative;
+    overflow: hidden;
+}
+.homepage .how-we-work-sub-title {
+    color: #777e90;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.homepage .how-we-work-title {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.homepage .how-we-work-icon {
+    position: absolute;
+    top: 0;
+    right: -15px;
+}
+
+.homepage .how-we-work-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.homepage .how-we-work-title span {
+    display: block;
+}
+.homepage .how-we-work-item:first-child {
+    padding-left: 0;
+}
+
+.homepage .how-we-work-item {
+    width: 33.33%;
+    padding: 40px 80px 80px;
+    border-right: 1px solid #777e90;
+}
+
+.homepage .how-we-work-item-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777e90;
+    margin-bottom: 0;
+}
+.homepage .how-we-work-item-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+.homepage .how-we-work-item-icon {
+    margin-bottom: 35px;
+}
+.homepage .how-we-work-item:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+@media (max-width: 1024px) {
+    .homepage .how-we-work {
+        padding: 50px 15px 0;
+    }
+}
+@media (max-width: 1024px) {
+    .homepage .how-we-work-sub-title {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .homepage .how-we-work-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .homepage .how-we-work-icon {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .homepage .how-we-work-list {
+        display: block;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 1024px) {
+    .homepage .how-we-work-item {
+        width: 100%;
+        padding: 0 0 50px;
+        border: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .homepage .trading-platform {
+        padding: 0 15px 50px;
+    }
+    .homepage .how-we-work {
+        padding: 50px 15px 0;
+    }
+    .homepage .list-coin {
+        margin-bottom: 0;
+    }
+    .homepage .get-started-in-steps {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .homepage .our-portfolio {
+        padding: 50px 15px 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .homepage .main-banner {
+        padding: 80px 0 50px;
+    }
+}
+
+.homepage .list-coin {
+    height: 105px;
+    margin-bottom: 150px;
+    overflow-x: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.homepage .list-coin .coin-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+.homepage .get-started-in-steps {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 160px;
+}
+
+// .text-center {
+//   text-align: center!important;
+// }
+
+@media screen and (min-width: 1024px) {
+    .homepage .list-coin .coin-wrap .image-wrap {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+}
+
+.homepage .list-coin .coin-wrap .image-wrap {
+    height: 51px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.homepage .list-coin .coin-wrap .image-wrap .image {
+    max-width: 100%;
+    height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+@media (max-width: 1024px) {
+    .homepage .list-coin {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .homepage .list-coin .coin-wrap {
+        width: 585px;
+    }
+}
+
+.homepage .get-started-in-steps {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 160px;
+}
+
+.homepage .get-started-in-steps-title {
+    font-size: 48px;
+    line-height: 56px;
+    color: #fcfcfd;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.homepage .get-started-in-steps-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.homepage .get-started-in-steps-item {
+    width: 33.3333%;
+    padding: 0 80px;
+}
+.homepage .get-started-in-steps-item-icon {
+    margin-bottom: 80px;
+    display: inline-block;
+}
+.homepage .get-started-in-steps-item-sub-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #777e90;
+    margin-bottom: 35px;
+}
+.homepage .get-started-in-steps-item-title {
+    color: #fcfcfd;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.homepage .get-started-in-steps-item-text {
+    color: #e6e8ec;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.homepage .get-started-in-steps-icon {
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+@media (max-width: 1024px) {
+    .homepage .get-started-in-steps-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+
+    .homepage .get-started-in-steps-item {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .homepage .get-started-in-steps-item-icon {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+    .homepage .get-started-in-steps-item-sub-title {
+      margin-bottom: 15px;
+    }
+    .homepage .get-started-in-steps-icon {
+        display: none;
+    }
+    .homepage .get-started-in-steps {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .homepage .get-started-in-steps-list {
+      display: block;
+  }
+}
+
+.homepage .our-portfolio {
+    padding: 130px 86px;
+    position: relative;
+}
+.homepage .our-portfolio-image {
+    position: relative;
+    margin-bottom: 110px;
+}
+
+.homepage .our-portfolio-image img {
+    position: relative;
+    z-index: 2;
+    -webkit-transform: translateX(13%);
+    transform: translateX(13%);
+}
+
+// .justify-content-center {
+//   -webkit-box-pack: center!important;
+//   -ms-flex-pack: center!important;
+//   justify-content: center!important;
+// }
+
+.homepage .our-portfolio-icon {
+    position: absolute;
+    right: -45px;
+    top: -45px;
+}
+.homepage .our-portfolio-title {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #fcfcfd;
+    margin-bottom: 30px;
+}
+.homepage .our-portfolio-text {
+    color: #777e90;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 auto 40px;
+    max-width: 520px;
+}
+
+@media (max-width: 1024px) {
+    .homepage .our-portfolio-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .homepage .our-portfolio-text {
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .homepage .our-portfolio-image {
+        margin-bottom: 50px;
+    }
+    .homepage .our-portfolio-icon {
+        display: none;
+    }
+
+    .homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:after, .homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:before {
+      display : none;
+    }
+
+
+}
+
+.homepage .our-portfolio-image:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #353945;
+    position: absolute;
+    left: 0;
+    top: 65%;
+    z-index: 1;
+}
+
+@media (max-width: 1024px) {
+    .homepage .our-portfolio {
+        padding: 50px 15px 50px;
+    }
+
+}
+.homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon {
+    position: relative;
+}
+.homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:before {
+    right: 104px;
+}
+
+.homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:after {
+    left: 104px;
+}
+
+.homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:after,
+.homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:before {
+    content: "";
+    height: 12px;
+    width: 160px;
+    display: block;
+    background: url("../../../assets/images/home-02/connect-line.svg") 0 0 no-repeat;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:after,
+.homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:before {
+    content: "";
+    height: 12px;
+    width: 160px;
+    display: block;
+    background: url("../../../assets/images/home-02/connect-line.svg") 0 0 no-repeat;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* New CSS for mobile devices */
+@media screen and (max-width: 768px) { /* Adjust max-width as needed for your design */
+  .homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:before,
+  .homepage .get-started-in-steps-item:nth-child(2) .get-started-in-steps-item-icon:after {
+      display: none; /* This will hide the connect line on mobile devices */
+  }
+}
