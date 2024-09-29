@@ -10,6 +10,16 @@ import PanelLayout from "./app/[locale]/(panel)/layout";
 import IndexPage from "./app/[locale]/(panel)/index/page";
 import AffiliateLayout from "./app/[locale]/(panel)/(affiliate)/layout";
 import GeneralAffiliatePage from "./app/[locale]/(panel)/(affiliate)/affiliate/general/page";
+import BalanceLayout from "./app/[locale]/(panel)/user/(balance)/layout";
+// import BalanceDropdown from "./components/BalanceDropdown";
+import BalancePage from "./app/[locale]/(panel)/user/(balance)/balance/page";
+import BinaryWalletPage from "./app/[locale]/(panel)/user/(balance)/binary-wallet/page";
+import ProfilePage from "./app/[locale]/(panel)/user/profile/page";
+import TradeHistoryPage from "./app/[locale]/(panel)/user/trade-history/page";
+import StreakChallengePage from "./app/[locale]/(panel)/streak-challenge/page";
+import NotificationPage from "./app/[locale]/(panel)/notification/page";
+import ForgotPasswordPage from "./app/[locale]/(landing)/@drawer/forgot-password/page";
+import RegisterResendVerifyEmailPage from "./app/[locale]/(landing)/@drawer/register-resend-verify-email/page";
 
 function App() {
   return (
@@ -27,11 +37,43 @@ function App() {
               <GeneralAffiliatePage />
             </AffiliateLayout>
           </PanelLayout>} />
+          <Route path="/user/balance" element={<PanelLayout>
+            <BalanceLayout>
+              <BalancePage />
+            </BalanceLayout>
+          </PanelLayout>} />
+          <Route path="/user/binary-wallet" element={<PanelLayout>
+            <BalanceLayout>
+              <BinaryWalletPage />
+            </BalanceLayout>
+          </PanelLayout>} />
+          <Route path="/user/profile" element={<PanelLayout>
+              <ProfilePage />
+          </PanelLayout>} />
+          <Route path="/user/trade-history" element={<PanelLayout>
+              <TradeHistoryPage />
+          </PanelLayout>} />
+          <Route path="/streak-challenge" element={<PanelLayout>
+              <StreakChallengePage />
+          </PanelLayout>} />
+          <Route path="/notification" element={<PanelLayout>
+              <NotificationPage />
+          </PanelLayout>} />
           <Route path="/login" element={<LandingLayout>
+            <LandingTwo />
             <LoginPage />
           </LandingLayout>} />
           <Route path="/register" element={<LandingLayout>
+            <LandingTwo />
             <RegisterPage />
+          </LandingLayout>} />
+          <Route path="/forgot-password" element={<LandingLayout>
+            <LandingTwo />
+            <ForgotPasswordPage />
+          </LandingLayout>} />
+          <Route path="/register-resend-verify-email" element={<LandingLayout>
+            <LandingTwo />
+            <RegisterResendVerifyEmailPage />
           </LandingLayout>} />
           <Route path="/" element={<LandingLayout>
             <LandingTwo />

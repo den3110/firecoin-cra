@@ -340,7 +340,7 @@ const AccountVerificationModal = ({ open, onClose }) => {
                                             <div className="mb-4">
                                                 <div
                                                     className="text-text acc-verify-desc"
-                                                    dangerouslySetInnerHTML={{ __html: t.raw("acc_verify_desc") }}
+                                                    dangerouslySetInnerHTML={{ __html: t("acc_verify_desc") }}
                                                 ></div>
                                             </div>
                                             <div className="mb-4 grid grid-cols-2 gap-2">

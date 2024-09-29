@@ -193,7 +193,7 @@ const AffiliateCommissionPage = () => {
                     </div>
                 </div>
                 <div className="notice-commission">
-                    <p dangerouslySetInnerHTML={{ __html: t.raw("noticeComission") }} className="mb-4"></p>
+                    <p dangerouslySetInnerHTML={{ __html: t("noticeComission") }} className="mb-4"></p>
                 </div>
                 <div className="body grid grid-cols-3 gap-x-[15px]">
                     <div className="col-span-3 lg:col-span-1">

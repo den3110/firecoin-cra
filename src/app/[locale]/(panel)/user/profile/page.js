@@ -5,14 +5,11 @@ import clsx from "clsx";
 import PersonalDataForm from "@/app/[locale]/(panel)/user/profile/_partials/PersonalDataForm";
 import SecurityForm from "@/app/[locale]/(panel)/user/profile/_partials/SecurityForm";
 import useAuth from "@/hooks/useAuth";
-import dynamic from "next/dynamic";
-import { useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import AccountVerificationForm from "@/app/[locale]/(panel)/user/profile/_partials/AccountVerificationForm";
 import useUserAvatarUrl from "@/hooks/useUserAvatarUrl";
 
-const ChangeAvatarModal = dynamic(() => import("@/app/[locale]/(panel)/user/profile/_partials/ChangeAvatarModal"), {
-    ssr: false,
-});
+const ChangeAvatarModal = lazy(() => import('@/app/[locale]/(panel)/user/profile/_partials/ChangeAvatarModal'));
 
 const ProfilePage = () => {
     const {t } = useTranslation();
@@ -92,7 +89,9 @@ const ProfilePage = () => {
                     </div>
                 </div>
             </div>
-            <ChangeAvatarModal open={changeAvatarModalOpen} onClose={() => setChangeAvatarModalOpen(false)} />
+            <Suspense fallback={<div>Loading...</div>}>
+                <ChangeAvatarModal open={changeAvatarModalOpen} onClose={() => setChangeAvatarModalOpen(false)} />
+            </Suspense>
         </div>
     );
 };

@@ -59,11 +59,11 @@ const ClaimPopupModal = () => {
             })
             .then(({ data }) => {
                 if (!data.ok) {
-                    onClose?.();
+                    // onClose?.();
                     return;
                 }
 
-                onClose?.();
+                // onClose?.();
             });
     };
 

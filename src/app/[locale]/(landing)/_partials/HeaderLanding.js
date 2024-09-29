@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, usePathname, useRouter } from "@/navigation";
-// import Image from "next/image";
 import { getCurrentLogoSmSvg, getCurrentLogoSvg } from '@/utils/clientInfo';
 import { useTranslation } from 'react-i18next';
 

@@ -55,7 +55,7 @@ const LandingOne = ()=>{
                         <div className="main-banner-content-text">
                             <h2
                                 className="main-banner-title"
-                                dangerouslySetInnerHTML={{ __html: t.raw("fibowin_main_banner_title") }}
+                                dangerouslySetInnerHTML={{ __html: t("fibowin_main_banner_title") }}
                             ></h2>
                             <p className="main-banner-desc">{t("fibowin_main_banner_subtitle")}</p>
                         </div>
@@ -171,7 +171,7 @@ const LandingOne = ()=>{
                         data-aos-offset="0"
                         data-aos-delay="50"
                         className="trade-faster-title"
-                        dangerouslySetInnerHTML={{ __html: t.raw("fibowin_trade_faster_title") }}
+                        dangerouslySetInnerHTML={{ __html: t("fibowin_trade_faster_title") }}
                     ></h2>
                     <p
                         data-aos="fade-right"

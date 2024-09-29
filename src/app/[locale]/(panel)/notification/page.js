@@ -4,7 +4,6 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import HttpClient from "@/services/HttpClient";
 import Sticky from "react-sticky-el";
-import { useParams } from "next/navigation";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Loading from "@/components/Loading";
 import NotificationItem from "@/components/NotificationItem";

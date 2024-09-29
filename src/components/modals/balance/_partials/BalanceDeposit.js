@@ -59,13 +59,13 @@ const BalanceDeposit = ({ config }) => {
                     </li>
                 </ul>
                 <p className="transfer-network-warn rounded-[5px] bg-warning/[.26] border border-warning text-warning px-[15px] py-2.5 text-xs leading-[13px] mb-5">
-                    <span dangerouslySetInnerHTML={{ __html: t.raw("bsc_note") }}></span>
+                    <span dangerouslySetInnerHTML={{ __html: t("bsc_note") }}></span>
                 </p>
             </div>
             <h4
                 className="text-center text-[1.5rem] mb-2 font-medium leading-[1.2]"
                 dangerouslySetInnerHTML={{
-                    __html: t.raw("your_coin_depositing_address").replace("{coinName}", "USDT"),
+                    __html: t("your_coin_depositing_address").replace("{coinName}", "USDT"),
                 }}
             ></h4>
             <div className="text-center">

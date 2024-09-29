@@ -66,12 +66,12 @@ const LocaleProvider = ({ children }) => {
 
     return (
         <LocaleContext.Provider value={{ locale, changeLanguage, messages }}>
-            {Object.keys(siteInfo).length > 0 && (
+            {/* {Object.keys(siteInfo).length > 0 && (
                 <>
                     <title>{siteInfo.name}</title>
                     <link href={`/${siteInfo.clientId}.ico`} rel="shortcut icon" />
                 </>
-            )}
+            )} */}
             {children}
         </LocaleContext.Provider>
     );

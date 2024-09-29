@@ -95,7 +95,7 @@ const ForgotPasswordPage = () => {
                     </div>
                     <p
                         className="mb-4 text-light"
-                        dangerouslySetInnerHTML={{ __html: t.raw("a_verification_link") }}
+                        dangerouslySetInnerHTML={{ __html: t("a_verification_link") }}
                     ></p>
                     <div className="leading-tight">
                         <div className="mb-2 whitespace-nowrap mt-4">

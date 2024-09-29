@@ -55,8 +55,6 @@ const GeneralAffiliatePage = () => {
         return <RankZero />;
     }
 
-
-
     return (
         <>
             <div className="mt-6 w-full max-w-[1205px] mx-auto px-2.5 py-[25px]">

@@ -155,7 +155,7 @@ const BalanceWithdraw = ({ config }) => {
                 </ul>
                 {selectedNetwork === "BEP20" && (
                     <p className="transfer-network-warn rounded-[5px] bg-warning/[.26] border border-warning text-warning px-[15px] py-2.5 text-xs leading-[13px] mb-5">
-                        <span dangerouslySetInnerHTML={{ __html: t.raw("bsc_note") }}></span>
+                        <span dangerouslySetInnerHTML={{ __html: t("bsc_note") }}></span>
                     </p>
                 )}
             </div>
@@ -199,7 +199,7 @@ const BalanceWithdraw = ({ config }) => {
                     <BalanceModalTextInputField
                         name="note"
                         label={t("note")}
-                        labelInHtml={t.raw("note_optional")}
+                        labelInHtml={t("note_optional")}
                         placeholder={t("enter_your_note")}
                         canPasteFromClipboard={true}
                     />
