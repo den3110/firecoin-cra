@@ -96,7 +96,7 @@ const LandingLayout = ({ children, drawer }) => {
   return (
     <div
       className={clsx("wrapper min-h-dvh landing-layout", {
-        "bg-[url('http://localhost:3001/assets2/images/BackgroundFAQs.jpg')] bg-no-repeat bg-fixed bg-cover":
+        "bg-[url('~/public/assets2/images/BackgroundFAQs.jpg')] bg-no-repeat bg-fixed bg-cover":
           location.pathname.startsWith("/faqs"),
       })}
     >

@@ -58,7 +58,7 @@ const BalanceDropdown = () => {
             <Menu>
                 <Menu.Button
                     ref={menuButtonRef}
-                    className="text-left text-light bg-custom-balance rounded-[3px] lg:rounded-[10px] px-[15px] lg:pl-[20px] lg:pr-[10px]"
+                    className="btn-wallet text-left text-light bg-custom-balance rounded-[3px] lg:rounded-[10px] px-[15px] lg:pl-[20px] lg:pr-[10px]"
                 >
                     <div className="pl-1 py-1 lg:pl-0 lg:py-[3px] flex items-center gap-x-4">
                         <div>

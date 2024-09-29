@@ -8,6 +8,9 @@ module.exports = {
   important: true,
   theme: {
       extend: {
+        screens: {
+        sm: '1024px', // Thay đổi min-width cho breakpoint 'sm'
+      },
           fontFamily: {
               sans: ["var(--font-sarabun)", "sans-serif"],
               chart: ["Lucida Grande", "sans-serif"],

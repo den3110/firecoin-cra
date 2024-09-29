@@ -66,16 +66,16 @@ button {
 }
 
 .icon-usdt-rounded {
-  background-image: url("http://localhost:3001/assets2/images/icon-usdt-rounded.svg");
+  background-image: url("~/public/assets2/images/icon-usdt-rounded.svg");
   @apply bg-no-repeat bg-[50%] w-[30px] h-5 text-center mx-1 my-[5px];
 }
 
 .icon-usdt-rounded-mobile {
-  background-image: url("http://localhost:3001/assets2/images/icon-usdt-rounded.svg");
+  background-image: url("~/public/assets2/images/icon-usdt-rounded.svg");
 }
 
 .icon-win-coms-mobile {
-  background-image: url("http://localhost:3001/assets2/images/icon-win-coms.svg");
+  background-image: url("~/public/assets2/images/icon-win-coms.svg");
 }
 
 .text-price {
@@ -254,7 +254,7 @@ a:hover:not(.no-hover) {
 }
 
 .win-bg {
-  background-image: url("http://localhost:3001/assets2/images/bg-win.svg");
+  background-image: url("~/public/assets2/images/bg-win.svg");
 }
 
 .total-count {
@@ -360,11 +360,11 @@ a:hover:not(.no-hover) {
 }
 
 .icon.up {
-  background-image: url("http://localhost:3001/assets2/images/up-icon.svg");
+  background-image: url("~/public/assets2/images/up-icon.svg");
 }
 
 .icon.down {
-  background-image: url("http://localhost:3001/assets2/images/down-icon.svg");
+  background-image: url("~/public/assets2/images/down-icon.svg");
 }
 
 .pagination {
@@ -474,31 +474,31 @@ input[type="number"] {
 }
 
 .rank-1 {
-  background-image: url("http://localhost:3001/assets2/images/rank/1.png");
+  background-image: url("~/public/assets2/images/rank/1.png");
 }
 
 .rank-2 {
-  background-image: url("http://localhost:3001/assets2/images/rank/2.png");
+  background-image: url("~/public/assets2/images/rank/2.png");
 }
 
 .rank-3 {
-  background-image: url("http://localhost:3001/assets2/images/rank/3.png");
+  background-image: url("~/public/assets2/images/rank/3.png");
 }
 
 .rank-4 {
-  background-image: url("http://localhost:3001/assets2/images/rank/4.png");
+  background-image: url("~/public/assets2/images/rank/4.png");
 }
 
 .rank-5 {
-  background-image: url("http://localhost:3001/assets2/images/rank/5.png");
+  background-image: url("~/public/assets2/images/rank/5.png");
 }
 
 .rank-6 {
-  background-image: url("http://localhost:3001/assets2/images/rank/6.png");
+  background-image: url("~/public/assets2/images/rank/6.png");
 }
 
 .rank-7 {
-  background-image: url("http://localhost:3001/assets2/images/rank/7.png");
+  background-image: url("~/public/assets2/images/rank/7.png");
 }
 
 .afflilate-general-chart {
@@ -1164,4 +1164,23 @@ ul .nodata {
 }
 .hide-sensitive-data {
   position: relative;
+}
+
+@media screen and (max-width: 350px) {
+  .btn-wallet.px-\[15px\] {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    
+  }
+  .btn-wallet.px-\[15px\] .gap-x-4 {
+    gap: .5rem !important
+  }
+
+  .btn-streak.px-2\.5 {
+    padding-right: 0.25rem !important
+  }
+
+  .btn-noti.pl-2 {
+    padding-left: .25rem !important;
+  }
 }

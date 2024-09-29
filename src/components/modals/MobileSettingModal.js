@@ -13,10 +13,9 @@ import useAuth from "@/hooks/useAuth";
 import useLocale from "@/hooks/useLocales";
 
 const MobileSettingModal = () => {
-    const {t } = useTranslation();
+    const {t, i18n } = useTranslation();
     const router = useRouter();
     const pathname = usePathname();
-
     const [auth, setAuth] = useAuth();
 
     const { hideBalances, setHideBalances } = useContext(UIContext);
@@ -70,6 +69,7 @@ const MobileSettingModal = () => {
         return (e) => {
             e.preventDefault();
             changeLanguage(newLocale);
+            i18n.changeLanguage(newLocale)
             //router.replace(pathname, { locale: newLocale });
         };
     };

@@ -326,7 +326,7 @@ const BetPanel = () => {
                             </svg>
                         </button>
                         <div className="bg-custom-chart-title rounded-[10px] text-light py-1.5 px-2 flex flex-col justify-center items-center h-[47px] sm:h-[30px] lg:h-[60px] disabled:cursor-not-allowed">
-                            <div className="text-sm sm:text-[10px] lg:text-sm">
+                            <div className="text-sm sm:text-[10px] lg:text-sm whitespace-nowrap">
                                 {isBetSession ? t("please_bet") : t("wait_time")}
                             </div>
                             <div className="text-lg sm:text-[10px] lg:text-lg leading-[1.75rem] sm:leading-[normal] lg:leading-[1.75rem] font-bold">

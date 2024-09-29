@@ -21,7 +21,7 @@ const Subbanner = () => {
                                 <div className="h-full items-center flex">
                                     <div className="flex items-center">
                                         <div className="">
-                                            <div className="bg-[url('http://localhost:3001/assets2/images/invite-1.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
+                                            <div className="bg-[url('~/public/assets2/images/invite-1.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
                                         </div>
                                         <div>
                                             <div className="text-content">
@@ -43,7 +43,7 @@ const Subbanner = () => {
                                 <div className="h-full items-center flex">
                                     <div className="flex items-center">
                                         <div className="">
-                                            <div className="bg-[url('http://localhost:3001/assets2/images/invite-2.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
+                                            <div className="bg-[url('~/public/assets2/images/invite-2.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
                                         </div>
                                         <div>
                                             <div className="text-content">
@@ -63,7 +63,7 @@ const Subbanner = () => {
                                 <div className="h-full items-center flex">
                                     <div className="flex items-center">
                                         <div className="">
-                                            <div className="bg-[url('http://localhost:3001/assets2/images/invite-3.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
+                                            <div className="bg-[url('~/public/assets2/images/invite-3.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
                                         </div>
                                         <div>
                                             <div className="text-content">
@@ -87,7 +87,7 @@ const Subbanner = () => {
                             <div className="h-full items-center flex">
                                 <div className="flex items-center">
                                     <div className="">
-                                        <div className="bg-[url('http://localhost:3001/assets2/images/invite-1.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
+                                        <div className="bg-[url('~/public/assets2/images/invite-1.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
                                     </div>
                                     <div>
                                         <div className="text-content">
@@ -107,7 +107,7 @@ const Subbanner = () => {
                             <div className="h-full items-center flex">
                                 <div className="flex items-center">
                                     <div className="">
-                                        <div className="bg-[url('http://localhost:3001/assets2/images/invite-2.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
+                                        <div className="bg-[url('~/public/assets2/images/invite-2.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
                                     </div>
                                     <div>
                                         <div className="text-content">
@@ -125,7 +125,7 @@ const Subbanner = () => {
                             <div className="h-full items-center flex">
                                 <div className="flex items-center">
                                     <div className="">
-                                        <div className="bg-[url('http://localhost:3001/assets2/images/invite-3.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
+                                        <div className="bg-[url('~/public/assets2/images/invite-3.svg')] w-[52px] h-[55px] mr-4 bg-cover bg-no-repeat"></div>
                                     </div>
                                     <div>
                                         <div className="text-content">

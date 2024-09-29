@@ -132,7 +132,7 @@ const ClaimPopupModal = () => {
                         <div className="bg-secondarySidebar p-0 relative flex flex-col w-full border border-black/20 rounded-[.3rem] outline-0 h-full lg:h-auto">
                             <header className="border-none relative w-full flex items-start justify-between p-4 rounded-t-[calc(.3rem-1px)]">
                                 <span
-                                    className="bg-[url('http://localhost:3001/assets2/images/icon-close.png')] block w-[29px] h-[29px] m-2 lg:m-0 absolute right-0 lg:-right-[50px] top-0 cursor-pointer"
+                                    className="bg-[url('~/public/assets2/images/icon-close.png')] block w-[29px] h-[29px] m-2 lg:m-0 absolute right-0 lg:-right-[50px] top-0 cursor-pointer"
                                     onClick={handleClose}
                                 ></span>
                                 <h3 className="modal-title text-[24px] leading-[1.5] font-medium">

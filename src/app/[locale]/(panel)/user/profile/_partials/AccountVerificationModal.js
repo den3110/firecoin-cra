@@ -10,8 +10,10 @@ import clsx from "clsx";
 import HttpClient from "@/services/HttpClient";
 import { useSnackbar } from "notistack";
 import Loading from "@/components/Loading";
+import useAuth from "@/hooks/useAuth";
 
 const AccountVerificationModal = ({ open, onClose }) => {
+    const [auth, setAuth]= useAuth()
     const {t } = useTranslation();
 
     const { enqueueSnackbar } = useSnackbar();
@@ -115,7 +117,7 @@ const AccountVerificationModal = ({ open, onClose }) => {
                         enqueueSnackbar(t(data.err_code), { variant: "error" });
                         return;
                     }
-
+                    setAuth({...auth, user: {...auth.user, kyc: "OPEN"}})
                     setStep(3);
                 })
                 .finally(() => {
@@ -355,7 +357,7 @@ const AccountVerificationModal = ({ open, onClose }) => {
                                                         }}
                                                         onClick={handleUploadFront}
                                                     >
-                                                        <span className="bg-[url('http://localhost:3001/assets2/images/icon-upload.svg')] bg-no-repeat bg-[50%] absolute top-0 left-0 w-full h-full z-[10]"></span>
+                                                        <span className="bg-[url('~/public/assets2/images/icon-upload.svg')] bg-no-repeat bg-[50%] absolute top-0 left-0 w-full h-full z-[10]"></span>
                                                         <input
                                                             ref={frontFileRef}
                                                             type="file"
@@ -366,7 +368,7 @@ const AccountVerificationModal = ({ open, onClose }) => {
                                                     </div>
                                                 </div>
                                                 <div className="col-span-2 lg:col-span-1">
-                                                    <div className="bg-[url('http://localhost:3001/assets2/images/front-sample.svg')] border border-secondary-400 overflow-hidden rounded-[5px] block w-[90%] h-[150px] mx-auto relative bg-[length:90%] bg-light bg-no-repeat bg-[50%_center]"></div>
+                                                    <div className="bg-[url('~/public/assets2/images/front-sample.svg')] border border-secondary-400 overflow-hidden rounded-[5px] block w-[90%] h-[150px] mx-auto relative bg-[length:90%] bg-light bg-no-repeat bg-[50%_center]"></div>
                                                 </div>
                                             </div>
                                             <div className="mb-4 grid grid-cols-2 gap-2">
@@ -381,7 +383,7 @@ const AccountVerificationModal = ({ open, onClose }) => {
                                                         }}
                                                         onClick={handleUploadBack}
                                                     >
-                                                        <span className="bg-[url('http://localhost:3001/assets2/images/icon-upload.svg')] bg-no-repeat bg-[50%] absolute top-0 left-0 w-full h-full z-[10]"></span>
+                                                        <span className="bg-[url('~/public/assets2/images/icon-upload.svg')] bg-no-repeat bg-[50%] absolute top-0 left-0 w-full h-full z-[10]"></span>
                                                         <input
                                                             ref={backFileRef}
                                                             type="file"
@@ -392,7 +394,7 @@ const AccountVerificationModal = ({ open, onClose }) => {
                                                     </div>
                                                 </div>
                                                 <div className="col-span-2 lg:col-span-1">
-                                                    <div className="bg-[url('http://localhost:3001/assets2/images/back-sample.svg')] border border-secondary-400 overflow-hidden rounded-[5px] block w-[90%] h-[150px] mx-auto relative bg-[length:90%] bg-light bg-no-repeat bg-[50%_center]"></div>
+                                                    <div className="bg-[url('~/public/assets2/images/back-sample.svg')] border border-secondary-400 overflow-hidden rounded-[5px] block w-[90%] h-[150px] mx-auto relative bg-[length:90%] bg-light bg-no-repeat bg-[50%_center]"></div>
                                                 </div>
                                             </div>
                                         </>

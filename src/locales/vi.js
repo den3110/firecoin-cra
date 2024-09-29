@@ -297,7 +297,7 @@ const vi = {
     register: "Đăng ký",
     a_verification_link_has: "Một liên kết xác nhận đã được gửi tới",
     please_wait_a_few_minutes: "Vui lòng chờ ít phút để nhận liên kết xác nhận và kích hoạt tài khoản của bạn.",
-    already_have_an_account: "Đã có <div class='text-domain d-inline-block'>{domain}</div> tài khoản?",
+    already_have_an_account: "Đã có <div class='text-domain d-inline-block'>{{domain}}</div> tài khoản?",
     confirmation_email_sent: "Đã gửi email xác nhận!",
     a_verification_link_has_been: "Một liên kết xác nhận đã được gửi tới email đăng ký của bạn.",
     please_enter_your_email: "Vui lòng nhập địa chỉ email của bạn để nhận email xác nhận khác.",
@@ -1153,7 +1153,7 @@ const vi = {
     wealth_within_your_reach: "Thịnh vượng trong tầm tay",
     just_enjoy_your_best_rates: "Dễ dàng giao dịch và gia tăng tài sản trong tích tắc",
     start_trading: "Bắt đầu giao dịch",
-    the_features_of_wefinex: "Các tính năng của {domain}",
+    the_features_of_wefinex: "Các tính năng của {{domain}}",
     protection_security: "Các công cụ giao dịch chuyên nghiệp",
     top_loss_and_take_profit_orders:
         "Nhanh chóng có được cái nhìn sâu sắc về biến động thị trường. Ra quyết định chính xác và kiếm lời trong phút chốc.",
@@ -1290,7 +1290,7 @@ const vi = {
     show_balance: "Hiện số dư",
     twofactor_authentication: "Xác minh bảo mật",
     google_authentication_code: "Mã Google Authentication",
-    create_account: "Tạo tài khoản {domain}",
+    create_account: "Tạo tài khoản {{domain}}",
     transfer_successfully: "Chuyển tiền thành công",
     choose_your_account: "Chọn tài khoản của bạn",
     i_understand_and_agree: "Tôi hiểu và đồng ý",
@@ -1339,7 +1339,7 @@ const vi = {
     more_setting: "Cài đặt",
     orders: "Lệnh",
     usdt_network: "Mạng USDT",
-    wefinex_support: "CSKH {domain}",
+    wefinex_support: "CSKH {{domain}}",
     i_have_read_and_i_agree_to: "Tôi đã đọc và đồng ý với ",
     lending_service_agreement: "Điều khoản Vay",
     trades_history: "Lịch sử Giao dịch",
@@ -1386,7 +1386,7 @@ const vi = {
     transfer_amount: "Số lượng chuyển",
     invite_friends: "Mời bạn",
     friends_sign_up: "Bạn đăng ký",
-    invite_friends_to_register_through_the_link: "Mời bạn đăng ký {domain} qua liên kết",
+    invite_friends_to_register_through_the_link: "Mời bạn đăng ký {{domain}} qua liên kết",
     friends_accept_the_invitation_complete_registration_and_play:
         "Bạn của bạn đồng ý lời mới, hoàn tất đăng ký và giao dịch",
     get_a_corresponding_proportion_of_commission: "Nhận phần hoa hồng tương ứng",
@@ -1627,7 +1627,7 @@ const vi = {
     general_questions: "Câu hỏi chung",
     fund_management: "Quản lý quỹ",
     trading: "Giao dịch",
-    "how-to-register": "Cách đăng ký {domain}",
+    "how-to-register": "Cách đăng ký {{domain}}",
     "common-questions-and-limits": "Các câu hỏi thường gặp và Giới hạn",
     "price-index-calculation": "Tính toán Chỉ số giá",
     communications: "Giao tiếp",
@@ -1638,8 +1638,8 @@ const vi = {
     "term-and-termination": "Thời hạn và Chấm dứt",
     "final-provisions": "Nguyên tắc",
     "rights-and-obligations": " Quyền và nghĩa vụ",
-    "how-to-deposit": "Làm sao để nạp tiền vào {domain}?",
-    "how-to-withdraw": "Làm sao để rút tiền từ {domain}?",
+    "how-to-deposit": "Làm sao để nạp tiền vào {{domain}}?",
+    "how-to-withdraw": "Làm sao để rút tiền từ {{domain}}?",
     "main-wallet-how-to-do-internal-transfer-to-other-users-with-win-btc-eth-usdt-erc20":
         "Ví chính - Làm sao để thực hiện Chuyển tiền nội bộ?",
     "exchange-wallet-live-account-and-demo-account": "Ví giao dịch  - tài khoản Live và tài khoản Demo",
@@ -1706,7 +1706,7 @@ const vi = {
     follow_3_steps: "Chỉ với 3 bước",
     lucky_draw_info_guide_content:
         "<h4>Quy tắc Rút thăm May mắn</h4><p>Wefinex tự hào ra mắt chiến dịch quảng bá mới nhất của chúng tôi: Rút thăm May mắn Hàng ngày. Vào lúc 00:00:00 (UTC) mỗi ngày, hệ thống của chúng tôi sẽ tự động chọn 3 người chiến thắng may mắn để nhận 3 iPhone 11 Pro (iPhone 11 Pro Max 64Gb tương đương với $1,000).</p><p>Quy tắc tham gia: với mỗi khối lượng giao dịch $10, bạn sẽ nhận được một vé may mắn. Những tấm vé may mắn đại diện cho cơ hội chiến thắng của bạn. Người dùng sở hữu nhiều vé may mắn hơn sẽ có nhiều cơ hội giành được giải thưởng chương trình Rút thăm May mắn Hàng ngày. Vì vậy, bạn càng giao dịch nhiều thì bạn càng có nhiều cơ hội chiến thắng.</p><p>Mỗi người dùng chỉ có thể giành được 1 iPhone mỗi ngày. Tất cả những người chiến thắng của những ngày trước đều đủ điều kiện tham gia chương trình Rút thăm May mắn Hàng ngày tiếp theo. Số lượng vé may mắn sẽ tự động đếm lại từ đầu vào lúc 00:00:00 (UTC) mỗi ngày (Lượng vé mỗi ngày dựa trên khối lượng giao dịch của ngày đó). Với Wefinex Daily Lucky Draw, mỗi ngày bạn đều có cơ hội mới để giành được iPhone!</p><p>Cách người chiến thắng nhận được phần thưởng của họ: trong vòng 24 giờ sau khi danh sách người chiến thắng được công bố, họ sẽ nhận được 1,000 WIN vào tài khoản Ví WIN.</p>",
-    register_to_wefinex: "Đăng ký {domain}",
+    register_to_wefinex: "Đăng ký {{domain}}",
     trade_and_earn_more_tickets: "Giao dịch và nhận thêm vé",
     the_more_you_trade_the_better_chance_you_can_win: "Bạn càng giao dịch nhiều thì bạn càng có nhiều cơ hội nhận giải",
     win_2: "Nhận giải",
@@ -1785,8 +1785,8 @@ const vi = {
     paste: "Paste",
     err_kyc_required_reach_win_amount_limit: "Lỗi rút tiền: Cần hoàn tất Xác minh danh tính",
     err_kyc_required_reach_maximum_withdraw_mount: "Lỗi rút tiền: Cần hoàn tất Xác minh danh tính",
-    need_account: "Cần tài khoản {domain}?",
-    have_account: "Có tài khoản {domain}?",
+    need_account: "Cần tài khoản {{domain}}?",
+    have_account: "Có tài khoản {{domain}}?",
     joinnow: "Đăng ký",
     what_is_ft_trading: "FT Trading là gì",
     ft_trading_research_provides:
@@ -1837,9 +1837,9 @@ const vi = {
     sign_in_from: "Đăng nhập từ thiết bị khác",
     your_account: "Tài khoản của bạn đã được đăng nhập từ",
     if_you_dont_recognize: "Nếu bạn không nhận ra hoạt động này, vui lòng liên hệ chúng tôi ngay lập tức.",
-    join_to_earn_unlimited_income_today: "Tham gia {site} để kiếm thu nhập không giới hạn ngay hôm nay!",
+    join_to_earn_unlimited_income_today: "Tham gia {{site}} để kiếm thu nhập không giới hạn ngay hôm nay!",
     by_introducing_a_better_way_to_trade:
-        "Bằng cách giới thiệu một cách tốt hơn để giao dịch và kiếm tiền, {site} là lựa chọn tốt nhất của bạn khi giao dịch trực tuyến. Bất kể kỹ năng giao dịch như thế nào, mọi người đều có thể phát triển chiến lược giao dịch để có lợi nhuận và kiếm thu nhập bền vững trên {site}.",
+        "Bằng cách giới thiệu một cách tốt hơn để giao dịch và kiếm tiền, {{site}} là lựa chọn tốt nhất của bạn khi giao dịch trực tuyến. Bất kể kỹ năng giao dịch như thế nào, mọi người đều có thể phát triển chiến lược giao dịch để có lợi nhuận và kiếm thu nhập bền vững trên {{site}}.",
     fast_deposits__withdrawals: "Nạp Rút Nhanh Chóng",
     deposit_and_withdraw_your_funds_quickly_and_securely_using_popular_cryptocurrencies:
         "Nạp rút nhanh chóng và an toàn bằng cách sử dụng các loại tiền mã hóa phổ biến.",
@@ -1848,7 +1848,7 @@ const vi = {
         "Nền tảng của chúng tôi được xây dựng cho tất cả nhà giao dịch, từ người mới bắt đầu đến các chuyên gia. Với Monera, các nhà giao dịch có thể kiếm được nhiều nguồn thu nhập từ cả việc giao dịch lẫn trở thành Thành viên VIP. Đội ngũ của chúng tôi không ngừng cải tiến và đổi mới để đưa ra giải pháp giao dịch thuận tiện, an toàn và sáng tạo nhất trên thế giới.",
     toptier_security: "Bảo mật hàng đầu",
     we_utilize_stateoftheart:
-        "Tại {site}, chúng tôi sử dụng công nghệ bảo vệ tài sản và dữ liệu hiện đại nhất để tăng cường bảo mật cho tài sản của bạn.",
+        "Tại {{site}}, chúng tôi sử dụng công nghệ bảo vệ tài sản và dữ liệu hiện đại nhất để tăng cường bảo mật cho tài sản của bạn.",
     innovative_indicators: "Các chỉ số giao dịch tiên tiến",
     our_indicators_are_calculated_from_highly_sophisticated_algorithms_but_still_simple_enough_for_traders_to_use:
         "Các chỉ báo của chúng tôi được tính toán từ các thuật toán rất phức tạp nhưng vẫn đủ đơn giản để các nhà giao dịch sử dụng.",
@@ -1857,11 +1857,11 @@ const vi = {
         "Dữ liệu giá theo thời gian thực được cung cấp bởi các sàn giao dịch tiền mã hóa hàng đầu.",
     what_our_clients_are_say: "Khách hàng nói về chúng tôi",
     testimonial_4:
-        "Giao dịch trên nền tảng {site} là một trải nghiệm tuyệt vời. Giao dịch nhanh chóng, đơn giản nhưng mang lại lợi nhuận cao! Mục tiêu của tôi bây giờ là tối ưu hóa tỷ lệ thắng của tôi để kiếm được nhiều hơn!",
+        "Giao dịch trên nền tảng {{site}} là một trải nghiệm tuyệt vời. Giao dịch nhanh chóng, đơn giản nhưng mang lại lợi nhuận cao! Mục tiêu của tôi bây giờ là tối ưu hóa tỷ lệ thắng của tôi để kiếm được nhiều hơn!",
     testimonial_5:
-        "Là một freelancer khiến tôi có những khoản thu nhập không ổn định, nhưng giờ tôi đã xây dựng được một nguồn thu nhập bền vững không chỉ từ giao dịch hàng ngày mà còn từ tiền hoa hồng bằng cách trở thành Thành viên VIP của {site}.",
+        "Là một freelancer khiến tôi có những khoản thu nhập không ổn định, nhưng giờ tôi đã xây dựng được một nguồn thu nhập bền vững không chỉ từ giao dịch hàng ngày mà còn từ tiền hoa hồng bằng cách trở thành Thành viên VIP của {{site}}.",
     testimonial_6:
-        "Làm việc cho một tập đoàn lớn đã tạo cho tôi rất nhiều áp lực. Tôi đã có thể kiếm được nhiều tiền hơn tất cả những công việc mà tôi đã làm trong quá khứ sau khi dành thời gian học cách giao dịch trên {site}!",
+        "Làm việc cho một tập đoàn lớn đã tạo cho tôi rất nhiều áp lực. Tôi đã có thể kiếm được nhiều tiền hơn tất cả những công việc mà tôi đã làm trong quá khứ sau khi dành thời gian học cách giao dịch trên {{site}}!",
     learn_more: "Xem thêm",
     oscillators_are_leading_indicators_that_can_signal_a_possible_upcoming_trend_change:
         "Các Chỉ báo Oscillators là các chỉ báo trước có thể báo hiệu sự thay đổi xu hướng sắp tới có thể xảy ra.",
@@ -1916,13 +1916,13 @@ const vi = {
     welcome_to_the_ultimate_platform_to_trade_and_earn_every_time_everywhere_our_platform_has_everything_youre_looking_for_from_multichart_layout_technical_analysis_and_demo_account_to_educational_resources_all_built_with_the_ultimate_goal_help_traders_earn_significant_income_effortlessly_from_fixedtime_trading:
         "Chào mừng bạn đến với nền tảng tối ưu để giao dịch và kiếm tiền mọi lúc, mọi nơi.",
     top_agency_week_desc:
-        "<p>Thứ hạng của bạn sẽ CHỈ được tính từ lượng Hoa hồng bạn nhận dựa trên Khối lượng Giao dịch của tuyến dưới trực tiếp (F1) trong thời gian thi đấu. Khối lượng Giao dịch của tuyến dưới trực tiếp phải từ tài khoản Live. Tất cả Thành viên VIP đều đủ điều kiện tham gia Giải đấu này. Các tài khoản Thành viên VIP được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 Thành viên VIP có cùng Khối lượng Giao dịch của tuyến dưới trực tiếp, Hoa hồng Thành viên VIP của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p>{domain} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
+        "<p>Thứ hạng của bạn sẽ CHỈ được tính từ lượng Hoa hồng bạn nhận dựa trên Khối lượng Giao dịch của tuyến dưới trực tiếp (F1) trong thời gian thi đấu. Khối lượng Giao dịch của tuyến dưới trực tiếp phải từ tài khoản Live. Tất cả Thành viên VIP đều đủ điều kiện tham gia Giải đấu này. Các tài khoản Thành viên VIP được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 Thành viên VIP có cùng Khối lượng Giao dịch của tuyến dưới trực tiếp, Hoa hồng Thành viên VIP của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p>{{domain}} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
     top_agency_month_desc:
-        "<p>Thứ hạng của bạn sẽ CHỈ được tính từ lượng Hoa hồng bạn nhận dựa trên Khối lượng Giao dịch của tuyến dưới trực tiếp (F1) trong thời gian thi đấu. Khối lượng Giao dịch của tuyến dưới trực tiếp phải từ tài khoản Live. Tất cả Thành viên VIP đều đủ điều kiện tham gia Giải đấu này. Các tài khoản Thành viên VIP được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 Thành viên VIP có cùng Khối lượng Giao dịch của tuyến dưới trực tiếp, Hoa hồng Thành viên VIP của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p>{domain} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
+        "<p>Thứ hạng của bạn sẽ CHỈ được tính từ lượng Hoa hồng bạn nhận dựa trên Khối lượng Giao dịch của tuyến dưới trực tiếp (F1) trong thời gian thi đấu. Khối lượng Giao dịch của tuyến dưới trực tiếp phải từ tài khoản Live. Tất cả Thành viên VIP đều đủ điều kiện tham gia Giải đấu này. Các tài khoản Thành viên VIP được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 Thành viên VIP có cùng Khối lượng Giao dịch của tuyến dưới trực tiếp, Hoa hồng Thành viên VIP của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p>{{domain}} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
     top_week_desc:
-        "<p>Thứ hạng của bạn sẽ được tính từ khối lượng Giao dịch của bạn trong thời gian thi đấu. Khối lượng giao dịch phải từ tài khoản Live. Tất cả người dùng đều đủ điều kiện tham gia Giải đấu này. Các tài khoản được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 nhà giao dịch có cùng khối lượng Giao dịch, Lợi nhuận của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p class='mb-5'>{domain} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
+        "<p>Thứ hạng của bạn sẽ được tính từ khối lượng Giao dịch của bạn trong thời gian thi đấu. Khối lượng giao dịch phải từ tài khoản Live. Tất cả người dùng đều đủ điều kiện tham gia Giải đấu này. Các tài khoản được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 nhà giao dịch có cùng khối lượng Giao dịch, Lợi nhuận của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p class='mb-5'>{{domain}} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
     top_month_desc:
-        "<p>Thứ hạng của bạn sẽ được tính từ khối lượng Giao dịch của bạn trong thời gian thi đấu. Khối lượng giao dịch phải từ tài khoản Live. Tất cả người dùng đều đủ điều kiện tham gia Giải đấu này. Các tài khoản được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 nhà giao dịch có cùng khối lượng Giao dịch, Lợi nhuận của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p class='mb-5'>{domain} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
+        "<p>Thứ hạng của bạn sẽ được tính từ khối lượng Giao dịch của bạn trong thời gian thi đấu. Khối lượng giao dịch phải từ tài khoản Live. Tất cả người dùng đều đủ điều kiện tham gia Giải đấu này. Các tài khoản được thưởng trong các Giải đấu khác cũng sẽ được nhận phần thưởng từ Giải đấu này nếu đủ điều kiện.</p><p>Nếu có nhiều hơn 1 nhà giao dịch có cùng khối lượng Giao dịch, Lợi nhuận của họ trong thời gian thi đấu sẽ được xem xét để quyết định thứ hạng của họ.</p><p class='mb-5'>{{domain}} bảo lưu quyền đưa ra quyết định cuối cùng về sự kiện này.</p>",
     time_range: "Khoảng thời gian",
     yesterday: "Hôm qua",
     last_7_days: "7 ngày gần nhất",
@@ -1965,7 +1965,7 @@ const vi = {
     InvalidToken: "Link hết hạn hoặc lỗi",
     already_activated: "Tài khoản của bạn đã được kích hoạt. Vui lòng đăng nhập như bình thường.",
     traders_can_earn_multiple:
-        " Với {site}, nhà giao dịch kiếm được nhiều nguồn thu nhập từ giao dịch và trở thành Thành viên VIP.",
+        " Với {{site}}, nhà giao dịch kiếm được nhiều nguồn thu nhập từ giao dịch và trở thành Thành viên VIP.",
     amount_demo_account: "Tài khoản Demo $1,000",
     test_your_trading_strategy_with_a_free_demo_account_before_putting_it_to_work:
         "Thử nghiệm chiến lược giao dịch của bạn với tài khoản demo miễn phí trước khi thực chiến.",
@@ -1982,7 +1982,7 @@ const vi = {
     explore_the_platform: "Khám phá nền tảng",
     see_what_its_like_to_trade_without_putting_your_money_at_risk: "Giao dịch thử nghiệm không cần dùng tiền thật",
     trade_earn: "Giao dịch & Kiếm tiền",
-    making_money_predicting: " Với {site}, việc kiếm tiền từ dự đoán giá tài sản trở nên dễ dàng hơn bao giờ hết!",
+    making_money_predicting: " Với {{site}}, việc kiếm tiền từ dự đoán giá tài sản trở nên dễ dàng hơn bao giờ hết!",
     professional_artist: "Chuyên gia đồ họa",
     freelancer: "Nghề tụ do",
     financial_analyst: "Chuyên gia tài chính",
@@ -2012,7 +2012,7 @@ const vi = {
     shogunbo_trade_now_trade_now: "Bắt đầu giao dịch ngay",
     "what-is-a-binary-option": "Quyền chọn Nhị phân là gì?",
     "what-happens-when-you-make-a-buy-or-sell-order":
-        "Điều gì xảy ra khi bạn thực hiện lệnh MUA hoặc BÁN tại {domain}?",
+        "Điều gì xảy ra khi bạn thực hiện lệnh MUA hoặc BÁN tại {{domain}}?",
     bitcacao_main_banner_title: "Sàn giao dịch tài sản số hàng đầu ",
     bitcacao_main_banner_text: "Bitcacao là nền tảng dễ dàng và an toàn nhất để giao dịch tài sản số.",
     bitcacao_introduce_title: "Trải nghiệm giao dịch mới",
@@ -2092,7 +2092,7 @@ const vi = {
         "FT Trading là một nền tảng tuyệt vời cho bất kỳ ai muốn tạo ra nhiều nguồn thu nhập. Tôi đã kiếm được số tiền kha khá từ giao dịch ở đây, nhưng sau khi trở thành Thành viên VIP và xây dựng một vài nhóm giao dịch tích cực hoạt động, thu nhập thụ động từ Hoa hồng giao dịch đã tăng lên theo cấp số nhân!",
     earn_unlimited_income_in_minutes: "Kiếm thu nhập không giới hạn trong vài phút",
     thriving_to_become:
-        "Phát triển mạnh mẽ để trở thành một trong những nền tảng giao dịch tốt nhất trên thế giới, {site} cam kết cung cấp cho khách hàng trải nghiệm giao dịch tốt nhất.",
+        "Phát triển mạnh mẽ để trở thành một trong những nền tảng giao dịch tốt nhất trên thế giới, {{site}} cam kết cung cấp cho khách hàng trải nghiệm giao dịch tốt nhất.",
     get_started_for_free: "GET STARTED FOR FREE",
     your_allinone_trading_platform: "Nền tảng giao dịch toàn năng của bạn",
     we_proudly_present_to_all_traders:
@@ -2173,12 +2173,12 @@ const vi = {
         "Tự tin giao dịch trên nền tảng giao dịch nhanh nhất và đáng tin cậy nhất. Tìm cơ hội giao dịch sinh lời với các công cụ giao dịch sáng tạo của chúng tôi mọi lúc, mọi nơi trên thế giới.",
     aresbo_trade_faster_title: "Giao dịch chưa bao giờ dễ dàng hơn với Ravo",
     provides_exceptional_trading_experience:
-        "{site} cung cấp trải nghiệm giao dịch đặc biệt cho khách hàng bằng cách phát triển các chỉ báo chuyên sâu giúp các nhà giao dịch đưa ra quyết định giao dịch tốt hơn.",
+        "{{site}} cung cấp trải nghiệm giao dịch đặc biệt cho khách hàng bằng cách phát triển các chỉ báo chuyên sâu giúp các nhà giao dịch đưa ra quyết định giao dịch tốt hơn.",
     aresbo_choise_difference_title: "Một sàn giao dịch mạnh mẽ và sáng tạo",
     aresbo_choise_difference_text: "Ravo là nơi tốt nhất để giao dịch vì tính đơn giản, tiện lợi và mới mẻ.",
     aresbo_property_1_title: "Bảo mật cao",
     trading_is_fast_and_stable:
-        "Giao dịch trên {site} nhanh chóng và ổn định nhờ vào nền tảng giao dịch hiệu suất cao được bảo vệ bởi hệ thống bảo mật đẳng cấp thế giới.",
+        "Giao dịch trên {{site}} nhanh chóng và ổn định nhờ vào nền tảng giao dịch hiệu suất cao được bảo vệ bởi hệ thống bảo mật đẳng cấp thế giới.",
     powerful_platform: "Nền tảng mạnh mẽ",
     simplify_your_trading_with:
         "Đơn giản hóa giao dịch của bạn với các tính năng sáng tạo và công nghệ tiên tiến của chúng tôi.",
@@ -2189,13 +2189,13 @@ const vi = {
     exbase_trade_at_exbase_title: "Tương Lai Của <br/>Giao Dịch Tài Sản Số",
     exbase_trade_at_exbase_text: "BẮT ĐẦU MIỄN PHÍ",
     site_is_best_place_to_trader:
-        "{site} là nơi tốt nhất để các nhà giao dịch kiếm được nhiều lợi nhuận. Với giao diện đơn giản mang lại trải nghiệm giao dịch đẳng cấp thế giới, {site} cung cấp mọi thứ bạn cần trong một nền tảng!",
+        "{{site}} là nơi tốt nhất để các nhà giao dịch kiếm được nhiều lợi nhuận. Với giao diện đơn giản mang lại trải nghiệm giao dịch đẳng cấp thế giới, {{site}} cung cấp mọi thứ bạn cần trong một nền tảng!",
     exbase_trading_experience_title: "Giao dịch tài sản kỹ thuật số.<br/>Mọi lúc. Mọi nơi",
     trading_experience_text:
-        "{site} là nền tảng giao dịch thế hệ mới sử dụng công nghệ hiện đại để cung cấp cho các nhà giao dịch chỉ số giá chính xác và minh bạch cũng như các chỉ báo kỹ thuật hiện đại.",
-    trade_faster_title: "Giao dịch nhanh và an toàn hơn<br/>với {site}",
+        "{{site}} là nền tảng giao dịch thế hệ mới sử dụng công nghệ hiện đại để cung cấp cho các nhà giao dịch chỉ số giá chính xác và minh bạch cũng như các chỉ báo kỹ thuật hiện đại.",
+    trade_faster_title: "Giao dịch nhanh và an toàn hơn<br/>với {{site}}",
     trade_faster_text:
-        "{site} cung cấp trải nghiệm giao dịch đặc biệt cho khách hàng của chúng tôi bằng cách đơn giản hóa quy trình giao dịch để các nhà giao dịch có thể tập trung ra quyết định tốt hơn để gia tăng lợi nhuận.",
+        "{{site}} cung cấp trải nghiệm giao dịch đặc biệt cho khách hàng của chúng tôi bằng cách đơn giản hóa quy trình giao dịch để các nhà giao dịch có thể tập trung ra quyết định tốt hơn để gia tăng lợi nhuận.",
     exbase_property_1_title: "Tài khoản demo miễn phí",
     exbase_property_1_text: "Thử nghiệm chiến lược giao dịch không giới hạn với tài khoản demo $1,000.",
     exbase_property_2_title: "Nạp tối thiểu thấp",
@@ -2203,20 +2203,20 @@ const vi = {
     exbase_property_3_title: "Lệnh tối thiểu thấp",
     exbase_property_3_text: "Bắt đầu giao dịch chỉ với $1.",
     clients_say_content_1:
-        "Một trong những cách tốt nhất để bắt đầu giao dịch là với {site}. Sau một vài ngày khám phá các kỹ thuật giao dịch, tôi đã nhân đôi số tiền ban đầu của mình! Việc giao dịch rất dễ dàng và giao diện đơn giản dễ sử dụng; các chỉ báo của họ thực sự đã giúp tôi đưa ra quyết định giao dịch nhanh chóng.",
+        "Một trong những cách tốt nhất để bắt đầu giao dịch là với {{site}}. Sau một vài ngày khám phá các kỹ thuật giao dịch, tôi đã nhân đôi số tiền ban đầu của mình! Việc giao dịch rất dễ dàng và giao diện đơn giản dễ sử dụng; các chỉ báo của họ thực sự đã giúp tôi đưa ra quyết định giao dịch nhanh chóng.",
     clients_say_content_2:
-        "Giao dịch trên các nền tảng khác nhau trong thời gian rảnh khiến tôi nhận ra rằng {site} là lựa chọn tốt nhất cho những người như tôi, những người không thể giao dịch toàn thời gian. Bây giờ {site} đã giúp tôi đạt được thu nhập mơ ước, hoàn toàn không có gì ngăn cản tôi tự nhận mình là một nhà giao dịch chuyên nghiệp!",
+        "Giao dịch trên các nền tảng khác nhau trong thời gian rảnh khiến tôi nhận ra rằng {{site}} là lựa chọn tốt nhất cho những người như tôi, những người không thể giao dịch toàn thời gian. Bây giờ {{site}} đã giúp tôi đạt được thu nhập mơ ước, hoàn toàn không có gì ngăn cản tôi tự nhận mình là một nhà giao dịch chuyên nghiệp!",
     clients_say_content_3:
-        "{site} là một phương pháp mới thú vị để kiếm tiền trực tuyến mà không cần có bất kỳ kinh nghiệm nào trước đó! Tôi đã giao dịch trên {site} trong vài tháng trước khi quyết định trở thành đại lý và xây dựng nhiều nhóm giao dịch hoạt động chăm chỉ. {site} không chỉ giúp tôi kiếm tiền từ giao dịch mà còn mang lại cho tôi một nguồn thu nhập khác - thu nhập thụ động từ nhận hoa hồng!",
+        "{{site}} là một phương pháp mới thú vị để kiếm tiền trực tuyến mà không cần có bất kỳ kinh nghiệm nào trước đó! Tôi đã giao dịch trên {{site}} trong vài tháng trước khi quyết định trở thành đại lý và xây dựng nhiều nhóm giao dịch hoạt động chăm chỉ. {{site}} không chỉ giúp tôi kiếm tiền từ giao dịch mà còn mang lại cho tôi một nguồn thu nhập khác - thu nhập thụ động từ nhận hoa hồng!",
     exbase_get_started_title: "Bắt đầu giao dịch sau <span class='text-primary'>5 phút</span>",
     exbase_get_started_description_1: "Tạo một tài khoản miễn phí với email của bạn.",
     exbase_get_started_description_2: "Nạp tiền bằng các loại tiền điện tử phổ biến.",
     exbase_get_started_description_3: "Kiếm tiền bằng cách dự đoán giá tài sản.",
     earn_unlimited_profits_regardless: "Kiếm lợi nhuận không giới hạn bất kể thời gian và địa điểm.",
-    easy_trade_point2: "Giao dịch thắng nhiều hơn bao giờ hết với các Chỉ báo mạnh mẽ của {site}.",
+    easy_trade_point2: "Giao dịch thắng nhiều hơn bao giờ hết với các Chỉ báo mạnh mẽ của {{site}}.",
     new_standard_of_trading_and_earning: "Đẳng cấp mới của <br /> Giao dịch và kiếm tiền",
     new_standard_of_trading_and_earning_text:
-        "Bằng việc giới thiệu phương pháp tốt hơn để giao dịch và kiếm tiền, {site} đã giúp khách hàng của chúng tôi đạt được thu nhập mơ ước bằng cách trở thành đại lý hoặc nhà giao dịch thành công.",
+        "Bằng việc giới thiệu phương pháp tốt hơn để giao dịch và kiếm tiền, {{site}} đã giúp khách hàng của chúng tôi đạt được thu nhập mơ ước bằng cách trở thành đại lý hoặc nhà giao dịch thành công.",
     exbase_start_your_journey_title: "Bắt đầu hành trình của bạn sau vài phút",
     earn_unlimited_trading_income: "Kiếm thu nhập giao dịch không giới hạn cũng như thu nhập thụ động ngay hôm nay!",
     agency_obligations: "Nghĩa vụ thành viên VIP",
@@ -2248,27 +2248,27 @@ const vi = {
     kitanex_earn_profits_within_minutes: "Đăng ký và kiếm tiền trong vòng vài phút.",
     bodefi_take_your_trading_to_the_next_level: "Tăng thu nhập theo cấp số nhân",
     committed_to_provide_excellen:
-        "{site} cam kết cung cấp trải nghiệm giao dịch tuyệt vời giúp tất cả mọi người để đạt được thu nhập mơ ước của họ.",
+        "{{site}} cam kết cung cấp trải nghiệm giao dịch tuyệt vời giúp tất cả mọi người để đạt được thu nhập mơ ước của họ.",
     bodefi_get_started_for_free: "GET STARTED FOR FREE",
-    simple_to_earn: "Thật đơn giản để kiếm tiền với {site}",
+    simple_to_earn: "Thật đơn giản để kiếm tiền với {{site}}",
     innovation_is_at_the_heart:
-        "Tại {site}, chúng tôi đơn giản hóa quy trình giao dịch để mọi người có thể bắt đầu kiếm tiền mà không cần nhiều kinh nghiệm.",
+        "Tại {{site}}, chúng tôi đơn giản hóa quy trình giao dịch để mọi người có thể bắt đầu kiếm tiền mà không cần nhiều kinh nghiệm.",
     trading_with_outstanding_results: "Đạt kết quả xuất sắc",
     highquality_indicators_help:
         "Ra quyết định tốt hơn và kiếm được nhiều lợi nhuận hơn với các chỉ số giao dịch của chúng tôi.",
     bodefi_a_choice_that_changes_the_future: "Nơi tốt nhất để giao dịch",
     constantly_improving_the_platform:
-        "Được phát triển thật đơn giản và tiện lợi, {site} là sự lựa chọn tốt nhất trong ngành.",
+        "Được phát triển thật đơn giản và tiện lợi, {{site}} là sự lựa chọn tốt nhất trong ngành.",
     bodefi_highlysecured_platform: "Bảo mật cao",
     with_years_of_experience:
-        "Phát triển dựa trên hệ thống bảo mật đẳng cấp thế giới, chúng tôi áp dụng các phương pháp tốt nhất để bảo vệ tài sản của bạn trên {site}.",
+        "Phát triển dựa trên hệ thống bảo mật đẳng cấp thế giới, chúng tôi áp dụng các phương pháp tốt nhất để bảo vệ tài sản của bạn trên {{site}}.",
     bodefi_allinone_trading_solution: "Nạp rút nhanh chóng",
     bodefi_trade_better_with_an_allinclusive_easytouse_trading_platform_that_is_suitable_for_all_you_need:
         "Nạp rút bằng các loại tiền điện tử phổ biến thật dễ dàng trên nền tảng chúng tôi.",
     bodefi_highquality_indicators: "Các chỉ báo dễ sử dụng",
     bodefi_bodefi_is_a_leading_developer_of_trading_indicators_that_are_thoroughly_calculated_but_simpletouse:
         "Các chỉ báo mạnh mẽ của cho phép các nhà giao dịch mới đạt được tỷ lệ thắng tương tự như các nhà giao dịch có kinh nghiệm.",
-    join_site_now: "Tham gia <span class='text-primary'>{site}</span> ngay hôm nay",
+    join_site_now: "Tham gia <span class='text-primary'>{{site}}</span> ngay hôm nay",
     bodefi_start_creating_your_dream_income_today: "Bắt đầu kiếm thu nhập mơ ước của bạn ngay bây giờ!",
     ladytrade_fast_and_easy_trading: "Giao dịch nhanh chóng và dễ dàng với các công cụ mạnh mẽ",
     ladytrade_our_exchange_has_an_intuitive_interface:
@@ -2287,22 +2287,22 @@ const vi = {
     ladytrade_register_and_start: "Đăng Ký Và Bắt Đầu Kiếm Thu Nhập Không Giới Hạn Ngay Hôm Nay.",
     metatrading_main_banner_title: "Nâng tầm kỹ năng giao dịch của bạn",
     committed_to_provide_excellent_trading:
-        "{site} cam kết cung cấp trải nghiệm giao dịch tuyệt vời cho khách hàng và nền tảng của chúng tôi được xây dựng để đáp ứng tất cả những chiến lược giao dịch phức tạp nhất.",
+        "{{site}} cam kết cung cấp trải nghiệm giao dịch tuyệt vời cho khách hàng và nền tảng của chúng tôi được xây dựng để đáp ứng tất cả những chiến lược giao dịch phức tạp nhất.",
     metatrading_introduce_title: "Trải nghiệm giao dịch mới",
     constantly_improving_platform:
-        "{site} không ngừng cải thiện nền tảng để mang đến trải nghiệm tốt hơn cho các nhà giao dịch. Do đó, {site} giúp các nhà giao dịch mới đạt được tỷ lệ thắng tương tự như các nhà giao dịch có kinh nghiệm.",
+        "{{site}} không ngừng cải thiện nền tảng để mang đến trải nghiệm tốt hơn cho các nhà giao dịch. Do đó, {{site}} giúp các nhà giao dịch mới đạt được tỷ lệ thắng tương tự như các nhà giao dịch có kinh nghiệm.",
     metatrading_trade_faster_title: "Giao dịch Với</br>Lợi nhuận Cao",
     high_quality_indicators_help_traders:
-        "Các chỉ báo kỹ thuật chất lượng cao của {site} giúp các nhà giao dịch đưa ra quyết định sáng suốt hơn và kiếm được lợi nhuận đáng kể.",
+        "Các chỉ báo kỹ thuật chất lượng cao của {{site}} giúp các nhà giao dịch đưa ra quyết định sáng suốt hơn và kiếm được lợi nhuận đáng kể.",
     metatrading_security_title: "Lựa chọn thay đổi tương lai",
     metatrading_security_text:
         "Sự đổi mới là trọng tâm của 1point, và chúng tôi tự hào mang đến cho khách hàng của mình một trải nghiệm giao dịch chưa từng có.",
     high_quality_indicators: "Các Chỉ báo kỹ thuật Chất lượng cao",
     leading_developer_of_trading_indicators:
-        "{site} là nhà phát triển hàng đầu với các chỉ số giao dịch được tính toán kỹ lưỡng và dễ sử dụng.",
+        "{{site}} là nhà phát triển hàng đầu với các chỉ số giao dịch được tính toán kỹ lưỡng và dễ sử dụng.",
     metatrading_security_item_title_2: "Nền tảng Bảo mật cao",
     with_years_of_experience_developing_security:
-        "Với nhiều năm kinh nghiệm phát triển các giao thức bảo mật cho nền tảng giao dịch, chúng tôi dùng những phương pháp tốt nhất bảo vệ tài sản của bạn trên {site}.",
+        "Với nhiều năm kinh nghiệm phát triển các giao thức bảo mật cho nền tảng giao dịch, chúng tôi dùng những phương pháp tốt nhất bảo vệ tài sản của bạn trên {{site}}.",
     all_in_one_trading_solution: "Giải pháp Giao dịch Trọn vẹn",
     trade_better_with_an_all_inclusive:
         "Giao dịch tốt hơn với nền tảng giao dịch toàn diện, dễ sử dụng, có tất cả những gì bạn cần.",
@@ -2341,14 +2341,14 @@ const vi = {
     deniex_traders_can_also_become_tiktak_affiliates_to_earn_passive_income_from_helping_other_members:
         "Các nhà giao dịch có thể đăng ký làm thành viên VIP của Vista và kiếm thu nhập thụ động bằng cách giúp các thành viên khác giao dịch.",
     deniex_what_our_clients_say: "Nhận xét của khách hàng",
-    join_site_exchange: "Tham gia Sàn {site}",
+    join_site_exchange: "Tham gia Sàn {{site}}",
     deniex_earn_unlimited_trading_income_as_well_as_passive_income_today: "Đăng ký và bắt đầu kiếm tiền ngay hôm nay!",
     testimonial_1:
-        "“{site} là một nền tảng mới mang tính cách mạng giúp giao dịch dễ dàng và mang lại lợi nhuận cho mọi người. Mục tiêu của sàn là trở thành nơi tốt nhất để giao dịch, từ người mới bắt đầu đến các chuyên gia, vì vậy họ giữ mọi thứ đơn giản nhưng hiệu quả và có dịch vụ khách hàng nhiệt tình!”",
+        "“{{site}} là một nền tảng mới mang tính cách mạng giúp giao dịch dễ dàng và mang lại lợi nhuận cho mọi người. Mục tiêu của sàn là trở thành nơi tốt nhất để giao dịch, từ người mới bắt đầu đến các chuyên gia, vì vậy họ giữ mọi thứ đơn giản nhưng hiệu quả và có dịch vụ khách hàng nhiệt tình!”",
     testimonial_2:
-        "“Tôi là một nhà giao dịch mới đang vật lộn để xây dựng sự nghiệp của mình. Tôi thấy {site} và nền tảng này thật tuyệt vời! Các chỉ báo giao dịch đã giúp tôi hiểu cách đưa ra quyết định giao dịch tốt nhất, cho đến nay tôi đã kiếm được 128% lợi nhuận.”",
+        "“Tôi là một nhà giao dịch mới đang vật lộn để xây dựng sự nghiệp của mình. Tôi thấy {{site}} và nền tảng này thật tuyệt vời! Các chỉ báo giao dịch đã giúp tôi hiểu cách đưa ra quyết định giao dịch tốt nhất, cho đến nay tôi đã kiếm được 128% lợi nhuận.”",
     testimonial_3:
-        "“Với sự giúp đỡ của {site}, tôi không mất nhiều thời gian để trở thành một nhà giao dịch. Nền tảng này trực quan và dễ sử dụng với nhiều chỉ báo hữu ích cho phép tôi đưa ra quyết định nhanh chóng.”",
+        "“Với sự giúp đỡ của {{site}}, tôi không mất nhiều thời gian để trở thành một nhà giao dịch. Nền tảng này trực quan và dễ sử dụng với nhiều chỉ báo hữu ích cho phép tôi đưa ra quyết định nhanh chóng.”",
     reward_wallet: "Ví thưởng",
     swap: "Swap",
     swap_from: "From",
@@ -2500,7 +2500,7 @@ const vi = {
     remitex_introduce_3_desc: "Dự đoán giá tài sản và kiếm tiền.",
     binanex_main_banner_title: "Sàn giao dịch đẳng cấp thế giới dành cho mọi người",
     binanex_main_banner_text:
-        "{site} là nền tảng giao dịch hàng đầu thế giới với mong muốn cung cấp trải nghiệm giao dịch đặc biệt cho khách hàng.",
+        "{{site}} là nền tảng giao dịch hàng đầu thế giới với mong muốn cung cấp trải nghiệm giao dịch đặc biệt cho khách hàng.",
     binanex_main_banner_info_1_title: "Tài khoản Demo $1,000",
     binanex_main_banner_info_1_text:
         "Thử nghiệm chiến lược giao dịch của bạn với một tài khoản demo miễn phí trước khi giao dịch thực tế.",
@@ -2515,23 +2515,23 @@ const vi = {
     binanex_discover_desc:
         "Giao dịch như một chuyên gia với Central - đơn giản, nhanh chóng và hiệu quả. Bằng việc đơn giản hóa trải nghiệm giao dịch, chúng tôi đảm bảo bạn sẽ dễ dàng giao dịch và tránh được những phức tạp không cần thiết.",
     binanex_erconomic_mechanisms_title: "Giải pháp giao dịch đơn giản nhưng hiệu quả",
-    binanex_erconomic_mechanisms_desc: "Đội ngũ {site} luôn tìm cách giúp mọi thứ trở nên dễ dàng hơn cho khách hàng.",
+    binanex_erconomic_mechanisms_desc: "Đội ngũ {{site}} luôn tìm cách giúp mọi thứ trở nên dễ dàng hơn cho khách hàng.",
     binanex_erconomic_mechanisms_property_1_title: "Ưu tiên bảo mật",
     binanex_erconomic_mechanisms_property_1_text:
         "Chúng tôi cố gắng hết sức để đảm bảo an toàn tuyệt đối cho tài sản của bạn.",
     binanex_erconomic_mechanisms_property_2_title: "Cùng giao dịch và kiếm tiền ",
     binanex_erconomic_mechanisms_property_2_text:
-        "Chương trình thành viên VIP hấp dẫn của chúng tôi khuyến khích mọi nhà giao dịch trên {site} kiếm tiền cùng với bạn bè của họ.",
+        "Chương trình thành viên VIP hấp dẫn của chúng tôi khuyến khích mọi nhà giao dịch trên {{site}} kiếm tiền cùng với bạn bè của họ.",
     binanex_erconomic_mechanisms_property_3_title: "Giao dịch với sự tự tin",
     binanex_erconomic_mechanisms_property_3_text:
-        "{site} có tất cả các công cụ cần thiết để bạn theo dõi và cải thiện kỹ năng giao dịch của mình.",
+        "{{site}} có tất cả các công cụ cần thiết để bạn theo dõi và cải thiện kỹ năng giao dịch của mình.",
     binanex_start_minutes_title: "Tham gia Central.",
     binanex_start_minutes_desc: "Bắt đầu tăng thu nhập ngay hôm nay!",
     pocinex_main_banner_title: "Cách tốt hơn để giao dịch và kiếm tiền",
     pocinex_main_banner_desc:
         "Moonata là một nền tảng giao dịch thế hệ mới giúp bạn giao dịch dễ dàng và có lợi nhuận cao. Mục tiêu của chúng tôi là trở thành nơi tốt nhất để mọi người giao dịch và kiếm tiền.",
     pocinex_get_started_title: "Chỉ vài bước để bắt đầu giao dịch ",
-    trader_and_earn: "Trở thành nhà giao dịch và kiếm tiền trên {site} thật nhanh chóng và dễ dàng.",
+    trader_and_earn: "Trở thành nhà giao dịch và kiếm tiền trên {{site}} thật nhanh chóng và dễ dàng.",
     pocinex_signup: "Đăng ký",
     pocinex_get_started_description_1: "Tạo một tài khoản miễn phí với email của bạn.",
     pocinex_deposit_fund: "Nạp tiền",
@@ -2540,7 +2540,7 @@ const vi = {
     pocinex_get_started_description_3: "Đặt nhiều lệnh thắng và kiếm tiền.",
     more_than_one_way: "Nhiều hơn một cách để kiếm thu nhập không giới hạn",
     become_affiliate_subtitle:
-        "{site} cung cấp nhiều cách để kiếm thu nhập thụ động ổn định, không giới hạn. Bạn có thể trở thành Thành viên VIP và nhận hoa hồng từ tất cả các giao dịch mà bạn bè của bạn đã thực hiện.",
+        "{{site}} cung cấp nhiều cách để kiếm thu nhập thụ động ổn định, không giới hạn. Bạn có thể trở thành Thành viên VIP và nhận hoa hồng từ tất cả các giao dịch mà bạn bè của bạn đã thực hiện.",
     pocinex_what_our_clients_say: "Nhận xét của khách hàng",
     pocinex_clients_say_content_1:
         "Trở thành Thành viên VIP của Moonata thật hợp lý bởi vì họ mang lại cơ hội kiếm thu nhập thụ động ổn định với tiềm năng kiếm tiền không giới hạn. Nếu bạn là một nhà giao dịch giỏi, bạn có thể kiếm được nhiều tiền hơn bằng cách hỗ trợ nhóm của bạn giao dịch tốt hơn và nhận hoa hồng giao dịch.",
@@ -2561,7 +2561,7 @@ const vi = {
         "Với các chỉ báo giao dịch của chúng tôi, bạn có thể đưa ra quyết định thông minh hơn và kiếm được nhiều tiền hơn bao giờ hết.",
     bullpro_the_best_place_to_trade: "Nơi thích hợp nhất để kiếm tiền",
     best_choice_in_your_trading:
-        "{site} là sự lựa chọn tốt nhất trong hành trình giao dịch của bạn. Nền tảng của chúng tôi rất dễ sử dụng, cực kỳ an toàn và nhiều công cụ hỗ trợ đắc lực trong hoạt động giao dịch hàng ngày của bạn.",
+        "{{site}} là sự lựa chọn tốt nhất trong hành trình giao dịch của bạn. Nền tảng của chúng tôi rất dễ sử dụng, cực kỳ an toàn và nhiều công cụ hỗ trợ đắc lực trong hoạt động giao dịch hàng ngày của bạn.",
     bullpro_high_security: "Bảo mật cao",
     bullpro_built_using_worldclass_security_system_we_apply_best_methods_to_protect_your_assets_on_bullpro:
         "Chúng tôi áp dụng những công nghệ hàng đầu trên thế giới để bảo vệ tài sản của bạn.",
@@ -2657,10 +2657,10 @@ const vi = {
         "Chúng tôi có quyền sửa đổi hoặc chấm dứt quyền nhận giải Độc Đắc của bạn khi phát hiện ra bất kỳ hành vi gian lận và không trung thực nào do bạn thực hiện để nhận thêm giải theo ưu đãi chương trình. Bạn sẽ bị tước quyền tham gia vào chương trình Thử Thách Liên Hoàn hoặc bị cấm sử dụng vĩnh viễn dịch vụ của chúng tôi mà sẽ không có thông báo trước đối với những trường hợp như vậy. Quyết định của chúng tôi sẽ là quyết định cuối cùng và chúng tôi sẽ không tham gia vào bất kỳ cuộc tranh luận nào liên quan đến vấn đề này.",
     an_ideal_platform_to_earn: "Nền tảng lý tưởng để kiếm tiền",
     site_is_the_world_premier_trading_platform:
-        "{site} là nền tảng giao dịch hàng đầu thế giới, kết hợp những cải tiến mới nhất với công nghệ tiên tiến để cung cấp cho các nhà giao dịch trải nghiệm giao dịch tốt nhất.",
+        "{{site}} là nền tảng giao dịch hàng đầu thế giới, kết hợp những cải tiến mới nhất với công nghệ tiên tiến để cung cấp cho các nhà giao dịch trải nghiệm giao dịch tốt nhất.",
     our_indicators_help_customers_win_more: "Các chỉ báo giao dịch giúp Khách hàng kiếm được nhiều tiền hơn ",
     develops_extremely_advanced_but_simple_to_use:
-        "{site} phát triển các chỉ báo cực kỳ tiên tiến và dễ sử dụng để giúp các nhà giao dịch đưa ra quyết định tốt hơn trong giao dịch.",
+        "{{site}} phát triển các chỉ báo cực kỳ tiên tiến và dễ sử dụng để giúp các nhà giao dịch đưa ra quyết định tốt hơn trong giao dịch.",
     bitmeta_quick_start_title: "Khám phá những cách hiệu quả nhất để kiếm tiền",
     bitmeta_quick_start_text:
         "Khám phá nhiều cơ hội kiếm tiền mới, từ việc giao dịch hàng ngày đến nhận thu nhập thụ động từ hoa hồng giao dịch hoặc hoa hồng VIP.",
@@ -2672,7 +2672,7 @@ const vi = {
         "Nền tảng của chúng tôi rất ổn định và có thể truy cập từ mọi nơi trên thế giới. Chúng tôi bảo vệ tài sản của bạn bằng các phương pháp bảo mật tốt nhất.",
     refer_earn: "Giới thiệu & Kiếm tiền",
     refer_your_friends_and_earn_together:
-        "Giới thiệu bạn bè của bạn và cùng nhau kiếm tiền bằng cách giao dịch trên {site}.",
+        "Giới thiệu bạn bè của bạn và cùng nhau kiếm tiền bằng cách giao dịch trên {{site}}.",
     fast_free: "Nhanh & Miễn phí",
     no_deposit_fee_and_small_withdrawal:
         "Miễn phí nạp tiền và phí rút tiền thấp. Giao dịch hoàn tất trong vòng vài phút.",
@@ -2850,7 +2850,7 @@ const vi = {
     ltptrade_get_started_description_1: "Sử dụng địa chỉ email của bạn và tạo một tài khoản miễn phí.",
     ltptrade_get_started_description_2: "Nạp bằng nhiều loại tiền điện tử phổ biến.",
     ltptrade_get_started_description_3: "Kiếm tiền từ việc dự đoán đúng giá của tài sản.",
-    everyone_can_earn_sustainable: "Mọi người đều có thể kiếm thu nhập bền vững với {site}.",
+    everyone_can_earn_sustainable: "Mọi người đều có thể kiếm thu nhập bền vững với {{site}}.",
     ltptrade_be_successful_title_2: "Nạp rút nhanh chóng",
     ltptrade_be_successful_description_2: "Nạp và rút các loại tiền điện tử phổ biến thật nhanh chóng và an toàn.",
     ltptrade_clients_say_content_1:
@@ -2882,7 +2882,7 @@ const vi = {
     skbit_earn_profits_within_minutes: "Đăng ký và kiếm tiền trong vòng vài phút.",
     kingofbo_your_best_place_to_trade: "Nơi tốt nhất để giao dịch",
     best_choice_in_trading_online:
-        "{site} là sự lựa chọn tốt nhất của bạn để giao dịch kiếm tiền. Từ giao dịch đến xây dựng thu nhập thụ động của bạn, {site} cung cấp cho bạn mọi thứ bạn cần trong một nền tảng!",
+        "{{site}} là sự lựa chọn tốt nhất của bạn để giao dịch kiếm tiền. Từ giao dịch đến xây dựng thu nhập thụ động của bạn, {{site}} cung cấp cho bạn mọi thứ bạn cần trong một nền tảng!",
     kingofbo_built_for_all_types_of_traders: "Dành cho tất cả nhà giao dịch",
     kingofbo_trade_cryptocurrencies:
         "Giao dịch tiền điện tử với giao diện đơn giản mang lại trải nghiệm giao dịch đẳng cấp thế giới.",
@@ -2898,15 +2898,15 @@ const vi = {
     kingofbo_trade_and_earn: "Dễ dàng.",
     kingofbo_effortlessly: "Giao dịch và kiếm tiền.",
     provides_traders:
-        "{site} cung cấp cho người dùng cách đơn giản để giao dịch và các chỉ báo kỹ thuật hữu ích có thể giúp ngay cả những nhà giao dịch mới cũng có thể kiếm được thu nhập đáng kể.",
+        "{{site}} cung cấp cho người dùng cách đơn giản để giao dịch và các chỉ báo kỹ thuật hữu ích có thể giúp ngay cả những nhà giao dịch mới cũng có thể kiếm được thu nhập đáng kể.",
     make_money_from_trading_or_helping_friends_trade: "Kiếm tiền từ việc giao dịch hoặc giúp đỡ bạn bè giao dịch.",
-    take_your_trading: "Nâng cấp kỹ năng giao dịch với các chỉ báo mạnh mẽ của {site}.",
+    take_your_trading: "Nâng cấp kỹ năng giao dịch với các chỉ báo mạnh mẽ của {{site}}.",
     simple_but_powerful_platform: "Nền tảng đơn giản nhưng mạnh mẽ",
     kingofbo_making_trading_as_simple_as_possible:
         "Làm cho giao dịch trở nên đơn giản nhất có thể, Kingofbo cố gắng cung cấp cho mọi người cơ hội kiếm tiền tốt nhất.",
     kingofbo_everyone_can_earn_multiple_streams_of_income: "Mọi người đều có thể kiếm tiền nhiều nguồn thu nhập",
     site_introduces_a_new_way_of_trading:
-        "{site} giới thiệu một phương thức giao dịch và kiếm tiền mới giúp khách hàng của chúng tôi đạt được thu nhập mơ ước của họ.",
+        "{{site}} giới thiệu một phương thức giao dịch và kiếm tiền mới giúp khách hàng của chúng tôi đạt được thu nhập mơ ước của họ.",
     start_your_journey_in_minutes: "Bắt đầu hành trình của bạn sau vài phút",
     kingofbo_earn_unlimited_trading_income:
         "Kiếm thu nhập giao dịch không giới hạn cũng như thu nhập thụ động ngay hôm nay!",
@@ -2950,7 +2950,7 @@ const vi = {
     hide_the_information: "Bật cài đặt này để ẩn thông tin thống kê tài khoản của bạn.",
     conidex_your_best_place_to_trade: "Tương Lai Của Giao Dịch Tài Sản Số",
     conidex_leading_trading_platform:
-        "{site} là nơi tốt nhất để các nhà giao dịch kiếm được nhiều lợi nhuận. Với giao diện đơn giản mang lại trải nghiệm giao dịch đẳng cấp thế giới, {site} cung cấp mọi thứ bạn cần trong một nền tảng!",
+        "{{site}} là nơi tốt nhất để các nhà giao dịch kiếm được nhiều lợi nhuận. Với giao diện đơn giản mang lại trải nghiệm giao dịch đẳng cấp thế giới, {{site}} cung cấp mọi thứ bạn cần trong một nền tảng!",
     conidex_features_exchange: "Conidex Exchange",
     features_title: "Điểm đặc biệt",
     easy_to_use_indicators: "Các chỉ báo tiện lợi",
@@ -2958,7 +2958,7 @@ const vi = {
         "Nhà đầu tư mới giờ đây có thể đạt được tỷ lệ thắng giống như các nhà đầu tư chuyên nghiệp nhờ các chỉ báo hiệu quả cao của chúng tôi.",
     new_technology: "Công nghệ mới",
     we_offer_simple: "Chúng tôi cung cấp cách đơn giản để kiếm thu nhập từ giao dịch",
-    site_platform: "Nền tảng {site}",
+    site_platform: "Nền tảng {{site}}",
     guerrilla_marketing:
         "Trải nghiệm giao dịch dễ dàng và quá trình kiếm lợi nhuận nhanh chóng với nền tảng trực quan của chúng tôi.",
     our_services_are_designed: "Dịch vụ của chúng tôi được thiết kế cho mọi quy mô tài chính",
@@ -2970,17 +2970,17 @@ const vi = {
     fast_and_convenient_trading_experience_on_a_high_performing_trading_platform:
         "Trải nghiệm giao dịch nhanh chóng và thuận tiện trên nền tảng giao dịch hiệu suất cao",
     a_global_digital_asset_trading_platform: "Nền tảng giao dịch tài sản kỹ thuật số toàn cầu",
-    trading_easier_with: "Giao dịch dễ dàng</br> với <span class='text-primary'>{site}</span>",
+    trading_easier_with: "Giao dịch dễ dàng</br> với <span class='text-primary'>{{site}}</span>",
     best_trading_platform: "Nền tảng giao dịch tốt nhất với các tính năng vượt trội",
     fun_customer_said: "Người dùng hài lòng đánh giá",
     i_became_intrigued_trading:
-        "Một năm trước, tôi bắt đầu bị thu hút bởi đầu tư do thị trường tiền điện tử tăng trưởng nhanh chóng. Sau đó, tôi quyết định tìm hiểu giao dịch và may mắn thay, tôi đã phát hiện ra {site}, một nền tảng gây ấn tượng với tôi về sự đơn giản và chuyên nghiệp của nó.",
+        "Một năm trước, tôi bắt đầu bị thu hút bởi đầu tư do thị trường tiền điện tử tăng trưởng nhanh chóng. Sau đó, tôi quyết định tìm hiểu giao dịch và may mắn thay, tôi đã phát hiện ra {{site}}, một nền tảng gây ấn tượng với tôi về sự đơn giản và chuyên nghiệp của nó.",
     with_some_practice:
-        "Qua vài hôm thực hành, giờ đây tôi có thể kiếm được gấp đôi mức lương hàng tháng của mình thông qua giao dịch và tôi đang xem xét trở thành thành viên VIP của {site} để tạo thu nhập thụ động cho tương lai của mình.",
+        "Qua vài hôm thực hành, giờ đây tôi có thể kiếm được gấp đôi mức lương hàng tháng của mình thông qua giao dịch và tôi đang xem xét trở thành thành viên VIP của {{site}} để tạo thu nhập thụ động cho tương lai của mình.",
     trading_is_highly_comfortable:
-        "Giao dịch ở {site} rất thoải mái vì sàn giao dịch không chỉ cung cấp các công cụ chỉ báo hấp dẫn mà còn là nền tảng an toàn bảo mật, cho phép tôi hoàn toàn tập trung vào trau dồi kỹ năng đầu tư.",
+        "Giao dịch ở {{site}} rất thoải mái vì sàn giao dịch không chỉ cung cấp các công cụ chỉ báo hấp dẫn mà còn là nền tảng an toàn bảo mật, cho phép tôi hoàn toàn tập trung vào trau dồi kỹ năng đầu tư.",
     my_earnings_have_typically:
-        "Là một freelancer, thu nhập của tôi thường không ổn định, nhưng kể từ khi tôi biết tới {site} , tôi đã tạo ra được nguồn thu nhập đáng tin cậy chỉ từ giao dịch trên nền tảng.",
+        "Là một freelancer, thu nhập của tôi thường không ổn định, nhưng kể từ khi tôi biết tới {{site}} , tôi đã tạo ra được nguồn thu nhập đáng tin cậy chỉ từ giao dịch trên nền tảng.",
     grow_your_money_like_never_before: "Gia tăng lợi nhuận của bạn hơn bao giờ hết",
     service: "Dịch vụ",
     new_trading_experience: "Trải nghiệm<br/>giao dịch mới",
@@ -2999,18 +2999,18 @@ const vi = {
     our_portfolio: "Danh mục đầu tư",
     trusted_by_leading_companies_in_the_industry: "Được các công ty <span class='text-primary'>hàng đầu</span> trong ngành tin cậy",
     by_introducting_better_way_trade_earn:
-        "Giới thiệu cho các nhà giao dịch cách tốt nhất để giao dịch và kiếm lợi nhuận, {site} đã giúp các nhà đầu tư đạt được thu nhập mơ ước bằng cách trở thành thành viên VIP hoặc nhà giao dịch thành công.",
+        "Giới thiệu cho các nhà giao dịch cách tốt nhất để giao dịch và kiếm lợi nhuận, {{site}} đã giúp các nhà đầu tư đạt được thu nhập mơ ước bằng cách trở thành thành viên VIP hoặc nhà giao dịch thành công.",
     about_our_company: "Về chúng tôi",
     giving_future_to_your_investment: "Mang đến tương lai cho khoản đầu tư của bạn",
     transparent_price_description:
         "Chúng tôi sử dụng dữ liệu giá theo thời gian thực từ các sàn giao dịch uy tín trên thị trường.",
     high_security_description:
         "Nền tảng của chúng tôi sử dụng công nghệ tiên tiến để bảo vệ dữ liệu nhằm tối ưu hóa sự an toàn cho tài sản của bạn.",
-    trade_everywhere_with_exchange: "Giao dịch mọi nơi với {site}",
+    trade_everywhere_with_exchange: "Giao dịch mọi nơi với {{site}}",
     trade_everywhere_with_exchange_description:
-        "{site} là nền tảng giao dịch được phát triển dựa trên các công nghệ tiên tiến và hiện đại nhất.",
+        "{{site}} là nền tảng giao dịch được phát triển dựa trên các công nghệ tiên tiến và hiện đại nhất.",
     vision_is_to_become_one_of_the_leading_trading_platforms_in_the_world:
-        "Tầm nhìn của chúng tôi là trở thành một trong những nền tảng giao dịch hàng đầu thế giới. Tại {site}, chúng tôi lấy cảm hứng từ sáng tạo và tận tâm cung cấp cho khách hàng trải nghiệm giao dịch tuyệt vời.",
+        "Tầm nhìn của chúng tôi là trở thành một trong những nền tảng giao dịch hàng đầu thế giới. Tại {{site}}, chúng tôi lấy cảm hứng từ sáng tạo và tận tâm cung cấp cho khách hàng trải nghiệm giao dịch tuyệt vời.",
     an_amazing_trading_experience: "Trải nghiệm giao dịch tuyệt vời",
     trading_platform_that_was_developed_based_on_cutting_edge:
         "Nền tảng giao dịch được phát triển dựa trên các công nghệ tiên tiến và hiện đại nhất để mang lại trải nghiệm phi thường cho các nhà đầu tư.",
@@ -3019,9 +3019,9 @@ const vi = {
     intuitive_interface: "Giao diện trực quan",
     passive_income_capitalize: "Thu nhập thụ động",
     you_can_trade_anywhere_anytime_and_generate:
-        "Bạn có thể giao dịch mọi lúc, mọi nơi và tạo ra lợi nhuận đáng kể trên {site}.",
+        "Bạn có thể giao dịch mọi lúc, mọi nơi và tạo ra lợi nhuận đáng kể trên {{site}}.",
     traders_can_sign_up_as_affiliates:
-        "Các nhà giao dịch có thể đăng ký làm đại lý của {site} và kiếm thu nhập thụ động bằng cách giúp các thành viên khác thực hiện giao dịch thành công.",
+        "Các nhà giao dịch có thể đăng ký làm đại lý của {{site}} và kiếm thu nhập thụ động bằng cách giúp các thành viên khác thực hiện giao dịch thành công.",
     the_new_standard_of_trading_earning: "Chuẩn mực mới của <span class='text-primary'>Giao dịch và kiếm tiền</span>",
     creative_exchange: "Nền tảng sáng tạo",
     train_smarter_get_stronger: "Huấn luyện thông minh. Kỹ năng phát triển.",
@@ -3046,9 +3046,9 @@ const vi = {
     reviews: "Đánh giá",
     people_reviews_games: "Nhận xét người dùng về nền tảng của chúng tôi",
     game_development_release:
-        "{Site} cải tiến chất lượng giao dịch bằng cách cung cấp giải pháp liền mạch và hiệu quả cao giúp đơn giản hóa quy trình và tối đa hóa lợi nhuận.",
+        "{{site}} cải tiến chất lượng giao dịch bằng cách cung cấp giải pháp liền mạch và hiệu quả cao giúp đơn giản hóa quy trình và tối đa hóa lợi nhuận.",
     i_am_new_trader_struggling_to_build:
-        "Tôi là nhà đầu tư mới đang cố gắng xây dựng sự nghiệp của mình. Tôi đã tìm thấy {site} và nền tảng này thật tuyệt vời! Các chỉ báo đã giúp tôi hiểu được cách đưa ra quyết định giao dịch tốt nhất, cho đến nay tôi đã kiếm được 128% lợi nhuận.",
+        "Tôi là nhà đầu tư mới đang cố gắng xây dựng sự nghiệp của mình. Tôi đã tìm thấy {{site}} và nền tảng này thật tuyệt vời! Các chỉ báo đã giúp tôi hiểu được cách đưa ra quyết định giao dịch tốt nhất, cho đến nay tôi đã kiếm được 128% lợi nhuận.",
     type_something: "Freelancer",
     contact: "Liên hệ",
     api_key_unvailable: "Tính năng này hiện không khả dụng.",

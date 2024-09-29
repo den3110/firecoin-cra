@@ -74,7 +74,7 @@ const IndexPage = () => {
         <TradeContext.Provider value={{ isBetSession, setIsBetSession, counter, setCounter }}>
             <PriceDataContext.Provider value={priceData}>
                 <OpenHistoryContext.Provider value={{ openHistory, setOpenHistory }}>
-                    <div className="flex flex-col sm:flex-row h-full relative">
+                    <div className="container-chart flex flex-col sm:flex-row h-full relative">
                         <div
                             className={clsx(
                                 "h-full sm:h-auto candle-wrap relative overflow-y-auto sm:overflow-y-hidden lg:overflow-y-auto",

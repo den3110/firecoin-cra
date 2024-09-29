@@ -58,8 +58,8 @@ const JackpotModal = () => {
                         <header
                             className={clsx(
                                 "w-full flex flex-col items-center pt-[90px] relative justify-between p-4 rounded-t-[calc(0.3rem-1px)]",
-                                "before:content-[''] before:block before:w-[494px] before:h-[294px] before:bg-[url('http://localhost:3001/assets2/images/img-2.png')] before:bg-cover before:absolute before:-translate-y-1/2",
-                                "after:contet-[''] after:block after:w-[188px] after:h-[188px] after:bg-[url('http://localhost:3001/assets2/images/box-6.png')] after:bg-cover after:absolute after:-top-[120px] after:left-1/2 after:-translate-x-1/2",
+                                "before:content-[''] before:block before:w-[494px] before:h-[294px] before:bg-[url('~/public/assets2/images/img-2.png')] before:bg-cover before:absolute before:-translate-y-1/2",
+                                "after:contet-[''] after:block after:w-[188px] after:h-[188px] after:bg-[url('~/public/assets2/images/box-6.png')] after:bg-cover after:absolute after:-top-[120px] after:left-1/2 after:-translate-x-1/2",
                             )}
                         >
                             <span className="jackpot-icon-close" onClick={handleClose}></span>

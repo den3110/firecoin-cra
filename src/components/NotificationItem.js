@@ -25,7 +25,7 @@ const NotificationItem = ({ notification, onRead, closeMenu }) => {
         if (value) {
             router.push(value);
         }
-        closeMenu();
+        closeMenu && closeMenu();
     };
 
     return (

@@ -336,7 +336,7 @@ const ExchangeModal = () => {
                                                     onChange={(e) => setAmount(e.target.value)}
                                                 />
                                                 <div className="input-append absolute top-0 right-0 rounded-r overflow-hidden flex items-center lg:block">
-                                                    <span className="lg:hidden bg-[url('http://localhost:3001/assets2/images/icon-usdt-rounded.svg')] bg-cover bg-no-repeat w-[30px] h-[30px] mr-2" />
+                                                    <span className="lg:hidden bg-[url('~/public/assets2/images/icon-usdt-rounded.svg')] bg-cover bg-no-repeat w-[30px] h-[30px] mr-2" />
                                                     <span className="lg:hidden border-line relative mr-2 after:content-[''] after:inline-block after:w-[1px] after:h-[30px] after:absolute after:top-1/2 after:left-0 after:bg-light/20 after:-translate-y-1/2"></span>
                                                     <button
                                                         className="text-primary uppercase whitespace-nowrap bg-transparent lg:bg-light inline-block text-center align-middle select-none border border-transparent lg:px-3 py-[0.375rem] text-base leading-[1.5] font-normal"

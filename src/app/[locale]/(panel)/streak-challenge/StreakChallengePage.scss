@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Frizon'; // Tên font bạn muốn sử dụng
   src: 
-       url('http://localhost:3001/assets2/fonts/my-local-font.woff') format('woff'); // Có thể thêm nhiều định dạng
+       url("~/public/assets2/fonts/Frizon.woff") format('woff'); // Có thể thêm nhiều định dạng
 }
 
 .font-frizon {
@@ -10,7 +10,7 @@
 
 .community-jackpot {
   padding-top: 95px;
-  background: #090b0d url('http://localhost:3001/assets2/images/jackpot/bg-1.png') top no-repeat;
+  background: #090b0d url("~/public/assets2/images/jackpot/bg-1.png") top no-repeat;
   background-size: 100% auto;
   overflow: hidden;
   position: relative
@@ -21,7 +21,7 @@
   display: block;
   width: 374px;
   height: 356px;
-  background: url('http://localhost:3001/assets2/images/jackpot/img-1.png');
+  background: url('~/public/assets2/images/jackpot/img-1.png');
   background-size: cover;
   position: absolute;
   left: -60px;
@@ -54,7 +54,7 @@
 }
 
 .community-jackpot .bg {
-  background: url(http://localhost:3001/assets2/images/jackpot/bg-2.png) top no-repeat;
+  background: url("~/public/assets2/images/jackpot/bg-2.png") top no-repeat;
   background-size: 100% auto;
   position: relative;
   z-index: 2;
@@ -107,7 +107,7 @@ Prize pool
   width: 108px;
   height: 108px;
   display: block;
-  background: url(http://localhost:3001/assets2/images/jackpot/box-2.png) 0 0 no-repeat;
+  background: url("~/public/assets2/images/jackpot/box-2.png") 0 0 no-repeat;
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -129,7 +129,7 @@ Prize pool
   width: 148px;
   height: 148px;
   display: block;
-  background: url(http://localhost:3001/assets2/images/jackpot/box-3.png) 0 0 no-repeat;
+  background: url(~/public/assets2/images/jackpot/box-3.png) 0 0 no-repeat;
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -164,7 +164,7 @@ Prize pool
   display: block;
   width: 100%;
   height: 75px;
-  background: url(http://localhost:3001/assets2/images/jackpot/fire_2.png) 0 0 no-repeat;
+  background: url("~/public/assets2/images/jackpot/fire_2.png") 0 0 no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: 0;
@@ -226,7 +226,7 @@ Prize pool
   position: absolute;
   width: 370px;
   height: 77px;
-  background: url(http://localhost:3001/assets2/images/jackpot/mega-fund.png) 0 0 no-repeat;
+  background: url(~/public/assets2/images/jackpot/mega-fund.png) 0 0 no-repeat;
   background-size: cover;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -385,7 +385,7 @@ Latest winner
   content: "";
   width: 99px;
   height: 99px;
-  background: url(http://localhost:3001/assets2/images/jackpot/box-8.png) 0 0 no-repeat;
+  background: url("~/public/assets2/images/jackpot/box-8.png") 0 0 no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -405,7 +405,7 @@ Latest winner
   content: "";
   width: 93px;
   height: 93px;
-  background: url(http://localhost:3001/assets2/images/jackpot/box-9.png) 0 0 no-repeat;
+  background: url("~/public/assets2/images/jackpot/box-9.png") 0 0 no-repeat;
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -464,7 +464,7 @@ Latest winner
   width: 298px;
   height: 66px;
   padding-top: 15px;
-  background: url(http://localhost:3001/assets2/images/jackpot/mega-fund-2.png) 0 0 no-repeat;
+  background: url("~/public/assets2/images/jackpot/mega-fund-2.png") 0 0 no-repeat;
   background-size: cover;
   font-size: 19px;
   font-weight: 700;
@@ -646,7 +646,7 @@ Latest winner
   }
 
   .status--reject {
-    background: url(http://localhost:3001/assets2/images/jackpot/reject.svg) 0 no-repeat;
+    background: url("~/public/assets2/images/jackpot/reject.svg") 0 no-repeat;
     background-size: 10px 10px
   }
 }
@@ -659,7 +659,7 @@ Info guide
 .community-jackpot .info-guide {
   color: #fff;
   padding-bottom: 30px;
-  background: url(http://localhost:3001/assets2/images/jackpot/bg-3.png) top no-repeat;
+  background: url("~/public/assets2/images/jackpot/bg-3.png") top no-repeat;
   background-size: cover;
   position: relative
 }
@@ -669,7 +669,7 @@ Info guide
   display: block;
   width: 186px;
   height: 186px;
-  background: url(http://localhost:3001/assets2/images/jackpot/streak-icon-2.png);
+  background: url(~/public/assets2/images/jackpot/streak-icon-2.png);
   background-size: cover;
   position: absolute;
   top: -90px;
@@ -687,7 +687,7 @@ Info guide
   display: block;
   width: 318px;
   height: 318px;
-  background: url(http://localhost:3001/assets2/images/jackpot/streak-icon-3.png);
+  background: url(~/public/assets2/images/jackpot/streak-icon-3.png);
   background-size: cover;
   position: absolute;
   top: 70px;

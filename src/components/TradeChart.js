@@ -239,7 +239,7 @@ const TradeChart = () => {
 
     return (
         <div id="trade-chart" ref={wrapperRef} className="flex-1 max-h-[calc(75vh-51px)]">
-            <div className="absolute top-0 left-0 w-full bg-[url('http://localhost:3001/assets2/images/pocinex_bg_chart.png')] bg-contain bg-no-repeat bg-center">
+            <div className="absolute top-0 left-0 w-full bg-[url('~/public/assets2/images/pocinex_bg_chart.png')] bg-contain bg-no-repeat bg-center">
                 <HighchartsReact
                     ref={highchartsRef}
                     highcharts={Highcharts}

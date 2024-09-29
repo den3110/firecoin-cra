@@ -76,7 +76,7 @@ const PanelHeader = () => {
                                         <BalanceDropdown />
                                     </li>
                                     {!isDesktop && (
-                                        <li className="pl-2 md:px-2 px-0">
+                                        <li className="btn-noti pl-2 md:px-2 px-0">
                                             <MobileNotificationButton />
                                         </li>
                                     )}

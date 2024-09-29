@@ -7,6 +7,7 @@ import { useMemo, useRef } from "react";
 import { usePathname, useRouter } from "@/navigation";
 import clsx from "clsx";
 import useLocale from "@/hooks/useLocales";
+import { useTranslation } from "react-i18next";
 
 export const localeList = [
     {
@@ -61,6 +62,7 @@ const LocaleSelect = ({ inSetting = false }) => {
     // const router = useRouter();
 
     const { changeLanguage, locale } = useLocale();
+    const { i18n } = useTranslation();
 
     const selectedLocale = useMemo(() => {
         return localeList.find((item) => item.locale === locale);
@@ -70,6 +72,7 @@ const LocaleSelect = ({ inSetting = false }) => {
         return (e) => {
             e.preventDefault();
             changeLanguage(newLocale);
+            i18n.changeLanguage(newLocale)
             closeMenu();
             //router.replace(pathname, { locale: newLocale });
         };

@@ -19,7 +19,7 @@ const HistoryItem = ({ betAmount, winAmount, betType, createdDatetime, isOpen })
                         </span>
                     )}
                 </div>
-                <span className="inline-block w-[19px] h-[18px] bg-no-repeat bg-contain bg-[url('http://localhost:3001/assets2/images/bitcoin.svg')]"></span>
+                <span className="inline-block w-[19px] h-[18px] bg-no-repeat bg-contain bg-[url('~/public/assets2/images/bitcoin.svg')]"></span>
             </div>
             <div className="flex justify-between mb-2">
                 <div className="flex items-center">

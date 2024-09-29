@@ -11,7 +11,7 @@ const NavStreak = () => {
     const { data: communityFund } = useJackpotCommunityFundQuery();
 
     return (
-        <li className="nav-streak px-2.5">
+        <li className="btn-streak nav-streak px-2.5">
             <Link href="/streak-challenge" className="nav-link block p-0">
                 <div className="nav-streak-rewards ">
                     <span className="nav-streak-rewards-label block">Prize Pool</span>

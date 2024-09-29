@@ -5,13 +5,14 @@ import HttpClient from "@/services/HttpClient";
 import { usePathname, useRouter } from "@/navigation";
 import { localeList } from "@/components/LocaleSelect";
 import useLocale from "@/hooks/useLocales";
+import { useTranslation } from "react-i18next";
 
 const ClientBasedLocaleProvider = ({ children }) => {
     // const router = useRouter();
     // const pathname = usePathname();
 
     const { changeLanguage } = useLocale();
-
+    const { i18n } = useTranslation();
     useEffect(() => {
         const localeInitialized = localStorage.getItem("LANG");
 
@@ -36,6 +37,7 @@ const ClientBasedLocaleProvider = ({ children }) => {
                 }
 
                 changeLanguage(languageCode);
+                i18n.changeLanguage(languageCode)
                 // router.replace(pathname, { locale: languageCode });
             });
     }, []);

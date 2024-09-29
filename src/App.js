@@ -23,6 +23,10 @@ import RegisterResendVerifyEmailPage from "./app/[locale]/(landing)/@drawer/regi
 import AffiliateCommissionPage from "./app/[locale]/(panel)/(affiliate)/affiliate/commission/page";
 import AffiliateManagementPage from "./app/[locale]/(panel)/(affiliate)/affiliate/management/page";
 import UpgradeVipPage from "./app/[locale]/(panel)/(affiliate)/upgrade-vip/page";
+import TermsOfUserPage from "./app/[locale]/(landing)/faqs/terms-of-use/page";
+import FaqLayout from "./app/[locale]/(landing)/faqs/layout";
+import LayoutFaqPageView from "./app/[locale]/(landing)/faqs";
+import NotFoundPage from "./components/NotFoundPage";
 
 function App() {
   return (
@@ -30,7 +34,6 @@ function App() {
       {/* show later */}
       {/* <LandingLayout>  */}
         {/* <div></div> */}
-        
         <Routes>
           <Route path="/index" element={<PanelLayout>
             <IndexPage />
@@ -95,6 +98,14 @@ function App() {
           </LandingLayout>} />
           <Route path="/" element={<LandingLayout>
             <LandingTwo />
+          </LandingLayout>} />
+          <Route path="/faqs/*" element={<LandingLayout>
+            <FaqLayout>
+              <LayoutFaqPageView />
+            </FaqLayout>
+          </LandingLayout>} />
+          <Route path="/not-found-guest" element={<LandingLayout>
+            <NotFoundPage />
           </LandingLayout>} />
         </Routes>
       {/* </LandingLayout> */}

@@ -298,7 +298,7 @@
     "register": "Sign up",
     "a_verification_link_has": "A verification link has been sent to",
     "please_wait_a_few_minutes": "Please wait a few minutes and get verification link to active your account.",
-    "already_have_an_account": "Have a <div class='text-domain d-inline-block'>{{domain}}</div> account?",
+    "already_have_an_account": "Have a <div class='text-domain d-inline-block'>{{{domain}}}</div> account?",
     "confirmation_email_sent": "Confirmation email sent!",
     "a_verification_link_has_been": "A verification link has been sent to your registered email.",
     "please_enter_your_email": "Please enter your email address to receive another confirmation email.",
@@ -1157,7 +1157,7 @@
     "wealth_within_your_reach": " Wealth within your reach",
     "just_enjoy_your_best_rates": "Just enjoy your best rates while we are doing the rest for you",
     "start_trading": "Start trading",
-    "the_features_of": "The features of {{domain}}",
+    "the_features_of": "The features of {{{domain}}}",
     "protection_security": "Sophisticated trading tools",
     "top_loss_and_take_profit_orders":
         "Gain insight into the market environment in seconds. Make better decisions and realise gains in minutes.",
@@ -1288,7 +1288,7 @@
     "show_balance": "Show balance",
     "twofactor_authentication": "Security verification",
     "google_authentication_code": "Google Authentication Code",
-    "create_account": "Create {{domain}} account",
+    "create_account": "Create {{{domain}}} account",
     "transfer_successfully": "Transfer successfully",
     "choose_your_account": "Choose Your Account",
     "i_understand_and_agree": "I understand and agree",
@@ -1336,7 +1336,7 @@
     "more_setting": "More setting",
     "orders": "Orders",
     "usdt_network": "USDT Network",
-    "domain_support": "{{domain}} Support",
+    "domain_support": "{{{domain}}} Support",
     "i_have_read_and_i_agree_to": "I have read and I agree to",
     "lending_service_agreement": "Loan Agreement",
     "trades_history": "Trade history",
@@ -1380,7 +1380,7 @@
     "transfer_amount": "Transfer Amount",
     "invite_friends": "Invite Friends",
     "friends_sign_up": "Friends sign-up",
-    "invite_friends_to_register_through_the_link": "Invite friends to register {{domain}} through the link",
+    "invite_friends_to_register_through_the_link": "Invite friends to register {{{domain}}} through the link",
     "friends_accept_the_invitation_complete_registration_and_play":
         "Friends accept the invitation, complete registration and play",
     "get_a_corresponding_proportion_of_commission": "Get a corresponding proportion of commission",
@@ -1568,7 +1568,7 @@
     "general_questions": "General Questions",
     "fund_management": "Fund Management",
     "trading": "Trading",
-    "how-to-register": "How to Register on {{domain}}",
+    "how-to-register": "How to Register on {{{domain}}}",
     "common-questions-and-limits": "Common questions and Limits",
     "price-index-calculation": "Price Index Calculation",
     "communications": "Communications",
@@ -1711,8 +1711,8 @@
     "paste": "Paste",
     "err_kyc_required_reach_win_amount_limit": "Withdrawal Failed: Identity Verification Required",
     "err_kyc_required_reach_maximum_withdraw_mount": "Withdrawal Failed: Identity Verification Required",
-    "need_account": "Need a {{domain}} account?",
-    "have_account": "Have a {{domain}} account?",
+    "need_account": "Need a {{{domain}}} account?",
+    "have_account": "Have a {{{domain}}} account?",
     "joinnow": "Join now",
     "what_is_ft_trading": "What is FT Trading",
     "ft_trading_research_provides":
@@ -1762,9 +1762,9 @@
     "sign_in_from": "Sign in from another device",
     "your_account": "Your account has been signed in from",
     "if_you_dont_recognize": "If you don’t recognize this activity, please contact us immediately.",
-    "join_to_earn_unlimited_income_today": "Join {site} to earn unlimited income today!",
+    "join_to_earn_unlimited_income_today": "Join {{site}} to earn unlimited income today!",
     "by_introducing_a_better_way_to_trade":
-        "By introducing a better way to trade and earn, {site} is your best choice when it comes to trading online. Regardless of trading skills and backgrounds, everyone can develop a profitable trading strategy and earn sustainable income on {site}.",
+        "By introducing a better way to trade and earn, {{site}} is your best choice when it comes to trading online. Regardless of trading skills and backgrounds, everyone can develop a profitable trading strategy and earn sustainable income on {{site}}.",
     "fast_deposits__withdrawals": "Fast Deposits & Withdrawals",
     "deposit_and_withdraw_your_funds_quickly_and_securely_using_popular_cryptocurrencies":
         "Deposit and Withdraw your funds quickly and securely using popular cryptocurrencies.",
@@ -1773,7 +1773,7 @@
         "Our platform is built for all types of traders, from beginners to experts. With Monera, traders can earn multiple streams of income from both trading and becoming an VIP. Our team is constantly improving and innovating to ultimately offer the most convenient, secure, and innovative trading solution in the world.",
     "toptier_security": "Top-tier Security",
     "we_utilize_stateoftheart":
-        "At {site}, we utilize state-of-the-art data and asset protection technology to enhance the security of your funds.",
+        "At {{site}}, we utilize state-of-the-art data and asset protection technology to enhance the security of your funds.",
     "innovative_indicators": "Innovative Indicators",
     "our_indicators_are_calculated_from_highly_sophisticated_algorithms_but_still_simple_enough_for_traders_to_use":
         "Our indicators are calculated from highly sophisticated algorithms but still simple enough for traders to use.",
@@ -1782,11 +1782,11 @@
         "Real-time price data provided by leading exchanges in the cryptocurrency world",
     "what_our_clients_are_say": "What our clients say",
     "testimonial_4":
-        "Trading on the {site} platform is a fantastic experience. Quick, simple to trade, but highly profitable! My focus is now all about optimizing my win rate to gain more!",
+        "Trading on the {{site}} platform is a fantastic experience. Quick, simple to trade, but highly profitable! My focus is now all about optimizing my win rate to gain more!",
     "testimonial_5":
-        "Being a freelancer leaves me with volatile earnings, but now I have built a sustainable stream of income not just from daily trading but also from commissions by becoming an VIP with {site}.",
+        "Being a freelancer leaves me with volatile earnings, but now I have built a sustainable stream of income not just from daily trading but also from commissions by becoming an VIP with {{site}}.",
     "testimonial_6":
-        "Working for a large corporation has put a lot of pressure on me. I've been able to make more money than all the jobs I took in the past after I set aside some time learning to trade on {site}!",
+        "Working for a large corporation has put a lot of pressure on me. I've been able to make more money than all the jobs I took in the past after I set aside some time learning to trade on {{site}}!",
     "learn_more": "Learn more",
     "oscillators_are_leading_indicators_that_can_signal_a_possible_upcoming_trend_change":
         "Oscillators are leading indicators that can signal a possible upcoming trend change.",
@@ -1841,13 +1841,13 @@
     "welcome_to_the_ultimate_platform_to_trade_and_earn_every_time_everywhere_our_platform_has_everything_youre_looking_for_from_multichart_layout_technical_analysis_and_demo_account_to_educational_resources_all_built_with_the_ultimate_goal_help_traders_earn_significant_income_effortlessly_from_fixedtime_trading":
         "Welcome to the ultimate platform to trade and earn every time, everywhere.",
     "top_agency_week_desc":
-        "<p>Your rank will be calculated ONLY based on your Commission from your F1 Trading Volume in the competition period. Trading Volume of your F1 must be from the Live account. All Agencies are eligible to participate in this Challenge. Agencies won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 Agencies with the same F1 Trading volume, their VIP Commision during the competition period will be taken into consideration to decide their ranks.</p><p>{{domain}} reserves the right to make final decisions on this event.</p>",
+        "<p>Your rank will be calculated ONLY based on your Commission from your F1 Trading Volume in the competition period. Trading Volume of your F1 must be from the Live account. All Agencies are eligible to participate in this Challenge. Agencies won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 Agencies with the same F1 Trading volume, their VIP Commision during the competition period will be taken into consideration to decide their ranks.</p><p>{{{domain}}} reserves the right to make final decisions on this event.</p>",
     "top_agency_month_desc":
-        "<p>Your rank will be calculated ONLY based on your Commission from your F1 Trading Volume in the competition period. Trading Volume of your F1 must be from the Live account. All Agencies are eligible to participate in this Challenge. Agencies won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 Agencies with the same F1 Trading volume, their VIP Commision during the competition period will be taken into consideration to decide their Ranks.</p><p>{{domain}} reserves the right to make final decisions on this event.</p>",
+        "<p>Your rank will be calculated ONLY based on your Commission from your F1 Trading Volume in the competition period. Trading Volume of your F1 must be from the Live account. All Agencies are eligible to participate in this Challenge. Agencies won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 Agencies with the same F1 Trading volume, their VIP Commision during the competition period will be taken into consideration to decide their Ranks.</p><p>{{{domain}}} reserves the right to make final decisions on this event.</p>",
     "top_week_desc":
-        "<p>Your rank will be calculated from your Trading volume in the competition period. Trading Volume must be from the Live account. All users are eligible to participate in this Challenge. Traders won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 trader with the same Trading volume, their Profit during the competition period will be taken into consideration to decide their ranks.</p><p class='mb-5'>{{domain}} reserves the right to make final decisions on this event.</p>",
+        "<p>Your rank will be calculated from your Trading volume in the competition period. Trading Volume must be from the Live account. All users are eligible to participate in this Challenge. Traders won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 trader with the same Trading volume, their Profit during the competition period will be taken into consideration to decide their ranks.</p><p class='mb-5'>{{{domain}}} reserves the right to make final decisions on this event.</p>",
     "top_month_desc":
-        "<p>Your rank will be calculated from your Trading volume in the competition period. Trading Volume must be from the Live account. All users are eligible to participate in this Challenge. Traders won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 trader with the same Trading volume, their Profit during the competition period will be taken into consideration to decide their ranks.</p><p class='mb-5'>{{domain}} reserves the right to make final decisions on this event.</p>",
+        "<p>Your rank will be calculated from your Trading volume in the competition period. Trading Volume must be from the Live account. All users are eligible to participate in this Challenge. Traders won in other Challenges will still be eligible to receive rewards from this Challenge if qualified.</p><p>If there are more than 1 trader with the same Trading volume, their Profit during the competition period will be taken into consideration to decide their ranks.</p><p class='mb-5'>{{{domain}}} reserves the right to make final decisions on this event.</p>",
     "top_week_desc_ex":
         "<p>*** Ranks and Rewards</p><p>Rank 1: <img src='http://monera.azureedge.net/iphone-12-pro.png' alt='iphone' title='iPhone12' width='30' /> <span class='text-primary'>~ $1,000</span></p><p>Rank 2: $500</p><p>Rank 3: $300</p>",
     "activating_your_account": "Activating your account…",
@@ -1892,7 +1892,7 @@
     "InvalidToken": "Link is expired or invalid",
     "already_activated": "Your account has already been activated. Please login as normal.",
     "traders_can_earn_multiple":
-        "With {site}, traders can earn multiple streams of income from both trading and becoming a VIP Member.",
+        "With {{site}}, traders can earn multiple streams of income from both trading and becoming a VIP Member.",
     "amount_demo_account": "$1,000 Demo account",
     "test_your_trading_strategy_with_a_free_demo_account_before_putting_it_to_work":
         "Test your trading strategy with a free demo account before putting it to work.",
@@ -1911,12 +1911,12 @@
     "see_what_its_like_to_trade_without_putting_your_money_at_risk":
         "See what it’s like to trade without putting your money at risk",
     "trade_earn": "Trade & earn",
-    "making_money_predicting": "With {site}, making money predicting the price of assets is easier than ever before!",
+    "making_money_predicting": "With {{site}}, making money predicting the price of assets is easier than ever before!",
     "professional_artist": "Professional Artist",
     "freelancer": "Freelancer",
     "financial_analyst": "Financial Analyst",
     "what-is-a-binary-option": "What is a Binary Option?",
-    "what-happens-when-you-make-a-buy-or-sell-order": "What happens when you make a BUY or SELL order at {{domain}}?",
+    "what-happens-when-you-make-a-buy-or-sell-order": "What happens when you make a BUY or SELL order at {{{domain}}}?",
     "bitcacao_main_banner_title": "A Leading Digital Asset Exchange",
     "bitcacao_main_banner_text": "Bitcacao Is The Easiest And Most Secure Platform To Trade Digital Assets.",
     "bitcacao_introduce_title": "A New Trading Experience",
@@ -2003,13 +2003,13 @@
         "Trade with confidence on the fastest and most reliable trading platform. Find profitable trading opportunities with our innovative trading tools any time, anywhere in the world.",
     "aresbo_trade_faster_title": "Trading has never been<br/>easier with Ravo",
     "provides_exceptional_trading_experience":
-        "{site} provides exceptional trading experience to our customers by  developing highly sophisticated indicators that help traders make better trading decisions.",
+        "{{site}} provides exceptional trading experience to our customers by  developing highly sophisticated indicators that help traders make better trading decisions.",
     "aresbo_choise_difference_title": "A robust and innovative exchange",
     "aresbo_choise_difference_text":
         "Ravo is the best place to trade because of its simplicity, convenience, and innovation.",
     "aresbo_property_1_title": "High Security",
     "trading_is_fast_and_stable":
-        "Trading on {site} is fast and stable thanks to a high-capacity trading platform protected by a world-class security system.",
+        "Trading on {{site}} is fast and stable thanks to a high-capacity trading platform protected by a world-class security system.",
     "powerful_platform": "Powerful Platform",
     "simplify_your_trading_with": "Simplify your trading with our innovative features and cutting edge technologies.",
     "exceptional_trading_experence": "Exceptional Trading Experence",
@@ -2019,7 +2019,7 @@
     "aresbo_trade_now_text": "Take your trading experience to the next level and earn unlimited income today!",
     "earn_unlimited_income_in_minutes": "Earn Unlimited Income In Minutes",
     "thriving_to_become":
-        "Thriving to become one of the best trading platforms in the world, {site} is committed to providing our customers with the best trading experience.",
+        "Thriving to become one of the best trading platforms in the world, {{site}} is committed to providing our customers with the best trading experience.",
     "get_started_for_free": "GET STARTED FOR FREE",
     "your_allinone_trading_platform": "Your All-in-One<br/>Trading Platform",
     "we_proudly_present_to_all_traders":
@@ -2125,14 +2125,14 @@
     "kitanex_earn_profits_within_minutes": "Register and earn money within minutes.",
     "exbase_trade_at_exbase_title": "The Future Of<br/>Digital Asset Exchange",
     "site_is_best_place_to_trader":
-        "{site} is the best place for traders to find their next big trade. With a simple interface that offers a world-class trading experience, {site} provides you with everything you need in one platform!",
+        "{{site}} is the best place for traders to find their next big trade. With a simple interface that offers a world-class trading experience, {{site}} provides you with everything you need in one platform!",
     "exbase_trade_at_exbase_text": "GET STARTED FOR FREE",
     "exbase_trading_experience_title": "Trade digital assets.<br/>Anytime. Anywhere",
     "trading_experience_text":
-        "{site} is the next generation trading platform that utilizes state-of-the-art technology to provide traders with accurate and transparent price quotations as well as sophisticated indicators.",
-    "trade_faster_title": "Trade faster and safer<br/>with {site}",
+        "{{site}} is the next generation trading platform that utilizes state-of-the-art technology to provide traders with accurate and transparent price quotations as well as sophisticated indicators.",
+    "trade_faster_title": "Trade faster and safer<br/>with {{site}}",
     "trade_faster_text":
-        "{site} provides exceptional trading experience to our customers by  simplified the trading process so our traders can focus on making better decisions to increase their profits.",
+        "{{site}} provides exceptional trading experience to our customers by  simplified the trading process so our traders can focus on making better decisions to increase their profits.",
     "exbase_choise_difference_title": "A robust and innovative exchange",
     "exbase_property_1_title": "Free demo account",
     "exbase_property_1_text": "Test your trading strategy as much as you want with $1,000 demo account.",
@@ -2142,44 +2142,44 @@
     "exbase_property_3_text": "Start trading with only $1.",
     "exbase_trade_now_text": "Take your trading experience to the next level and earn unlimited income today!",
     "clients_say_content_1":
-        "One Of The Best Ways To Get Started In Trading Is With {site}. With A Few Days Exploring Trading Techniques, I Found Myself Doubling My Initial Fund! The Exchange Is Easy And Simple To Use; Their Indicators Really Helped Me Make Quick Trading Decisions.",
+        "One Of The Best Ways To Get Started In Trading Is With {{site}}. With A Few Days Exploring Trading Techniques, I Found Myself Doubling My Initial Fund! The Exchange Is Easy And Simple To Use; Their Indicators Really Helped Me Make Quick Trading Decisions.",
     "clients_say_content_2":
-        "Trading On Different Platforms During My Free Time Made Me Realize That {site} Is The Best Option For People Like Myself Who Are Unable To Commit Themselves Full-Time. Now That {site} Has Helped Me Achieve My Dream Income, There's Absolutely Nothing Stopping Me From Calling Myself A Professional Trader!",
+        "Trading On Different Platforms During My Free Time Made Me Realize That {{site}} Is The Best Option For People Like Myself Who Are Unable To Commit Themselves Full-Time. Now That {{site}} Has Helped Me Achieve My Dream Income, There's Absolutely Nothing Stopping Me From Calling Myself A Professional Trader!",
     "clients_say_content_3":
-        "{site} Is An Exciting New Way To Make Money Online Without Having Any Previous Experience! I Had Been Trading On {site} For A Couple Months Before I Decided To Become An VIP And Build Multiple Active Trading Groups. {site} Has Not Only Helped Me Make Money From Trading, But It Also Give Me Another Stream Of Revenue - Passive Commission!",
+        "{{site}} Is An Exciting New Way To Make Money Online Without Having Any Previous Experience! I Had Been Trading On {{site}} For A Couple Months Before I Decided To Become An VIP And Build Multiple Active Trading Groups. {{site}} Has Not Only Helped Me Make Money From Trading, But It Also Give Me Another Stream Of Revenue - Passive Commission!",
     "exbase_get_started_title": "Start trading in <span class='text-primary'>5 minutes</span>",
     "exbase_get_started_description_1": "Create a free account with your email.",
     "exbase_get_started_description_2": "Make deposits with popular cryptocurrencies.",
     "exbase_get_started_description_3": "Earn money by predicting the price of assets.",
     "earn_unlimited_profits_regardless": "Earn unlimited profits regardless of time and location.",
-    "easy_trade_point2": "Make more winning trades than ever before with {site} powerful Indicators.",
+    "easy_trade_point2": "Make more winning trades than ever before with {{site}} powerful Indicators.",
     "new_standard_of_trading_and_earning": "The New Standard Of <br /> Trading And Earning",
     "new_standard_of_trading_and_earning_text":
-        "By introducting a better way to trade and earn, {site} has helped our customers achieve <br /> their dream income by becoming an VIP or a successful traders.",
+        "By introducting a better way to trade and earn, {{site}} has helped our customers achieve <br /> their dream income by becoming an VIP or a successful traders.",
     "exbase_start_your_journey_title": "Start your journey in minutes",
     "earn_unlimited_trading_income": "Earn unlimited trading income as well as passive income today!",
     "bodefi_take_your_trading_to_the_next_level": "Grow Your Income Exponentially",
     "committed_to_provide_excellen":
-        "{site} is committed to provide excellent trading experience for everyone to reach their dream income.",
+        "{{site}} is committed to provide excellent trading experience for everyone to reach their dream income.",
     "bodefi_get_started_for_free": "GET STARTED FOR FREE",
-    "simple_to_earn": "It's simple to earn with {site}",
+    "simple_to_earn": "It's simple to earn with {{site}}",
     "trading_with_outstanding_results": "Achieve Outstanding Results",
     "innovation_is_at_the_heart":
-        "At {site}, we do our best simplify the trading process so that everyone can start earning regardless of their experience.",
+        "At {{site}}, we do our best simplify the trading process so that everyone can start earning regardless of their experience.",
     "highquality_indicators_help": "Make better choices and earn more profits with our trading indicators.",
     "bodefi_a_choice_that_changes_the_future": "The best place to trade",
     "constantly_improving_the_platform":
-        "Built with simplicity and convenience in mind, {site} is the best choice in the industry.",
+        "Built with simplicity and convenience in mind, {{site}} is the best choice in the industry.",
     "bodefi_highlysecured_platform": "High security",
     "with_years_of_experience":
-        "Built using world-class security system, we apply best methods to protect your assets on {site}.",
+        "Built using world-class security system, we apply best methods to protect your assets on {{site}}.",
     "bodefi_allinone_trading_solution": "Fast Deposits and Withdrawals",
     "bodefi_trade_better_with_an_allinclusive_easytouse_trading_platform_that_is_suitable_for_all_you_need":
         "Deposit and withdraw using popular cryptocurrency has never been easier on our platform.",
     "bodefi_highquality_indicators": "Easy-to-use Indicators",
     "bodefi_bodefi_is_a_leading_developer_of_trading_indicators_that_are_thoroughly_calculated_but_simpletouse":
         "Our powerful indicators empowers new traders to achieve the same win rate as experienced traders.",
-    "join_site_now": "Join <span class='text-primary'>{site}</span> today",
+    "join_site_now": "Join <span class='text-primary'>{{site}}</span> today",
     "bodefi_start_creating_your_dream_income_today": "Start earning your dream income now!",
     "ladytrade_fast_and_easy_trading": "Fast And Easy Trading With Powerful Tools",
     "ladytrade_our_exchange_has_an_intuitive_interface":
@@ -2198,22 +2198,22 @@
     "ladytrade_register_and_start": "Register And Start Earning Unlimited Amount Of Income Today.",
     "metatrading_main_banner_title": "Take Your Trading To The Next Level",
     "committed_to_provide_excellent_trading":
-        "{site} is committed to provide excellent trading experience for everyone and our platfrom is built to accommodate even the most complex trading strategies.",
+        "{{site}} is committed to provide excellent trading experience for everyone and our platfrom is built to accommodate even the most complex trading strategies.",
     "metatrading_introduce_title": "A New Trading Experience",
     "constantly_improving_platform":
-        "{site} is constantly improving the platform to offer a better experience for traders. As a result, {site} enables new traders to achieve the same win rate as experienced traders.",
+        "{{site}} is constantly improving the platform to offer a better experience for traders. As a result, {{site}} enables new traders to achieve the same win rate as experienced traders.",
     "metatrading_trade_faster_title": "Trading With</br>Outstanding Results",
     "high_quality_indicators_help_traders":
-        "{site}'s high-quality indicators help traders make more informed decisions and earn significant profits.",
+        "{{site}}'s high-quality indicators help traders make more informed decisions and earn significant profits.",
     "metatrading_security_title": "A choice that changes the future",
     "metatrading_security_text":
         "Innovation Is At The Heart Of 1point, And We Are Proud To Offer Our Customers A Trading Experience Like No Other.",
     "high_quality_indicators": "High-quality Indicators",
     "leading_developer_of_trading_indicators":
-        "{site} is a leading developer of trading indicators that are thoroughly calculated but simple-to-use.",
+        "{{site}} is a leading developer of trading indicators that are thoroughly calculated but simple-to-use.",
     "metatrading_security_item_title_2": "Highly-secured Platform",
     "with_years_of_experience_developing_security":
-        "With years of experience developing security protocols for trading platform, we apply best methods to protect your assets on {site}.",
+        "With years of experience developing security protocols for trading platform, we apply best methods to protect your assets on {{site}}.",
     "all_in_one_trading_solution": "All-in-one Trading Solution",
     "trade_better_with_an_all_inclusive":
         "Trade better with an all-inclusive, easy-to-use trading platform that is suitable for all you need.",
@@ -2252,14 +2252,14 @@
     "deniex_traders_can_also_become_tiktak_affiliates_to_earn_passive_income_from_helping_other_members":
         "Traders can sign up as Vista affiliates and earn passive income by helping other members with their trading.",
     "deniex_what_our_clients_say": "What our clients say",
-    "join_site_exchange": "Join {site} Exchange.",
+    "join_site_exchange": "Join {{site}} Exchange.",
     "deniex_earn_unlimited_trading_income_as_well_as_passive_income_today": "Register and start earning today!",
     "testimonial_1":
-        "“{site} is a revolutionary new platform that makes trading easy and profitable for all levels of expertise. They want to be the best place for everyone, from beginners to experts alike, so they keep everything simple yet powerful with great customer service!”",
+        "“{{site}} is a revolutionary new platform that makes trading easy and profitable for all levels of expertise. They want to be the best place for everyone, from beginners to experts alike, so they keep everything simple yet powerful with great customer service!”",
     "testimonial_2":
-        "“I am a new trader struggling to build up my career. I found {site} and the platform has been amazing! The indicators have helped me understand how to make the best trading decision, so far I have earned 128% in profit.”",
+        "“I am a new trader struggling to build up my career. I found {{site}} and the platform has been amazing! The indicators have helped me understand how to make the best trading decision, so far I have earned 128% in profit.”",
     "testimonial_3":
-        "“With the help of {site}, I didn't take long to become a trader. The platform is intuitive and easy-to use with plenty of helpful indicators that allowed me to make quick decisions.”",
+        "“With the help of {{site}}, I didn't take long to become a trader. The platform is intuitive and easy-to use with plenty of helpful indicators that allowed me to make quick decisions.”",
     "reward_wallet": "Reward wallet",
     "swap": "Swap",
     "swap_from": "From",
@@ -2398,7 +2398,7 @@
     "remitex_introduce_3_desc": "Predict the asset prices and earn money.",
     "binanex_main_banner_title": "World-class trading platform for everyone",
     "binanex_main_banner_text":
-        "{site} is the world's leading trading platform, combining the latest innovations with the most advanced technologies to provide exceptional trading experience for traders.",
+        "{{site}} is the world's leading trading platform, combining the latest innovations with the most advanced technologies to provide exceptional trading experience for traders.",
     "binanex_main_banner_info_1_title": "$1,000 Demo account",
     "binanex_main_banner_info_1_text": "Test your trading strategy with a free demo account before putting it to work.",
     "binanex_main_banner_info_2_title": "$5 minimum deposit",
@@ -2413,16 +2413,16 @@
         "Trade like a pro with Central - simple, fast and effective. By simplifying the trading experience, we make sure you enjoy trading without any unnecessary complications.",
     "binanex_erconomic_mechanisms_title": "A simple but effective trading solution",
     "binanex_erconomic_mechanisms_desc":
-        "{site} team is always looking for a way to make things easier for our customers.",
+        "{{site}} team is always looking for a way to make things easier for our customers.",
     "binanex_erconomic_mechanisms_property_1_title": "Security Is Our Priority",
     "binanex_erconomic_mechanisms_property_1_text":
         "We do our best to ensure the best security for your assets on our platform .",
     "binanex_erconomic_mechanisms_property_2_title": "Trade And Earn Together",
     "binanex_erconomic_mechanisms_property_2_text":
-        "Our attractive affiliate program encourages every trader on {site} to refer and earn together with their friends.",
+        "Our attractive affiliate program encourages every trader on {{site}} to refer and earn together with their friends.",
     "binanex_erconomic_mechanisms_property_3_title": "Trade With Confidence",
     "binanex_erconomic_mechanisms_property_3_text":
-        "{site} has all the neccessary tools for you to track and improve your trading skills.",
+        "{{site}} has all the neccessary tools for you to track and improve your trading skills.",
     "binanex_start_minutes_title": "Join Central.",
     "binanex_start_minutes_desc": "Start growing your income today!",
     "shogunbo_main_banner_title": "Your Best Place<br/>To Trade Assets",
@@ -2454,7 +2454,7 @@
     "pocinex_main_banner_desc":
         "Moonata is a next-generation trading platform that makes trading easy and highly profitable. Our goal is to become the best place for everyone to trade and earn. ",
     "pocinex_get_started_title": "Start trading in a few steps",
-    "trader_and_earn": "Become a trader and earn on {site} is fast and easy.",
+    "trader_and_earn": "Become a trader and earn on {{site}} is fast and easy.",
     "pocinex_signup": "Signup",
     "pocinex_get_started_description_1": "Create a free account with your email.",
     "pocinex_deposit_fund": "Deposit fund",
@@ -2463,7 +2463,7 @@
     "pocinex_get_started_description_3": "Make winning trades and earn money.",
     "more_than_one_way": "More Than One Way To Earn Unlimited Income",
     "become_affiliate_subtitle":
-        "{site} offers multiple ways to earn a stable, unlimited passive income. You can become an affiliate member and receive commission from all the trades your friends made.",
+        "{{site}} offers multiple ways to earn a stable, unlimited passive income. You can become an affiliate member and receive commission from all the trades your friends made.",
     "pocinex_what_our_clients_say": "What our clients say",
     "pocinex_clients_say_content_1":
         "Becoming An Affiliate Member On Moonata Is Not Just Another Get-Rich-Quick Scheme Because They Offer An Opportunity To Earn Stable Passive Income With Unlimited Earning Potential. If You Are A Good Trader, You Can Earn Much More By Supporting Your Team In Their Trading And Receive Trading Commissions.",
@@ -2484,7 +2484,7 @@
         "With our trading indicators, you can make smarter decisions and earn more money than ever before.",
     "bullpro_the_best_place_to_trade": "The most suitable place to earn",
     "best_choice_in_your_trading":
-        "{site} is the best choice in your trading journey. Our platform is easy to use, extremely secure and offers amazing assistance in your daily trading activities.",
+        "{{site}} is the best choice in your trading journey. Our platform is easy to use, extremely secure and offers amazing assistance in your daily trading activities.",
     "bullpro_high_security": "High security",
     "bullpro_built_using_worldclass_security_system_we_apply_best_methods_to_protect_your_assets_on_bullpro":
         "We apply top technologies in the world to protect your assets.",
@@ -2576,13 +2576,13 @@
         "The Community Jackpot program and its benefits are offered at our sole discretion. We reserve the right to modify or terminate the Jackpot prizes and how we evaluate and reward your eligible trades.",
     "community_jackpot_text_6":
         "We may, at our sole discretion, modify or terminate your right to receive the Jackpot prizes upon discovery of any fraudulent and dishonest acts conducted by you in order to earn more Jackpot prizes under this promotional offer. You will be disqualified from participating further in the Community Jackpot program or permanently banned from using our services without prior notice from our end for such occurrences. Our decision shall be final and we will not enter into any discussion regarding this matter.",
-    "register_to_wefinex": "Register to {{domain}}",
+    "register_to_wefinex": "Register to {{{domain}}}",
     "an_ideal_platform_to_earn": "An Ideal Platform To Earn",
     "site_is_the_world_premier_trading_platform":
-        "{site} is the world's premier trading platform, combining the latest innovations with cutting-edge technology to provide traders with an extraordinary trading experience.",
+        "{{site}} is the world's premier trading platform, combining the latest innovations with cutting-edge technology to provide traders with an extraordinary trading experience.",
     "our_indicators_help_customers_win_more": "Our Indicators Help Customers Win More",
     "develops_extremely_advanced_but_simple_to_use":
-        "{site} develops extremely advanced but simple-to-use indicators that help traders make better decisions in trading.",
+        "{{site}} develops extremely advanced but simple-to-use indicators that help traders make better decisions in trading.",
     "bitmeta_quick_start_title": "Discover The Most Effective Ways To Earn",
     "bitmeta_quick_start_text":
         "Explore a new world of earning opportunities ranging from daily trading to passive income from trading commissions or VIP commissions.",
@@ -2593,7 +2593,7 @@
     "our_platform_highly_stable_and_available":
         "Our platform is highly stable and available worldwide. We protect your assets with best security methods.",
     "refer_earn": "Refer & Earn",
-    "refer_your_friends_and_earn_together": "Refer your friends and earn together by trading on {site}.",
+    "refer_your_friends_and_earn_together": "Refer your friends and earn together by trading on {{site}}.",
     "fast_free": "Fast & Free",
     "no_deposit_fee_and_small_withdrawal":
         "No deposit fee and small withdrawal fee. Transactions arrives within minutes.",
@@ -2676,7 +2676,7 @@
     "fibowin_most_suitable_block3_subtitle":
         "New traders can now attain the same win rate as professional traders thanks to our highly effective indicators.",
     "start_trading_today": "Start trading today",
-    "make_money_everywhere": "Make money everywhere on {site}!",
+    "make_money_everywhere": "Make money everywhere on {{site}}!",
     "skbit_main_banner_title": "An Amazing Trading Experience",
     "skbit_main_banner_subtitle":
         "SKBit is a world-class trading platform that makes trading easy and highly profitable. Our goal is to become the best place for everyone to trade and earn.",
@@ -2769,7 +2769,7 @@
     "ltptrade_get_started_description_2": "Deposit using popular cryptocurrency.",
     "ltptrade_get_started_description_3": "Make money predicting the price of assets.",
     "everyone_can_earn_sustainable":
-        "Everyone Can Earn Sustainable Income Regardless Of Trading Skills And Backgrounds With {site}.",
+        "Everyone Can Earn Sustainable Income Regardless Of Trading Skills And Backgrounds With {{site}}.",
     "ltptrade_be_successful_title_2": "Instant Deposits & Withdrawals",
     "ltptrade_be_successful_description_2": "Deposit and Withdraw popular cryptocurrencies quickly and securely.",
     "ltptrade_clients_say_content_1":
@@ -2801,7 +2801,7 @@
     "skbit_earn_profits_within_minutes": "Register and earn money within minutes.",
     "kingofbo_your_best_place_to_trade": "Your Best Place To Trade",
     "best_choice_in_trading_online":
-        "{site} is your best choice in trading online. From trading to building your passive income, {site} provides you with everything you need in one platform!",
+        "{{site}} is your best choice in trading online. From trading to building your passive income, {{site}} provides you with everything you need in one platform!",
     "kingofbo_built_for_all_types_of_traders": "Built For All Types Of Traders",
     "kingofbo_trade_cryptocurrencies":
         "Trade cryptocurrencies with a simple interface that offers a world-class trading experience.",
@@ -2817,15 +2817,15 @@
     "kingofbo_trade_and_earn": "Trade And Earn.",
     "kingofbo_effortlessly": "Effortlessly.",
     "provides_traders":
-        "{site} provides traders with a simple way to trade and easy-to-use technical indicators that can help even the most novice trader earn significant income.",
+        "{{site}} provides traders with a simple way to trade and easy-to-use technical indicators that can help even the most novice trader earn significant income.",
     "make_money_from_trading_or_helping_friends_trade": "Make money from trading or helping friends trade.",
-    "take_your_trading": "Take your trading to the next level with {site} powerful indicators.",
+    "take_your_trading": "Take your trading to the next level with {{site}} powerful indicators.",
     "simple_but_powerful_platform": "A Simple But Powerful Platform",
     "kingofbo_making_trading_as_simple_as_possible":
         "Making trading as simple as possible, Kingofbo strives to provide everyone with the best earning opportunities.",
     "kingofbo_everyone_can_earn_multiple_streams_of_income": "Everyone Can Earn Multiple Streams Of Income",
     "site_introduces_a_new_way_of_trading":
-        "{site} introduces a new way of trading and earning which helps our customers achieve their dream income.",
+        "{{site}} introduces a new way of trading and earning which helps our customers achieve their dream income.",
     "start_your_journey_in_minutes": "Start your journey in minutes",
     "kingofbo_earn_unlimited_trading_income": "Earn unlimited trading income as well as passive income today!",
     "cloudex_mainBanner_title": "The Emergence of Digital Asset Investment",
@@ -2871,7 +2871,7 @@
         "New traders can now attain the same win rate as professional traders thanks to our highly effective indicators.",
     "new_technology": "New Technology",
     "we_offer_simple": "We offer simple way to make money trading",
-    "site_platform": "{site} platform",
+    "site_platform": "{{site}} platform",
     "guerrilla_marketing": "Experience effortless trading and a seamless earning process with our intuitive platform.",
     "our_services_are_designed": "Our services are designed for all financial sizes",
     "sign_up_now": "Sign up now",
@@ -2881,17 +2881,17 @@
     "fast_and_convenient_trading_experience_on_a_high_performing_trading_platform":
         "Fast and convenient trading experience on a high performing trading platform",
     "a_global_digital_asset_trading_platform": "A Global Digital Asset Trading Platform",
-    "trading_easier_with": "Trading easier </br> with <span class='text-primary'>{site}</span>",
+    "trading_easier_with": "Trading easier </br> with <span class='text-primary'>{{site}}</span>",
     "best_trading_platform": "The Best Trading Platform With Innovative Features",
     "fun_customer_said": "Happy customers reviews",
     "i_became_intrigued_trading":
-        "A year ago, I became intrigued by trading due to the Crypto market's rapid growth. Subsequently, I made a decision to delve into trading and fortunately, I discovered {site}, a platform that impressed me with its simplicity and professionalism.",
+        "A year ago, I became intrigued by trading due to the Crypto market's rapid growth. Subsequently, I made a decision to delve into trading and fortunately, I discovered {{site}}, a platform that impressed me with its simplicity and professionalism.",
     "with_some_practice":
-        "With some practice, I am now able to earn over twice my current monthly salary through trading, and I am considering becoming an {site} VIP member to generate passive income for my future.",
+        "With some practice, I am now able to earn over twice my current monthly salary through trading, and I am considering becoming an {{site}} VIP member to generate passive income for my future.",
     "trading_is_highly_comfortable":
-        "Trading with {site} is highly comfortable as the exchange offers not only engaging and beneficial trading tools, but also provides a secure platform for trading, allowing me to fully concentrate on my trading skills.",
+        "Trading with {{site}} is highly comfortable as the exchange offers not only engaging and beneficial trading tools, but also provides a secure platform for trading, allowing me to fully concentrate on my trading skills.",
     "my_earnings_have_typically":
-        "As a freelancer, my earnings have typically been unstable, but I have since created a dependable source of income solely from trading on {site}'s platform.",
+        "As a freelancer, my earnings have typically been unstable, but I have since created a dependable source of income solely from trading on {{site}}'s platform.",
     "grow_your_money_like_never_before": "Grow Your Money Like Never Before",
     "service": "Service",
     "new_trading_experience": "A New<br/>Trading Experience",
@@ -2910,18 +2910,18 @@
     "our_portfolio": "Our portfolio",
     "trusted_by_leading_companies_in_the_industry": "Trusted By <span class='text-primary'>Leading</span> Companies In The Industry",
     "by_introducting_better_way_trade_earn":
-        "By introducing a better way to trade and earn, {site} has helped our customers achieve their dream income by becoming VIP members or successful traders.",
+        "By introducing a better way to trade and earn, {{site}} has helped our customers achieve their dream income by becoming VIP members or successful traders.",
     "about_our_company": "About Our Company",
     "giving_future_to_your_investment": "Giving Future To Your Investment",
     "transparent_price_description":
         "We use real-time price data obtained from reputable exchanges in the cryptocurrency market.",
     "high_security_description":
         "Our platform employs cutting-edge technology for data and asset protection to optimize the safety of your financial resources.",
-    "trade_everywhere_with_exchange": "Trade Everywhere With {site}",
+    "trade_everywhere_with_exchange": "Trade Everywhere With {{site}}",
     "trade_everywhere_with_exchange_description":
-        "{site} is a trading platform that was developed based on cutting-edge technologies and the latest innovations.",
+        "{{site}} is a trading platform that was developed based on cutting-edge technologies and the latest innovations.",
     "vision_is_to_become_one_of_the_leading_trading_platforms_in_the_world":
-        "Our vision is to become one of the leading trading platforms in the world. At {site} we are inspired by innovation and dedicated to providing our customers with amazing trading experiences.",
+        "Our vision is to become one of the leading trading platforms in the world. At {{site}} we are inspired by innovation and dedicated to providing our customers with amazing trading experiences.",
     "an_amazing_trading_experience": "An Amazing Trading Experience",
     "trading_platform_that_was_developed_based_on_cutting_edge":
         "Trading platform that was developed based on cutting-edge technologies and the latest innovations to provide an extraordinary experience for traders.",
@@ -2930,9 +2930,9 @@
     "intuitive_interface": "Intuitive Interface",
     "passive_income_capitalize": "Passive Income",
     "you_can_trade_anywhere_anytime_and_generate":
-        "You can trade anywhere, anytime and generate significant profits on {site}.",
+        "You can trade anywhere, anytime and generate significant profits on {{site}}.",
     "traders_can_sign_up_as_affiliates":
-        "Traders can sign up as {site} affiliates and earn passive income by helping other members with their trading.",
+        "Traders can sign up as {{site}} affiliates and earn passive income by helping other members with their trading.",
     "the_new_standard_of_trading_earning": "The New Standard Of <span class='text-primary'>Trading And Earning</span>",
     "creative_exchange": "Creative Exchange",
     "train_smarter_get_stronger": "Train smarter. get stronger",
@@ -2957,9 +2957,9 @@
     "reviews": "Reviews",
     "people_reviews_games": "People Reviews Of Our Platform",
     "game_development_release":
-        "{Site} revolutionizes trading by providing a seamless and highly effective solution that simplifies the process and maximizes profitability.",
+        "{{site}} revolutionizes trading by providing a seamless and highly effective solution that simplifies the process and maximizes profitability.",
     "i_am_new_trader_struggling_to_build":
-        "I am a new trader struggling to build up my career. I found {site} and the platform has been amazing! The indicators have helped me understand how to make the best trading decision, so far I have earned 128% in profit.",
+        "I am a new trader struggling to build up my career. I found {{site}} and the platform has been amazing! The indicators have helped me understand how to make the best trading decision, so far I have earned 128% in profit.",
     "type_something": "Freelancer",
     "contact": "Contact",
     "api_key_unvailable": "This feature is currently unavailable.",

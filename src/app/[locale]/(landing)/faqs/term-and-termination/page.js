@@ -1,7 +1,7 @@
 "use client";
 import useLocale from "@/hooks/useLocales";
 
-export default function Page() {
+export default function TermAndTermination() {
     const { locale } = useLocale();
 
     if (locale === "vi") {
