@@ -1,0 +1,10 @@
+{
+    "siteId": "localhost:3001",
+    "title": "Woodex",
+    "theme": {
+      "primaryColor": "#44abbf", 
+      "textColor": "#000000",
+      "primaryColorHover": "#44abbf"
+    }
+  }
+  

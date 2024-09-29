@@ -50,7 +50,7 @@ const TradeHistoryPage = () => {
           </div>
         </div>
         <div className="grid lg:grid-cols-2 mb-6">
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div><div></div></div>}>
             <TradeStats data={!auth?.user?.enable_hiding_info ? data : null} />
           </Suspense>
           <ProfitStats data={!auth?.user?.enable_hiding_info ? data : null} />

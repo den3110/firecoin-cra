@@ -54,7 +54,7 @@ function Footer({shouldShowFooter}) {
                                     </ul>
                                 </div>
                                 <div className="sm:ml-6 flex-1 pb-10 pb-10 lg:pb-0">
-                                    <Suspense fallback={<div>Loading...</div>}>
+                                    <Suspense fallback={<div><div></div></div>}>
                                         <LocaleSelect />
                                     </Suspense>
                                 </div>

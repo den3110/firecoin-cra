@@ -85,7 +85,7 @@ const IndexPage = () => {
                             )}
                         >
                             <div className="flex flex-col h-full">
-                                <Suspense fallback={<div>Loading...</div>}>
+                                <Suspense fallback={<div><div></div></div>}>
                                     <TradeChart />
                                 </Suspense>
                                 <AnalysisInfo />
@@ -109,7 +109,7 @@ const IndexPage = () => {
                                 leave="transition transform"
                                 leaveFrom="w-full sm:w-[125px] lg:w-[210px]"
                                 leaveTo="w-0"
-                                className="sm:h-full py-2 sm:pt-0 lg:py-2 px-2.5 overflow-y-hidden"
+                                className="sm:h-full py-2 sm:pt-0 lg:py-2 px-2.5 overflow-y-hidden flex-1"
                             >
                                 <BetHistory />
                             </Transition>

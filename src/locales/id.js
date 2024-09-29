@@ -1129,7 +1129,7 @@ const id = {
     "i_confirm_that_and_accept": {
         "text_before": "Saya mengakui dan menyetujui"
     },
-    "you_have_successfully_transfer": "Anda telah berhasil mentransfer {amount} ke {boTransferType}",
+    "you_have_successfully_transfer": "Anda telah berhasil mentransfer {{amount}} ke {{boTransferType}}",
     "buy_agencylicense": "Membeli lisensi keagenan ",
     "order_success": "Atur perintah dengan sukses",
     "hide_balance": "Sembunyikan saldo ",
@@ -2291,7 +2291,7 @@ const id = {
     "bitiva_trade_now_title_title": "Join <span style='color:#fff'>Bitiva</span> Today",
     "bitiva_trade_now_title_text": "It Takes Only 5 Minutes To Start Earning Unlimited Amount Of Income.",
     "redirect_title": "Pemberitahuan Transformasi Situs Web",
-    "redirect_text": "Sebagai persiapan untuk menciptakan pertukaran aset digital yang luar biasa, situs kami <strong>{siteName}</strong> exchange akan mengadakan beberapa inovasi situs web pada <strong>{date}</strong>. Anda dapat terus menggunakan akun yang ada untuk masuk ke platform terbaru kami dengan memasukkan <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. Untuk pertanyaan lebih lanjut silahkan hubungi kami di <a href='mailto:{email}'>{email}</a>",
+    "redirect_text": "Sebagai persiapan untuk menciptakan pertukaran aset digital yang luar biasa, situs kami {siteName} exchange akan mengadakan beberapa inovasi situs web pada {date}. Anda dapat terus menggunakan akun yang ada untuk masuk ke platform terbaru kami dengan memasukkan <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. Untuk pertanyaan lebih lanjut silahkan hubungi kami di <a href='mailto:{email}'>{email}</a>",
     "redirect_button": "Jelajahi {siteName}",
     "tlctrade_your_best_place_to_trade": "The New Era of Digital Asset Exchange",
     "tlctrade_is_your_best_choice_in_trading_online": "TLCtrade is the world's premier trading platform, combining cutting-edge technology with the latest innovations to provide traders with a remarkable trading experience",

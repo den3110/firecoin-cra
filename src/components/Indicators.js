@@ -246,13 +246,13 @@ const Indicators = () => {
 
   return (
     <div className="gauge-meter">
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div><div></div></div>}>
         <OsGauge result={result} />
       </Suspense>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div><div></div></div>}>
         <SuGauge result={result} />
       </Suspense>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div><div></div></div>}>
         <MaGauge result={result} />
       </Suspense>
     </div>

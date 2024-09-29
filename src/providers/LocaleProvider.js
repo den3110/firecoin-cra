@@ -4,6 +4,7 @@ import LocaleContext from "@/contexts/LocaleContext";
 // import { NextIntlClientProvider } from "next-intl";
 import { useEffect, useState, useContext } from "react";
 import clientStylesConfig from "@/clientStylesConfig";
+import { useTranslation } from "react-i18next";
 
 // Provider cho Context
 
@@ -26,7 +27,7 @@ const LocaleProvider = ({ children }) => {
     const [locale, setLocale] = useState("en");
     const [messages, setMessages] = useState({});
     const [siteInfo, setSiteInfo] = useState({});
-
+    const { i18n } = useTranslation();
     const changeLanguage = (language) => {
         setLocale(language);
         localStorage?.setItem("LANG", language);
@@ -55,10 +56,14 @@ const LocaleProvider = ({ children }) => {
                 if(!["en", "vi", "th", "la", "kr", "jp", "id", "cn","cm"].includes(LANG)){
                     LANG = "en";
                     localStorage?.setItem("LANG", "en");
-                }                
+                }   
+
                 const messages = (await import(`@/locales/${LANG}.js`)).default;
                 setLocale(LANG);
                 setMessages(messages);
+                if (LANG !== i18n.language) {
+                    i18n.changeLanguage(LANG);
+                }
             };
             loadLocaleData();
         }

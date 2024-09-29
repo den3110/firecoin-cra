@@ -1283,7 +1283,7 @@ const vi = {
     i_confirm_that_and_accept: {
         text_before: "Tôi xác nhận và đồng ý",
     },
-    you_have_successfully_transfer: "Bạn đã chuyển thành công <strong>{amount}</strong> đến {boTransferType}",
+    you_have_successfully_transfer: "Bạn đã chuyển thành công {{amount}} đến {{boTransferType}}",
     buy_agencylicense: "Mua quyền Thành viên VIP",
     order_success: "Đặt lệnh thành công",
     hide_balance: "Ẩn số dư",
@@ -2400,11 +2400,11 @@ const vi = {
     airdrop_rules_description_0:
         "Để tặng thưởng cho những người dùng tích cực giao dịch trên nền tảng của chúng tôi từ những ngày đầu, chúng tôi sẽ tổ chức sự kiện Airdrop (sự kiện tặng miễn phí) để phân phối ALI cho tất cả các thành viên dựa trên tổng khối lượng giao dịch của bạn tại thời điểm Snapshot. Quy tắc phân phối Airdrop sẽ như sau:",
     airdrop_rules_description_1:
-        "1. Tất cả các thành viên có tổng khối lượng giao dịch ít nhất $1000 trên nền tảng của chúng tôi đều đủ điều kiện tham gia sự kiện Airdrop. Số lượng phân phối sẽ được tính dựa trên <strong>tổng khối lượng giao dịch của bạn tại thời điểm Snapshot.</strong>",
+        "1. Tất cả các thành viên có tổng khối lượng giao dịch ít nhất $1000 trên nền tảng của chúng tôi đều đủ điều kiện tham gia sự kiện Airdrop. Số lượng phân phối sẽ được tính dựa trên tổng khối lượng giao dịch của bạn tại thời điểm Snapshot.",
     airdrop_rules_description_2:
-        '2. "Snapshot" (Chụp dữ liệu) là phương pháp tổng kết tổng khối lượng giao dịch của bạn vào thời điểm chính xác trong ngày. <strong>"Tổng khối lượng giao dịch tại thời điểm Snapshot"</strong> là <strong>khối lượng giao dịch của bạn được tính từ 00:00:00 (UTC) 01/01/2021 đến thời điểm Snapshot.</strong>',
+        '2. "Snapshot" (Chụp dữ liệu) là phương pháp tổng kết tổng khối lượng giao dịch của bạn vào thời điểm chính xác trong ngày. "Tổng khối lượng giao dịch tại thời điểm Snapshot" là khối lượng giao dịch của bạn được tính từ 00:00:00 (UTC) 01/01/2021 đến thời điểm Snapshot.',
     airdrop_rules_description_3:
-        "3. Sẽ có tổng cộng 5.000.000 ALI trong sự kiện Airdrop này. 5.000.000 ALI sẽ được phân bổ công bằng giữa mọi thành viên trên nền tảng của chúng tôi dựa trên <strong>tổng khối lượng giao dịch của họ tại thời điểm Snapshot.</strong>",
+        "3. Sẽ có tổng cộng 5.000.000 ALI trong sự kiện Airdrop này. 5.000.000 ALI sẽ được phân bổ công bằng giữa mọi thành viên trên nền tảng của chúng tôi dựa trên tổng khối lượng giao dịch của họ tại thời điểm Snapshot.",
     airdrop_rules_description_4:
         "4. Tất cả ALI chưa được nhận sẽ hết hạn vào ngày hết hạn, có nghĩa là vào ngày này và trở về sau, bạn sẽ không thể yêu cầu nhận ALI trong sự kiện Airdrop này nữa.",
     airdrop_rules_description_5:
@@ -2794,7 +2794,7 @@ const vi = {
     bitiva_trade_now_title_text: "Chỉ mất 5 phút để bắt đầu kiếm thu nhập không giới hạn.",
     redirect_title: "Thông Báo Về Việc Cải Tiến Trang Web",
     redirect_text:
-        "Để chuẩn bị cho một thế hệ sàn giao dịch hiệu suất cao, sàn giao dịch <strong>{siteName}</strong> sẽ thực hiện một số thay đổi vào ngày <strong>{date}</strong>. Bạn có thể tiếp tục sử dụng tài khoản hiện tại để đăng nhập vào nền tảng mới ở địa chỉ <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. Mọi thắc mắc xin vui lòng gửi email về <a href='mailto:{email}'>{email}</a>",
+        "Để chuẩn bị cho một thế hệ sàn giao dịch hiệu suất cao, sàn giao dịch {siteName} sẽ thực hiện một số thay đổi vào ngày {date}. Bạn có thể tiếp tục sử dụng tài khoản hiện tại để đăng nhập vào nền tảng mới ở địa chỉ <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. Mọi thắc mắc xin vui lòng gửi email về <a href='mailto:{email}'>{email}</a>",
     redirect_button: "Khám phá {siteName}",
     tlctrade_your_best_place_to_trade: "Kỷ nguyên mới của giao dịch tài sản số",
     tlctrade_is_your_best_choice_in_trading_online:

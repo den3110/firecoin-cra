@@ -79,7 +79,7 @@ const ExchangeModal = () => {
                 }
 
                 enqueueSnackbar(
-                    t.markup("you_have_successfully_transfer", {
+                    t("you_have_successfully_transfer", {
                         amount: Formatter.formatNumber(amount) + " USDT",
                         boTransferType: action === "usdtbo" ? t("live_account") : `USDT ${t("wallet")}`,
                         strong: (chunks) => `${chunks}`,

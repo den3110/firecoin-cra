@@ -89,7 +89,7 @@ const ProfilePage = () => {
                     </div>
                 </div>
             </div>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div><div></div></div>}>
                 <ChangeAvatarModal open={changeAvatarModalOpen} onClose={() => setChangeAvatarModalOpen(false)} />
             </Suspense>
         </div>

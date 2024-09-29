@@ -57,8 +57,8 @@ export const localeList = [
 ];
 
 const LocaleSelect = ({ inSetting = false }) => {
-    const pathname = usePathname();
-    const router = useRouter();
+    // const pathname = usePathname();
+    // const router = useRouter();
 
     const { changeLanguage, locale } = useLocale();
 

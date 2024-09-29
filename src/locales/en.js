@@ -1281,7 +1281,7 @@ const en = {
     i_confirm_that_and_accept: {
         text_before: "I confirm and accept",
     },
-    you_have_successfully_transfer: "You have successfully transfer <strong>{amount}</strong> to {boTransferType}",
+    you_have_successfully_transfer: "You have successfully transfer {{amount}} to {{boTransferType}}",
     buy_agencylicense: "Buy VIP license",
     order_success: "Order successfully",
     hide_balance: "Hide balance",
@@ -2312,11 +2312,11 @@ const en = {
     airdrop_rules_description_0:
         "To reward active users who have been trading on our platform since the first days, we will run an Airdrop event (free give away event) to distribute ALI token to members based on your total trading volume at the Snapshot time. The Airdrop distribution rule will be as follow:",
     airdrop_rules_description_1:
-        "1. All members who have total trading volume at least $1,000 on our platform are eligible to participate in the Airdrop event. The distribution amount will be calculated based on your <strong>total trading volume at the Snapshot time.</strong>",
+        "1. All members who have total trading volume at least $1,000 on our platform are eligible to participate in the Airdrop event. The distribution amount will be calculated based on your total trading volume at the Snapshot time.",
     airdrop_rules_description_2:
-        '2. "Snapshot" (Capturing data) is a method of summarizing your total trading volume at the exact time of the day. <strong>"Total trading volume at the Snapshot time"</strong> is <strong>your trading volume calculated from 00:00:00 (UTC) on 01/01/2021 to the Snapshot time.</strong>',
+        '2. "Snapshot" (Capturing data) is a method of summarizing your total trading volume at the exact time of the day. "Total trading volume at the Snapshot time" is your trading volume calculated from 00:00:00 (UTC) on 01/01/2021 to the Snapshot time.',
     airdrop_rules_description_3:
-        "3. There will be a total of 5,000,000 ALI in this Airdrop event. The 5,000,000 ALI will be fairly distributed among members on our platform based on their <strong>total trading volume at the Snapshot time.</strong>",
+        "3. There will be a total of 5,000,000 ALI in this Airdrop event. The 5,000,000 ALI will be fairly distributed among members on our platform based on their total trading volume at the Snapshot time.",
     airdrop_rules_description_4:
         "4. All unclaimed ALI will be expired on the expiration day, which means that on this day and after that, you will not be able to claim ALI in this Airdrop event anymore.",
     airdrop_rules_description_5:
@@ -2726,7 +2726,7 @@ const en = {
     bitiva_trade_now_title_text: "It Takes Only 5 Minutes To Start Earning Unlimited Amount Of Income.",
     redirect_title: "Notice of Website Transformation",
     redirect_text:
-        "In preparation for creating an outstanding digital asset exchange, our site <strong>{siteName}</strong> exchange will be having some website innovations on <strong>{date}</strong>. You can continue using your existing account to log in to our latest platform by entering <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. For further inquiries please contact us at <a href='mailto:{email}'>{email}</a>.",
+        "In preparation for creating an outstanding digital asset exchange, our site {siteName} exchange will be having some website innovations on {date}. You can continue using your existing account to log in to our latest platform by entering <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. For further inquiries please contact us at <a href='mailto:{email}'>{email}</a>.",
     redirect_button: "Explore {siteName}",
     tlctrade_your_best_place_to_trade: "The New Era of Digital Asset Exchange",
     tlctrade_is_your_best_choice_in_trading_online:

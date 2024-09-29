@@ -1129,7 +1129,7 @@ const cm = {
     "i_confirm_that_and_accept": {
         "text_before": "ខ្ញុំទទួលស្គាល់និងយល់ព្រមលើ"
     },
-    "you_have_successfully_transfer": "អ្នកបានផ្ទេរ {amount} ទៅ {boTransferType} ដោយជោគជ័យ",
+    "you_have_successfully_transfer": "អ្នកបានផ្ទេរ {{amount}} ទៅ {{boTransferType}} ដោយជោគជ័យ",
     "buy_agencylicense": "ទិញអាជ្ញាប័ណ្ណទីភ្នាក់ងារ",
     "order_success": "បញ្ជាទិញដោយជោគជ័យ",
     "hide_balance": "លាក់តុល្យភាព",
@@ -2266,7 +2266,7 @@ const cm = {
     "start_trading_today": "Start trading today",
     "make_money_everywhere": "Make money everywhere on Skymon!",
     "redirect_title": "សេចក្តីជូនដំណឹងអំពីការផ្លាស់ប្តូរគេហទំព័រ",
-    "redirect_text": "ក្នុងការរៀបចំសម្រាប់ការបង្កើតការផ្លាស់ប្តូរទ្រព្យសម្បត្តិឌីជីថលដ៏ឆ្នើម គេហទំព័ររបស់យើង ការផ្លាស់ប្តូរ <strong>{siteName}</strong> នឹងមានការច្នៃប្រឌិតគេហទំព័រមួយចំនួននៅថ្ងៃទី <strong>{date}</strong> ។ អ្នកអាចបន្តប្រើប្រាស់គណនីដែលមានស្រាប់របស់អ្នក ដើម្បីចូលទៅក្នុងវេទិកាចុងក្រោយបំផុតរបស់យើងដោយបញ្ចូល <a href='https://{siteURL}' target='_blank'>{siteURL}</a> ។ សម្រាប់ព័ត៌មានបន្ថែម សូមទាក់ទងមកយើងខ្ញុំតាម <a href='mailto:{email}'>{email}</a> ។",
+    "redirect_text": "ក្នុងការរៀបចំសម្រាប់ការបង្កើតការផ្លាស់ប្តូរទ្រព្យសម្បត្តិឌីជីថលដ៏ឆ្នើម គេហទំព័ររបស់យើង ការផ្លាស់ប្តូរ {siteName} នឹងមានការច្នៃប្រឌិតគេហទំព័រមួយចំនួននៅថ្ងៃទី {date} ។ អ្នកអាចបន្តប្រើប្រាស់គណនីដែលមានស្រាប់របស់អ្នក ដើម្បីចូលទៅក្នុងវេទិកាចុងក្រោយបំផុតរបស់យើងដោយបញ្ចូល <a href='https://{siteURL}' target='_blank'>{siteURL}</a> ។ សម្រាប់ព័ត៌មានបន្ថែម សូមទាក់ទងមកយើងខ្ញុំតាម <a href='mailto:{email}'>{email}</a> ។",
     "redirect_button": "រុករក {siteName}",
     "skbit_main_banner_title": "An Amazing Trading Experience",
     "skbit_main_banner_subtitle": "SKBit is a world-class trading platform that makes trading easy and highly profitable. Our goal is to become the best place for everyone to trade and earn.",

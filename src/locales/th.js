@@ -1129,7 +1129,7 @@ const th = {
     "i_confirm_that_and_accept": {
         "text_before": "ฉันรับทราบและยอมรับ"
     },
-    "you_have_successfully_transfer": "คุณโอนเงินจำนวน {amount} ไปยัง {boTransferType}สำเร็จแล้ว",
+    "you_have_successfully_transfer": "คุณโอนเงินจำนวน {{amount}} ไปยัง {{boTransferType}}สำเร็จแล้ว",
     "buy_agencylicense": "ซื้อสิทธิ์ตัวแทน",
     "order_success": "วางคำสั่งซื้อสำเร็จแล้ว",
     "hide_balance": "ซ่อนยอดเงิน",
@@ -2291,7 +2291,7 @@ const th = {
     "bitiva_trade_now_title_title": "Join <span style='color:#fff'>Bitiva</span> Today",
     "bitiva_trade_now_title_text": "It Takes Only 5 Minutes To Start Earning Unlimited Amount Of Income.",
     "redirect_title": "ประกาศการเปลี่ยนแปลงเว็บไซต์",
-    "redirect_text": "เพื่อเตรียมพร้อมสำหรับการสร้างการแลกเปลี่ยนทรัพย์สินดิจิทัลที่โดดเด่น การแลกเปลี่ยน <strong>{siteName}</strong> ของไซต์ของเราจะมีนวัตกรรมเว็บไซต์บางอย่างในวันที่ <strong>{date}</strong> คุณสามารถใช้บัญชีที่มีอยู่เพื่อเข้าสู่ระบบแพลตฟอร์มไหม่ล่าสุดของเราต่อไปได้โดยป้อน <a href='https://{siteURL}' target='_blank'>{siteURL}</a> สอบถามรายละเอียดเพิ่มเติมได้ที่ <a href='mailto:{email}'>{email}</a>",
+    "redirect_text": "เพื่อเตรียมพร้อมสำหรับการสร้างการแลกเปลี่ยนทรัพย์สินดิจิทัลที่โดดเด่น การแลกเปลี่ยน {siteName ของไซต์ของเราจะมีนวัตกรรมเว็บไซต์บางอย่างในวันที่ {date คุณสามารถใช้บัญชีที่มีอยู่เพื่อเข้าสู่ระบบแพลตฟอร์มไหม่ล่าสุดของเราต่อไปได้โดยป้อน <a href='https://{siteURL}' target='_blank'>{siteURL}</a> สอบถามรายละเอียดเพิ่มเติมได้ที่ <a href='mailto:{email}'>{email}</a>",
     "redirect_button": "สำรวจ {siteName}",
     "tlctrade_your_best_place_to_trade": "The New Era of Digital Asset Exchange",
     "tlctrade_is_your_best_choice_in_trading_online": "TLCtrade is the world's premier trading platform, combining cutting-edge technology with the latest innovations to provide traders with a remarkable trading experience",

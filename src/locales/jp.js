@@ -1129,7 +1129,7 @@ const jp = {
     "i_confirm_that_and_accept": {
         "text_after": "を確認し、これに同意します"
     },
-    "you_have_successfully_transfer": "{amount}を{boTransferType}に正常に転送しました",
+    "you_have_successfully_transfer": "{{amount}}を{{boTransferType}}に正常に転送しました",
     "buy_agencylicense": "エージェントライセンスを購入",
     "order_success": "注文成功",
     "hide_balance": "残高隠し",
@@ -2290,7 +2290,7 @@ const jp = {
     "bitiva_trade_now_title_title": "Join <span style='color:#fff'>Bitiva</span> Today",
     "bitiva_trade_now_title_text": "It Takes Only 5 Minutes To Start Earning Unlimited Amount Of Income.",
     "redirect_title": "ホームページリニューアルのお知らせ",
-    "redirect_text": "優れたデジタル資産交換を作成する準備として、私たちのサイト <strong>{siteName}</strong> は <strong>{date}</strong> にいくつかの Web サイトの革新を行います。 <a href='https://{siteURL}' target='_blank'>{siteURL}</a> と入力すると、引き続き既存のアカウントを使用して最新のプラットフォームにログインできます。 さらなるお問い合わせは、<a href='mailto:{email}'>{email}</a> までご連絡ください。",
+    "redirect_text": "優れたデジタル資産交換を作成する準備として、私たちのサイト {siteName} は {date} にいくつかの Web サイトの革新を行います。 <a href='https://{siteURL}' target='_blank'>{siteURL}</a> と入力すると、引き続き既存のアカウントを使用して最新のプラットフォームにログインできます。 さらなるお問い合わせは、<a href='mailto:{email}'>{email}</a> までご連絡ください。",
     "redirect_button": "{siteName} を見る",
     "tlctrade_your_best_place_to_trade": "The New Era of Digital Asset Exchange",
     "tlctrade_is_your_best_choice_in_trading_online": "TLCtrade is the world's premier trading platform, combining cutting-edge technology with the latest innovations to provide traders with a remarkable trading experience",

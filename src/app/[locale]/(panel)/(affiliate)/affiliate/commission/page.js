@@ -1,23 +1,17 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import { useCallback, useEffect, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useState } from "react";
 import { Menu } from "@headlessui/react";
 import clsx from "clsx";
 import CustomDateRangePicker from "@/components/inputs/CustomDateRangePicker";
 import dayjs from "dayjs";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import HttpClient from "@/services/HttpClient";
 import TradingPayoutDetails from "@/app/[locale]/(panel)/(affiliate)/affiliate/commission/_partials/TradingPayoutDetails";
 import HideInfo from "@/components/HideInfo";
 
-const TradingPayoutChart = dynamic(
-    () => import("@/app/[locale]/(panel)/(affiliate)/affiliate/commission/_partials/TradingPayoutChart"),
-    {
-        ssr: false,
-    },
-);
-
+const TradingPayoutChart = lazy(() => import('@/app/[locale]/(panel)/(affiliate)/affiliate/commission/_partials/TradingPayoutChart'));
 const AffiliateCommissionPage = () => {
     const {t } = useTranslation();
 
@@ -236,7 +230,9 @@ const AffiliateCommissionPage = () => {
                                 </span>
                             </div>
                             <div className="wrap-chart-below border-none afflilate-commission-chart">
-                                <TradingPayoutChart data={data} type={type} />
+                                <Suspense fallback={<div><div></div></div>}>
+                                    <TradingPayoutChart data={data} type={type} />
+                                </Suspense>
                             </div>
                         </div>
                     </div>

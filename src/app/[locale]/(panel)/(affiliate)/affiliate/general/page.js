@@ -300,7 +300,7 @@ const GeneralAffiliatePage = () => {
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-4 gap-x-[15px] mt-6">
                         <div className="lg:col-span-2">
-                            <Suspense fallback={<div>Loading...</div>}>
+                            <Suspense fallback={<div><div></div></div>}>
                                 <AffiliateStats />
                             </Suspense>
                         </div>

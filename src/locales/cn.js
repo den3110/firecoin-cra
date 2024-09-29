@@ -1129,7 +1129,7 @@ const cn = {
     "i_confirm_that_and_accept": {
         "text_before": "我确认并同意"
     },
-    "you_have_successfully_transfer": "您已成功将{amount}转移到{boTransferType}",
+    "you_have_successfully_transfer": "您已成功将{{amount}}转移到{{boTransferType}}",
     "buy_agencylicense": "购买代理商执照",
     "order_success": "订购成功",
     "hide_balance": "隐藏余额",
@@ -2266,7 +2266,7 @@ const cn = {
     "start_trading_today": "Start trading today",
     "make_money_everywhere": "Make money everywhere on Skymon!",
     "redirect_title": "网站改造通知",
-    "redirect_text": "为了准备创建一个出色的数字资产交易所，我们的网站 <strong>{siteName}</strong> 交易所将在 <strong>{date}</strong> 进行一些网站创新。 您可以通过输入 <a href='https://{siteURL}' target='_blank'>{siteURL}</a> 继续使用您现有的帐户登录我们的最新平台。 如需进一步咨询，请通过 <a href='mailto:{email}'>{email}</a> 与我们联系。",
+    "redirect_text": "为了准备创建一个出色的数字资产交易所，我们的网站 {siteName} 交易所将在 {date} 进行一些网站创新。 您可以通过输入 <a href='https://{siteURL}' target='_blank'>{siteURL}</a> 继续使用您现有的帐户登录我们的最新平台。 如需进一步咨询，请通过 <a href='mailto:{email}'>{email}</a> 与我们联系。",
     "redirect_button": "探索 {siteName}",
     "skbit_main_banner_title": "An Amazing Trading Experience",
     "skbit_main_banner_subtitle": "SKBit is a world-class trading platform that makes trading easy and highly profitable. Our goal is to become the best place for everyone to trade and earn.",

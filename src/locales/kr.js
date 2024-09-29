@@ -1130,7 +1130,7 @@ const kr = {
         "text_before": "저는",
         "text_after": "에 대해 확정하고 동의합니다"
     },
-    "you_have_successfully_transfer": "{amount}을 {boTransferType} (으)로 이전했습니다",
+    "you_have_successfully_transfer": "{{amount}}을 {{boTransferType}} (으)로 이전했습니다",
     "buy_agencylicense": "대행사 허가서 구매",
     "order_success": "성공적으로 주문",
     "hide_balance": "잔액  숨기기",
@@ -2293,7 +2293,7 @@ const kr = {
     "bitiva_trade_now_title_title": "Join <span style='color:#fff'>Bitiva</span> Today",
     "bitiva_trade_now_title_text": "It Takes Only 5 Minutes To Start Earning Unlimited Amount Of Income.",
     "redirect_title": "웹사이트 전환 공지",
-    "redirect_text": "뛰어난 디지털 자산 거래소를 만들기 위한 준비로 우리 사이트 <strong>{siteName}</strong> 교환은 <strong>{date}</strong> 에 몇 가지 웹사이트 혁신을 가질 것입니다. <a href='https://{siteURL}' target='_blank'>{siteURL}</a> 를 입력하면 기존 계정을 계속 사용하여 최신 플랫폼에 로그인할 수 있습니다. 기타 문의사항은 <a href='mailto:{email}'>{email}</a> 로 연락주시기 바랍니다.",
+    "redirect_text": "뛰어난 디지털 자산 거래소를 만들기 위한 준비로 우리 사이트 {siteName} 교환은 {date} 에 몇 가지 웹사이트 혁신을 가질 것입니다. <a href='https://{siteURL}' target='_blank'>{siteURL}</a> 를 입력하면 기존 계정을 계속 사용하여 최신 플랫폼에 로그인할 수 있습니다. 기타 문의사항은 <a href='mailto:{email}'>{email}</a> 로 연락주시기 바랍니다.",
     "redirect_button": "{siteName} 살펴보기",
     "tlctrade_your_best_place_to_trade": "The New Era of Digital Asset Exchange",
     "tlctrade_is_your_best_choice_in_trading_online": "TLCtrade is the world's premier trading platform, combining cutting-edge technology with the latest innovations to provide traders with a remarkable trading experience",

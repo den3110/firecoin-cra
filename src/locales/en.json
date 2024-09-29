@@ -1281,7 +1281,7 @@
     "i_confirm_that_and_accept": {
         "text_before": "I confirm and accept"
     },
-    "you_have_successfully_transfer": "You have successfully transfer <strong>{{amount}}</strong> to {boTransferType}",
+    "you_have_successfully_transfer": "You have successfully transfer {{amount}} to {{boTransferType}}",
     "buy_agencylicense": "Buy VIP license",
     "order_success": "Order successfully",
     "hide_balance": "Hide balance",
@@ -2712,7 +2712,7 @@
     "bitiva_trade_now_title_text": "It Takes Only 5 Minutes To Start Earning Unlimited Amount Of Income.",
     "redirect_title": "Notice of Website Transformation",
     "redirect_text":
-        "In preparation for creating an outstanding digital asset exchange, our site <strong>{siteName}</strong> exchange will be having some website innovations on <strong>{date}</strong>. You can continue using your existing account to log in to our latest platform by entering <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. For further inquiries please contact us at <a href='mailto:{email}'>{email}</a>.",
+        "In preparation for creating an outstanding digital asset exchange, our site {siteName} exchange will be having some website innovations on {date}. You can continue using your existing account to log in to our latest platform by entering <a href='https://{siteURL}' target='_blank'>{siteURL}</a>. For further inquiries please contact us at <a href='mailto:{email}'>{email}</a>.",
     "redirect_button": "Explore {siteName}",
     "tlctrade_your_best_place_to_trade": "The New Era of Digital Asset Exchange",
     "tlctrade_is_your_best_choice_in_trading_online":

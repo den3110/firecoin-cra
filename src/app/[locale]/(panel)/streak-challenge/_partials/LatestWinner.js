@@ -20,6 +20,7 @@ const LatestWinner = () => {
             .then((data) => {
                 setData(data.d);
             })
+            .catch(err=> console.log(err))
             .finally(() => {
                 setLoading(false);
             });

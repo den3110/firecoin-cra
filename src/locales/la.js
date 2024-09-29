@@ -1389,7 +1389,7 @@ const la = {
     "i_confirm_that_and_accept": {
         "text_before": "ຂ້ອຍຮັບຮູ້ແລະເຫັນດີກັບ"
     },
-    "you_have_successfully_transfer": "ທ່ານໄດ້ໂອນສຳເລັດ {amount} ເຖິງ {boTransferType}",
+    "you_have_successfully_transfer": "ທ່ານໄດ້ໂອນສຳເລັດ {{amount}} ເຖິງ {{boTransferType}}",
     "buy_agencylicense": "ຊື້ສິດຕົວແທນ",
     "order_success": "ຈັດຄຳສັ່ງສຳເລັດ",
     "hide_balance": "ເຊື່ອງຍອດເງິນ",
@@ -2693,7 +2693,7 @@ const la = {
     "bitiva_trade_now_title_title": "Join <span style='color:#fff'>Bitiva</span> Today",
     "bitiva_trade_now_title_text": "It Takes Only 5 Minutes To Start Earning Unlimited Amount Of Income.",
     "redirect_title": "ແຈ້ງການກ່ຽວກັບການປ່ຽນແປງເວັບໄຊທ໌",
-    "redirect_text": "ໃນການກະກຽມສໍາລັບການສ້າງການແລກປ່ຽນຊັບສິນດິຈິຕອນທີ່ໂດດເດັ່ນ, ການແລກປ່ຽນ <strong>{siteName}</strong> ໄຊທ໌ຂອງພວກເຮົາຈະມີ ນະວັດຕະກຳເວັບໄຊທ໌ບາງຢ່າງໃນວັນທີ <strong>{date}</strong>. ທ່ານ​ສາ​ມາດ​ສືບ​ຕໍ່​ການ​ນໍາ​ໃຊ້​ບັນ​ຊີ​ທີ່​ມີ​ຢູ່​ແລ້ວ​ຂອງ​ທ່ານ​ເຂົ້າ​ສູ່​ລະ​ບົບ​ແພລດຟອມຫລ້າ​ສຸດ​ຂອງ​ພວກ​ເຮົາ​ໂດຍ​ການ​ເຂົ້າ <a href='https:{siteURL}' target='_blank'>{siteURL}</a>. ສໍາ​ລັບ​ການ​ສອບ​ຖາມ​ເພີ່ມ​ເຕີມ​ກະ​ລຸ​ນາ​ຕິດ​ຕໍ່​ຫາ​ພວກ​ເຮົາ​ທີ່ <a href='mailto:{email}'>{email}</a>.",
+    "redirect_text": "ໃນການກະກຽມສໍາລັບການສ້າງການແລກປ່ຽນຊັບສິນດິຈິຕອນທີ່ໂດດເດັ່ນ, ການແລກປ່ຽນ {siteName} ໄຊທ໌ຂອງພວກເຮົາຈະມີ ນະວັດຕະກຳເວັບໄຊທ໌ບາງຢ່າງໃນວັນທີ {date}. ທ່ານ​ສາ​ມາດ​ສືບ​ຕໍ່​ການ​ນໍາ​ໃຊ້​ບັນ​ຊີ​ທີ່​ມີ​ຢູ່​ແລ້ວ​ຂອງ​ທ່ານ​ເຂົ້າ​ສູ່​ລະ​ບົບ​ແພລດຟອມຫລ້າ​ສຸດ​ຂອງ​ພວກ​ເຮົາ​ໂດຍ​ການ​ເຂົ້າ <a href='https:{siteURL}' target='_blank'>{siteURL}</a>. ສໍາ​ລັບ​ການ​ສອບ​ຖາມ​ເພີ່ມ​ເຕີມ​ກະ​ລຸ​ນາ​ຕິດ​ຕໍ່​ຫາ​ພວກ​ເຮົາ​ທີ່ <a href='mailto:{email}'>{email}</a>.",
     "redirect_button": "ສຳຫຼວດ {siteName}",
     "tlctrade_your_best_place_to_trade": "The New Era of Digital Asset Exchange",
     "tlctrade_is_your_best_choice_in_trading_online": "TLCtrade is the world's premier trading platform, combining cutting-edge technology with the latest innovations to provide traders with a remarkable trading experience",

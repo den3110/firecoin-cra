@@ -20,14 +20,17 @@ import StreakChallengePage from "./app/[locale]/(panel)/streak-challenge/page";
 import NotificationPage from "./app/[locale]/(panel)/notification/page";
 import ForgotPasswordPage from "./app/[locale]/(landing)/@drawer/forgot-password/page";
 import RegisterResendVerifyEmailPage from "./app/[locale]/(landing)/@drawer/register-resend-verify-email/page";
+import AffiliateCommissionPage from "./app/[locale]/(panel)/(affiliate)/affiliate/commission/page";
+import AffiliateManagementPage from "./app/[locale]/(panel)/(affiliate)/affiliate/management/page";
+import UpgradeVipPage from "./app/[locale]/(panel)/(affiliate)/upgrade-vip/page";
 
 function App() {
   return (
     <RootLayout>
       {/* show later */}
       {/* <LandingLayout>  */}
-        {/* Nội dung của các trang sẽ được render tại đây */}
         {/* <div></div> */}
+        
         <Routes>
           <Route path="/index" element={<PanelLayout>
             <IndexPage />
@@ -35,6 +38,21 @@ function App() {
           <Route path="/affiliate/general" element={<PanelLayout>
             <AffiliateLayout>
               <GeneralAffiliatePage />
+            </AffiliateLayout>
+          </PanelLayout>} />
+          <Route path="/affiliate/commission" element={<PanelLayout>
+            <AffiliateLayout>
+              <AffiliateCommissionPage />
+            </AffiliateLayout>
+          </PanelLayout>} />
+          <Route path="/affiliate/management" element={<PanelLayout>
+            <AffiliateLayout>
+              <AffiliateManagementPage />
+            </AffiliateLayout>
+          </PanelLayout>} />
+          <Route path="/upgrade-vip" element={<PanelLayout>
+            <AffiliateLayout>
+              <UpgradeVipPage />
             </AffiliateLayout>
           </PanelLayout>} />
           <Route path="/user/balance" element={<PanelLayout>
