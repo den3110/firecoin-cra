@@ -46,7 +46,7 @@ const ProfilePage = () => {
                                                         <div
                                                             className={clsx(
                                                                 "overlay bg-[#0e0031]/30 z-[2] absolute w-full h-full top-0 left-0 rounded-full",
-                                                                "after:absolute after:content-['\\F030'] after:font-bold after:text-light after:text-center after:z-[2] after:text-[1.5em] after:bg-[url('~/public/assets2/images/camera.svg')]",
+                                                                "after:absolute after:content-['\\F030'] after:font-bold after:text-light after:text-center after:z-[2] after:text-[1.5em] after:bg-[url('~/public/assets/images/camera.svg')]",
                                                                 "after:bg-no-repeat after:bg-[50%] after:w-6 after:h-5 after:top-1/2 after:left-1/2 after:-mt-3 after:-ml-2.5",
                                                             )}
                                                             onClick={() => setChangeAvatarModalOpen(true)}

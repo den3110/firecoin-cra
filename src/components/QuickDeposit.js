@@ -63,7 +63,7 @@ const QuickDeposit = () => {
                     <div className="block overflow-y-auto w-[250px] -translate-x-[100px] translate-y-[5px] border border-light/10 rounded-[10px] bg-secondarySidebar absolute top-full left-0 z-[1000] float-left min-w-[10rem] text-base text-custom-dropdown text-left">
                         <div
                             className={clsx("wrap relative px-[15px] py-2.5", {
-                                "before:absolute before:top-0 before:left-0 before:block before:overflow-hidden before:content-[''] before:bg-[url('~/public/assets2/images/spin.svg')] before:bg-no-repeat before:bg-[50%_center] before:z-[2] before:right-0 before:bottom-0 before:bg-black/[.45] before:bg-[length:40px_40px]":
+                                "before:absolute before:top-0 before:left-0 before:block before:overflow-hidden before:content-[''] before:bg-[url('~/public/assets/images/spin.svg')] before:bg-no-repeat before:bg-[50%_center] before:z-[2] before:right-0 before:bottom-0 before:bg-black/[.45] before:bg-[length:40px_40px]":
                                     loading || isLoading,
                             })}
                         >

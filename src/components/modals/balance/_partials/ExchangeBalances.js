@@ -57,7 +57,7 @@ const ExchangeBalances = () => {
     const LiveAccount = (
         <div
             className={clsx(
-                "bg-[url('~/public/assets2/images/livebanner.png')] bg-cover bg-no-repeat bg-[50%] rounded-[10px] relative",
+                "bg-[url('~/public/assets/images/livebanner.png')] bg-cover bg-no-repeat bg-[50%] rounded-[10px] relative",
                 "after:block after:content-[''] after:w-full pt-[55%] lg:pt-[32.99595%] px-2",
             )}
         >
@@ -113,7 +113,7 @@ const ExchangeBalances = () => {
         <Loading loading={isRefilling}>
             <div
                 className={clsx(
-                    "bg-[url('~/public/assets2/images/winbanner.png')] bg-cover bg-no-repeat bg-[50%] rounded-[10px] relative",
+                    "bg-[url('~/public/assets/images/winbanner.png')] bg-cover bg-no-repeat bg-[50%] rounded-[10px] relative",
                     "after:block after:content-[''] after:w-full pt-[55%] lg:pt-[32.99595%]",
                 )}
             >

@@ -34,7 +34,7 @@ const AffiliateLayout = ({ children }) => {
     return (
         <div
             className={clsx({
-                "bg-[url('~/public/assets2/images/upgrade-agency.png')] min-h-[calc(100vh-65px)] bg-cover bg-[top_20px_center] bg-no-repeat pb-[50px]":
+                "bg-[url('~/public/assets/images/upgrade-agency.png')] min-h-[calc(100vh-65px)] bg-cover bg-[top_20px_center] bg-no-repeat pb-[50px]":
                     pathname.startsWith("/upgrade-vip"),
             })}
         >
@@ -81,7 +81,7 @@ const AffiliateLayout = ({ children }) => {
                                         {t("network_management")}
                                     </Link>
                                 </li>
-                                <li className={`nav-item relative before:top-[20px] before:right-0 before:min-[1200px]:top-0 before:min-[1200px]:-right-[15px] before:absolute before:bg-[url('~/public/assets2/images/icon-new.svg')] before:block before:overflow-hidden before:w-[25px] before:h-[21px] before:content-[''] before:bg-[length:100%_100%]`}>
+                                <li className={`nav-item relative before:top-[20px] before:right-0 before:min-[1200px]:top-0 before:min-[1200px]:-right-[15px] before:absolute before:bg-[url('~/public/assets/images/icon-new.svg')] before:block before:overflow-hidden before:w-[25px] before:h-[21px] before:content-[''] before:bg-[length:100%_100%]`}>
                                     <Link
                                         href="/upgrade-vip"
                                         className={clsx("nav-link", {

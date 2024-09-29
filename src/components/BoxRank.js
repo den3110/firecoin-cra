@@ -77,7 +77,7 @@ const BoxRank = ({ rank, onRankModal }) => {
                     href="/upgrade-vip"
                     className={clsx(
                         "bg-custom-vip-bg/[.12] border border-custom-vip rounded-[10px] relative text-custom-vip text-xs font-bold py-[7px] pr-2 pl-[26px] leading-[20px]",
-                        "before:content-[''] before:block before:absolute before:left-2 before:top-1/2 before:-mt-1.5 before:w-[13px] before:h-[13px] before:bg-[url('~/public/assets2/images/upgrade-lv.svg')] before:bg-no-repeat",
+                        "before:content-[''] before:block before:absolute before:left-2 before:top-1/2 before:-mt-1.5 before:w-[13px] before:h-[13px] before:bg-[url('~/public/assets/images/upgrade-lv.svg')] before:bg-no-repeat",
                     )}
                 >
                     Upgrade Lv

@@ -20,7 +20,7 @@ const sarabun = {
 };
 
 const frizonFont = {
-  src: "~/public/assets2/fonts/Frizon.woff",
+  src: "~/public/assets/fonts/Frizon.woff",
   display: "swap",
   variable: "--font-frizon",
 };

@@ -142,7 +142,7 @@ const BuyNowModal = () => {
                                     </span>
                                 </div>
                                 <div className="body px-12 py-8">
-                                    <div className="mb-4 w-[211px] h-[205px] mx-auto my-0 bg-cover bg-no-repeat bg-[url('~/public/assets2/images/shake.svg')]"></div>
+                                    <div className="mb-4 w-[211px] h-[205px] mx-auto my-0 bg-cover bg-no-repeat bg-[url('~/public/assets/images/shake.svg')]"></div>
                                     <div className="text-[.875rem] text-light text-center mb-4">
                                         {t("need_to_pay_amount", {
                                             amount: 100,

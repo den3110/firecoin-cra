@@ -30,7 +30,7 @@ const RankZero = () => {
 
     return (
         <div>
-            <div className="banner bg-[url('~/public/assets2/images/affiliate_bg.png')] relative w-full min-h-[calc(100vh-185px)] max-[450px]:min-h-[550px] bg-cover bg-no-repeat bg-top">
+            <div className="banner bg-[url('~/public/assets/images/affiliate_bg.png')] relative w-full min-h-[calc(100vh-185px)] max-[450px]:min-h-[550px] bg-cover bg-no-repeat bg-top">
                 <div className="content absolute top-0 left-0 w-full h-full max-[450px]:pt-12">
                     <div className="h-full custom-container">
                         <div className="grid h-full items-center grid-cols-1 lg:grid-cols-2 gap-[30px]">
