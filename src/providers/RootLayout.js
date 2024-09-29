@@ -1,6 +1,6 @@
 // import { Lato, Sarabun } from "next/font/google";
 // import localFont from "next/font/local";
-import "@/app/globals.scss";
+// import "@/app/globals.scss";
 // import { NextIntlClientProvider } from "next-intl";
 // import { notFound } from "next/navigation";
 import ReactQueryProvider from "@/providers/ReactQueryProvider";

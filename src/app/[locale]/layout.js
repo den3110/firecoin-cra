@@ -1,4 +1,4 @@
-import "@/app/globals.scss";
+// import "@/app/globals.scss";
 import ReactQueryProvider from "@/providers/ReactQueryProvider";
 import SnackbarContainerProvider from "@/providers/SnackbarContainerProvider";
 import ReduxProvider from "@/providers/ReduxProvider";
