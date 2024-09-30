@@ -6,6 +6,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 const helmetContext = {};
 const root = ReactDOM.createRoot(document.getElementById("app"));

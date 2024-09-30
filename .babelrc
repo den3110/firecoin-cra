@@ -1,12 +1,18 @@
 {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "browsers": ["Android >= 5"]
-          }
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "corejs": 3,
+        "targets": {
+          "browsers": [
+            ">0.2%",
+            "not dead",
+            "Chrome >= 39"
+          ]
         }
-      ]
+      }
     ]
-  }
+  ]
+}
