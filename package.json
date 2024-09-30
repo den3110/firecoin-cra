@@ -80,6 +80,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.2.1"
   }
